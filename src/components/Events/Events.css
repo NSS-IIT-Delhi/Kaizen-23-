@@ -1,0 +1,80 @@
+.app__events {
+  min-height: 50vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  /* outline: 2px solid cyan; */
+  /* padding: 1rem; */
+  margin: 3rem 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+.app__events h2{
+    font-size:2.5rem;
+    margin-bottom: 1rem;
+}
+.event-cards-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.event-card {
+  min-width: 300px;
+  min-height: 300px;
+  margin: 2rem;
+  padding: 1rem;
+  border-radius: 10px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: transform 0.3s ease;
+  overflow: hidden;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.event-card .event-content{
+    opacity: 0;
+    position: absolute;
+}
+.event-card:hover {
+  transform: perspective(1000px) rotateX(-10deg) rotateY(10deg) scale3d(1, 1, 1);
+  /* filter: blur(1px); */
+}
+.event-card:hover .event-content{
+    opacity: 0;
+}
+
+.view-more-btn {
+  margin: auto;
+  margin: 1rem;
+  align-self: center;
+  border: 1.5px solid aquamarine;
+  background: #152238;
+  color: white;
+  border-radius: 3px;
+
+  padding: 0.6em 1.2em;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: inherit;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.view-more-btn:hover {
+  background: aquamarine;
+  color: black;
+}
+
+.view-more-btn a {
+  color: white;
+}
+.view-more-btn a:hover {
+  color: black;
+}

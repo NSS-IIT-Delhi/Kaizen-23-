@@ -3,5 +3,6 @@ import slideshow2 from "./slideshow2.jpeg";
 import slideshow3 from "./slideshow3.jpeg";
 import slideshow4 from "./slideshow4.jpeg";
 import slideshow5 from "./slideshow5.jpeg";
+import bazinga from "./bazinga.jpeg";
 
-export default { slideshow1, slideshow2, slideshow3, slideshow4, slideshow5 };
+export default { slideshow1, slideshow2, slideshow3, slideshow4, slideshow5,bazinga };
