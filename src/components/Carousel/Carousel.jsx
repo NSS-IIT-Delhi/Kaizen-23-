@@ -3,10 +3,13 @@ import {
   StackedCarousel,
   ResponsiveContainer,
 } from "react-stacked-center-carousel";
-import Fab from "@material-ui/core/Fab";
-import ArrowBackIcon from "@material-ui/icons/ArrowBack";
-import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
-
+// import Fab from "@material-ui/core/Fab";
+import Fab from '@mui/material/Fab';
+// import ArrowBackIcon from "@material-ui/icons/ArrowBack";
+import ArrowBackIcon from '@mui/icons-material/ArrowBackIosNew';
+// import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
+// import ArrowForwardIcon from "@material-ui/icons/ArrowForward";
+import ArrowForwardIcon from '@mui/icons-material/ArrowForwardIos';
 import { images } from "../../assets/images/imageIndex";
 import "./Carousel.css";
 
