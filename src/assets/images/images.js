@@ -6,6 +6,6 @@ import slideshow5 from "./slideshow5.jpeg";
 import slideshow6 from "./slideshow6.jpg";
 import slideshow7 from "./slideshow7.jpg";
 import slideshow8 from "./slideshow8.jpg";
-import bazinga from "./bazinga.jpeg";
+import bazinga from "./bazinga.jpeg";/* not needed */
 
 export default { slideshow1, slideshow2, slideshow3, slideshow4, slideshow5,slideshow6,slideshow7,slideshow8,bazinga };
