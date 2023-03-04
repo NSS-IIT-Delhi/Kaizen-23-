@@ -10,17 +10,10 @@ return(
         "font-size":"4rem",
         }}>
 <Typewriter
-  onInit={(typewriter) => {
-    typewriter.typeString('Hello World!')
-      .callFunction(() => {
-        console.log('String typed out!');
-      })
-      .pauseFor(2500)
-      .deleteAll()
-      .callFunction(() => {
-        console.log('All strings were deleted');
-      })
-      .start();
+  options={{
+    strings: ['NSS IITD Presents Kaizen\'23', 'Be the light in their darkness','COMING SOON!'],
+    autoStart: true,
+    loop: true,
   }}
 />
 </div>
