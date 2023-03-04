@@ -2,7 +2,7 @@ import React, {useState,useEffect} from 'react';
 import Tilt from 'react-parallax-tilt'
 import { scroller } from "react-scroll";
 import {useNavigate} from "react-router-dom";
-import { events } from '../../Events/events';
+import { events as allevents } from '../../Events/events';
 import './AllEvents.css'
 import Background from '../background/background';
 
@@ -27,13 +27,13 @@ export default function Home() {
   }
 
 
-  const evt = Array.from(Object.entries(events))
+  const evt = Array.from(Object.entries(allevents))
   const ev = evt.sort(function(a, b) {return a[1].rank - b[1].rank;});
-  const competitions=[],workshops=[],lectures=[];
+  const competitions=[],workshops=[],events=[];
   for (let i=0;i<ev.length;i++){ 
     if (ev[i][1].category==="competition"){competitions.push(i)};
     if (ev[i][1].category==="workshop"){workshops.push(i)};
-    if (ev[i][1].category==="lecture"){lectures.push(i)};
+    if (ev[i][1].category==="event"){events.push(i)};
   }
   
   let navigate = useNavigate(); 
@@ -57,8 +57,11 @@ export default function Home() {
     <main style={{"position":"relative"}}>
       
       <ul class="nav nav-pills mb-3 p-3 justify-content-center" id="pills-tab" role="tablist">
-        <li class="nav-item p-2" role="presentation">
+        {/* <li class="nav-item p-2" role="presentation">
           <button class="nav-link active p-3" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL</button>
+        </li> */}
+        <li class="nav-item p-2" role="presentation">
+          <button class="nav-link p-3 active" id="pills-events-tab" data-bs-toggle="pill" data-bs-target="#pills-events" type="button" role="tab" aria-controls="pills-events" aria-selected="false">EVENTS</button>
         </li>
         <li class="nav-item p-2" role="presentation">
           <button class="nav-link p-3" id="pills-competitions-tab" data-bs-toggle="pill" data-bs-target="#pills-competitions" type="button" role="tab" aria-controls="pills-competitions" aria-selected="true">COMPETITIONS</button>
@@ -66,13 +69,10 @@ export default function Home() {
         <li class="nav-item p-2" role="presentation">
           <button class="nav-link p-3" id="pills-workshops-tab" data-bs-toggle="pill" data-bs-target="#pills-workshops" type="button" role="tab" aria-controls="pills-workshops" aria-selected="false">WORKSHOPS</button>
         </li>
-        <li class="nav-item p-2" role="presentation">
-          <button class="nav-link p-3" id="pills-lectures-tab" data-bs-toggle="pill" data-bs-target="#pills-lectures" type="button" role="tab" aria-controls="pills-lectures" aria-selected="false">GUEST LECTURES</button>
-        </li>
       </ul>
       <div class="tab-content" id="pills-tabContent">
 
-        <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+        {/* <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
           <div className="events-container row p-5 justify-content-center">
             {ev.map((data, key) => {return(
 
@@ -84,16 +84,16 @@ export default function Home() {
               
             );})}
           </div>
-        </div>
+        </div> */}
 
-        <div class="tab-pane fade show" id="pills-competitions" role="tabpanel" aria-labelledby="pills-competitions-tab">
+        <div class="tab-pane fade show active" id="pills-events" role="tabpanel" aria-labelledby="pills-events-tab">
+          {pane(events)} 
+        </div>
+        <div class="tab-pane fade" id="pills-competitions" role="tabpanel" aria-labelledby="pills-competitions-tab">
           {pane(competitions)}
         </div>
         <div class="tab-pane fade" id="pills-workshops" role="tabpanel" aria-labelledby="pills-workshops-tab">
           {pane(workshops)}          
-        </div>
-        <div class="tab-pane fade" id="pills-lectures" role="tabpanel" aria-labelledby="pills-lectures-tab">
-          {pane(lectures)} 
         </div>
       </div>
 

@@ -164,7 +164,7 @@ export const events =
             "venue": "Seminar Hall, and Live Streaming on Zoom",
             "content": "A design sprint hackathon aimed to devise technical scalable solutions for burning social nodus persisting in society.",
             "rank":"6",
-            "category":"lecture",
+            "category":"event",
 
 
             
@@ -220,7 +220,7 @@ export const events =
             "venue": "Seminar Hall, and Live Streaming on Zoom",
             "content": "A pan-India virtual science exhibition, providing the students a platform to develop effcient solutions to the problems existing in the society by creating innovative science models",
             "rank":"4",
-            "category":"lecture",
+            "category":"event",
 
 
             
