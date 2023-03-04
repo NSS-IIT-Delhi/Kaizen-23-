@@ -15,7 +15,6 @@ import Background from "../background/background";
 export default function KaizenForm () {
 
     const { id } = useParams(); 
-    console.log(id)
 
     const [Name, setName] = useState('')
     const [Email, setEmail] = useState('')

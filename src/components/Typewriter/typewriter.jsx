@@ -11,7 +11,7 @@ return(
         }}>
 <Typewriter
   options={{
-    strings: ['NSS IITD Presents Kaizen\'23', 'Be the light in their darkness','COMING SOON!'],
+    strings: ['NSS IITD Presents <span style="color:aquamarine;">Kaizen\'23</span>', 'Be the <span style="color:aquamarine;">light</span> in their <span style="color:black;">darkness</span>','<span style="color:aquamarine;">COMING SOON!</span>'],
     autoStart: true,
     loop: true,
   }}
