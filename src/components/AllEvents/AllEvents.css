@@ -1,0 +1,51 @@
+/* @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Fjalla+One|Poppins:300,400,500,600,700,900&subset=latin-ext'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+
+body{
+  background: #152238;
+}
+
+.reg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-close:focus{
+	box-shadow: none;
+}
+
+.head {
+	text-align: center;
+	position:relative;
+    padding-top: 5rem;
+  }
+
+.Title {
+	color: white;
+	text-align: center;
+	position:relative;
+	z-index: 8;
+	font-family: 'IBM Plex Sans Condensed';
+	font-size: 50px;
+	font-weight: 900;
+	mix-blend-mode: difference;	
+    letter-spacing: 15px;
+  }
+
+.nav-pills .nav-link {
+    border: 1.5px solid aquamarine;
+    background: #152238;
+    color: white;
+    border-radius: 3px;
+}
+
+.nav-pills .nav-link:active {
+    background: aquamarine;
+    color: black;
+}
+
+.nav-pills .active {
+    background: aquamarine !important; 
+    color: black !important;
+}

@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+.image{
+    height: max-content;
+    width: max-content;
+    z-index: 4;
+	transition: transform 1s; /*Note this!*/
+    
+}
+.Border{
+    border:2px solid white;
+	border-radius: 5px;
+    padding:17px;
+    width:max-content;
+    margin-left:35px;
+    margin-top:-65px;
+	z-index:1 ;
+}
+
+.p3{
+    height:300px;
+    width:300px;
+	border-radius: 10px;
+
+}
+
+.image:hover{
+    transform: scale(1.07);
+	cursor:pointer;
+}
+.up{
+    height:100px;
+    width:100px;
+    background-color:transparent;
+	border: 15px solid aquamarine;
+	border-radius: 4px;
+	z-index: 3;
+	transition: all 0.2s;
+   
+}
+
+.up:hover {
+	border: 8px solid white;
+}
+.down:hover {
+	border: 8px solid white;
+}
+
+.down{
+    height:100px;
+    width:100px;
+    background-color:transparent;
+	border: 15px solid aquamarine;
+	border-radius: 4px;
+    margin-top:-65px;
+    margin-right:-35px;
+    float:right;
+    z-index: 1;
+	transition: all 0.2s;
+}
+
+@media only screen and (max-width: 768px) {
+    .p3 {
+        max-width: 256px;
+		max-height: 256px;
+    }
+	.image:hover{
+		transform: none;
+		cursor:pointer;
+	}
+
+}
+
+.Card {
+	backdrop-filter: blur(50px);
+	background-color: hsla(0,0%,100%,.1);
+	border-left: 1px solid hsla(0,0%,100%,.5);
+	border-radius: 15px;
+	border-top: 1px solid hsla(0,0%,100%,.5);
+	box-shadow: 20px 20px 50px rgba(0,0,0,.5);
+	width: 300px;
+	height: 300px;
+  }
+
+
+body{
+    background: #152238;
+  overflow-x: hidden;
+}
+
+.reg{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-close:focus{
+	box-shadow: none;
+}
+
+.head {
+	color: white;
+	text-align: center;
+	position:relative;
+	width: 100%;
+	z-index: 8;
+	font-family: 'IBM Plex Sans Condensed';
+	font-size: 10vw;
+	font-weight: 900;
+    padding-top: 5rem;
+  }
+.Title {
+    text-align: center;
+	width: 100%;
+	z-index: 8;
+	font-family: 'IBM Plex Sans Condensed';
+	font-size: 50px;
+	font-weight: 900;
+	mix-blend-mode: difference;	
+	color: white;
+    letter-spacing: 15px;
+    word-wrap: break-word;
+  }
+

@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+
+.card {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  border-radius: 20px;
+  padding: 130px 70px 10px 70px;
+  position: relative;
+  transition-duration: 200ms;
+  background-color: white;
+}
+
+.card .content p {
+  color: #888888;
+   padding-top: 10px; 
+  font-size: 14px;
+}
+
+.title {
+  transition-duration: 200ms;
+  position: absolute;
+  width: 280px;
+  height: 150px;
+  left: 10px;
+  background: aquamarine;
+  text-align: center;
+  top: -50px;
+  padding-top: 56px;
+  border-radius: 20px;
+  box-shadow: 1px 2px 3px #999999;
+  font-size: 25px;  
+  font-weight: bold;
+
+}
+
+.Hov:hover .title {
+  transform: scale(1.2) translateX(-70px) translateY(60px);
+  width: 100px;
+  z-index: 0;
+  height: 100px;
+  border-radius: 50px;
+  font-size: 10px;
+  padding-top: 42px;
+}
+
+.Hov:hover .card {
+  transition-duration: 100ms;  
+  transform: translateY(-60px);
+  padding-top: 40px;
+}
+
+.Hov:hover .Dummy {
+  padding-top: 100px;
+}
+
+.content .content h5 {
+  float: right;
+  color: red;
+
+}
+
+.Hov {
+  height:500px;
+  width: initial;
+  position: initial;
+  display: initial;
+}

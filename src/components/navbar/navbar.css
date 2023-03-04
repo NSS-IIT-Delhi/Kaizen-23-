@@ -1,0 +1,146 @@
+@media only screen and (min-width: 768px) {
+  .navbar .navbar-nav .nav-link {
+    color: #000000;
+    font-size: 1.1em;
+  }
+  .navbar .navbar-nav .nav-link:hover {
+    color: #000000;
+  }
+  .navbar .navbar-nav .nav-item {
+    position: relative;
+  }
+  .navbar .navbar-nav .nav-item::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: aquamarine;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+  }
+  
+  .navbar .navbar-nav .nav-item:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+  }
+}
+
+
+.navbar {
+    transition: all 0.3s ease-in-out;
+    backdrop-filter: blur(12px); 
+  }
+  
+.navbar-collapse{
+  backdrop-filter: blur(12px);    
+
+}
+
+.header {
+    top: 0;
+    left:0;
+    right:0;
+    position:fixed;
+}
+.navbar .nav-link {
+    -webkit-text-fill-color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 0.9rem;    
+    font-size: 15px;    
+}
+
+.navbar .nav-link:hover {
+    -webkit-text-fill-color: aquamarine;
+    cursor: pointer;
+}
+
+.navbar .navbar-brand{
+  -webkit-text-fill-color: aquamarine;
+}
+
+
+
+
+
+
+
+
+/* MENUBAR */
+
+
+.menubar {
+  position: absolute,fixed;
+  right: 4%;
+  top: 40%;
+  cursor: pointer;
+  opacity: .8;
+  transition: all .4s ease;
+}
+
+.menubar span {
+  position: relative;
+  background-color: transparent;
+  height: 2px;
+  width: 20px;
+  display: block;
+  margin: 6px;
+  border-radius: 20px;
+}
+
+.menubar .first-span {
+  width: 35px;
+}
+
+.menubar .first-span::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 50%;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+  transition: all .5s ease;
+
+}
+
+.menubar .second-span {
+  width: 35px;
+}
+
+.menubar .second-span::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 75%;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+  transition: all .3s ease;
+}
+
+.menubar .third-span {
+  width: 35px;
+}
+
+.menubar .third-span::before {
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  background-color: whitesmoke;
+  transition: all .3s ease;
+}
+
+.menubar:hover .second-span::before,
+.menubar:hover .first-span::before {
+  width: 100%;
+}
+
+.menubar:hover {
+  opacity: 1;
+}
