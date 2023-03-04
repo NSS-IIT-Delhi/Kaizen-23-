@@ -1,3 +1,11 @@
+.app__carousel{
+  flex-direction: column;
+  min-height: 90vh;
+}
+.app__carousel h2{
+  margin-bottom: 4rem;
+}
+
 .react-stacked-center-carousel {
   /* border: 2px solid green; */
 
