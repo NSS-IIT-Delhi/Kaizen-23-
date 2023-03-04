@@ -19,33 +19,42 @@ export const data = [
     title: "Image",
   },
   {
-    cover: images.slideshow2,
+    cover: images.slideshow1,
     title: "Image",
   },
   {
-    cover: images.slideshow3,
+    cover: images.slideshow1,
     title: "Image",
   },
-  {
-    cover: images.slideshow4,
-    title: "Image",
-  },
-  {
-    cover: images.slideshow5,
-    title: "Image",
-  },
-  {
-    cover: images.slideshow6,
-    title: "Image",
-  },
-  {
-    cover: images.slideshow7,
-    title: "Image",
-  },
-  {
-    cover: images.slideshow8,
-    title: "Image",
-  },
+
+  // {
+  //   cover: images.slideshow2,
+  //   title: "Image",
+  // },
+  // {
+  //   cover: images.slideshow3,
+  //   title: "Image",
+  // },
+  // {
+  //   cover: images.slideshow4,
+  //   title: "Image",
+  // },
+  // {
+  //   cover: images.slideshow5,
+  //   title: "Image",
+  // },
+  // {
+  //   cover: images.slideshow6,
+  //   title: "Image",
+  // },
+  // {
+  //   cover: images.slideshow7,
+  //   title: "Image",
+  // },
+  // {
+  //   cover: images.slideshow8,
+  //   title: "Image",
+  // },
 ];
 
 export default function ResponsiveCarousel(props) {
