@@ -1,31 +1,30 @@
 import React from "react";
 import "./App.css";
+import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
+
 import Navbar from "./components/navbar/navbar";
 
 import Footer from "./components/Footer/footer";
-import Timeline from './components/timeline/timeline';
-import Carousel from "./components/Carousel/Carousel";
-import Events from "./components/Events/Events";
-
+import Home from "./components/home/home";
+import RegisterSuccess from './components/Form/RegisterSuccess';
+import EventsPage from './components/EventPage/eventPage'
+import AllEvents from './components/AllEvents/AllEvents'
+import KaizenForm from "./components/Form/KaizenForm";
 
 function App() {
   return (
     <>
       <Navbar />
-      {/* <div style={{ width: "100%", minHeight: "100vh", color: "white" }}>
-        HOMEPAGE SECTION
-      </div> */}
-      <Events/>
-      <Timeline/>
-      <div
-        style={{
-          width: "100%",
-          margin: "2rem 0",
-        }}
-        className="Carousel-container"
-      >
-        <Carousel />
-      </div>
+      <Router>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/events" element={<AllEvents/>} />
+          <Route path="/registersuccess" element={<RegisterSuccess/>} />
+          <Route path="/form/:id" element={<KaizenForm />} />
+          <Route path="/:id" element={<EventsPage/>} />
+        </Routes>
+      </Router>
+
       <Footer />
     </>
   );
