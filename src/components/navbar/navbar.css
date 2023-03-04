@@ -61,6 +61,17 @@
   -webkit-text-fill-color: aquamarine;
 }
 
+.logo{
+  font-size: 2rem;
+  color: aquamarine;
+  font-family: var(--head-font);
+}
+.logo span{
+  color: white;
+}
+
+
+
 
 
 
