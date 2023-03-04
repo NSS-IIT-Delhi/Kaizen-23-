@@ -6,6 +6,24 @@ import { scroller } from "react-scroll";
 import Tilt from 'react-parallax-tilt'
 // import { images } from "../../assets/images/imageIndex";
 
+// const eventsData = [
+//   {
+//     title: "Event title",
+//     subtitle: "event subtitle",
+//     img: images.bazinga,
+//   },
+//   {
+//     title: "Event title",
+//     subtitle: "event subtitle",
+//     img: images.bazinga,
+//   },
+//   {
+//     title: "Event title",
+//     subtitle: "event subtitle",
+//     img: images.bazinga,
+//   },
+// ];
+
 export default function Events() {
 
   function pane(lst){const data = ev[lst[0]];console.log(data[1].image);

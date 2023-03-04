@@ -22,7 +22,8 @@
     "react-parallax-tilt": "^1.7.107",
     "react-router-dom": "^6.8.2",
     "react-scroll": "^1.8.9",
-    "react-stacked-center-carousel": "^1.0.12"
+    "react-stacked-center-carousel": "^1.0.12",
+    "typewriter-effect": "^2.19.0"
   },
   "devDependencies": {
     "@types/react": "^18.0.27",
