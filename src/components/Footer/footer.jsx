@@ -12,7 +12,7 @@ export default function Footer() {
     <footer id="footer" class="footer">
       <div class="footer__kaizen">
         <div class="kaizen-title">
-          <h2>Kaizen</h2>
+          <h2 class='text-gradient'>Kaizen</h2>
           <img src={kaizen} alt="" />
         </div>
         <p class="kaizen-desc">

@@ -1,0 +1,15 @@
+.app__landing-page {
+  background-image: url(../../assets/images/home.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 3rem;
+  /* transform: translateY(50%); */
+  padding-top: 50vh;
+  font-size: 1.5rem;
+  font-family: "Poppins", sans-serif;
+  align-items: center;
+  /* color: var(--primary-blue); */
+  color: rgba(253, 253, 253, 0.731);
+  /* text-transform: uppercase; */
+}
