@@ -16,7 +16,7 @@ export default function Typewritr() {
         options={{
           strings: [
             'NSS IITD Presents <span class="head-text" style="color:aquamarine;">Kaizen\'23</span>',
-            'Be the <span class="head-text accent" style="color:aquamarine;">light</span> in their <span class="head-text accent underline"style="color:black;">darkness</span>',
+            'Be the <span class="head-text accent" style="color:aquamarine;">light</span> in the <span class="head-text accent underline"style="color:black;">darkness</span>',
             '<span class="head-text" style="color:aquamarine;">Coming Soon !!</span>',
           ],
           autoStart: true,
