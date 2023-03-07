@@ -52,12 +52,19 @@ fieldset {
 
     }
     .formDiv{
-        max-width: 768px;
-        width:80vw;
+        /* max-width: 768px; */
+        background-color:transparent;
+        width:100vw;
+        margin:0;
+        border:none;
+    }
+    body{
+        background-color: black;;
     }
     input{
         width:60vw;
     }
+
 }
 
 label{
@@ -86,7 +93,8 @@ label{
 #sub {
     padding: 5px;
     font-family: 'Merriweather', serif;
-    width: 25%;
+    width: 200px;
+    /* line-height: 90px; */
     color: black;
     background-color: aquamarine;
     border: 2px solid white;
