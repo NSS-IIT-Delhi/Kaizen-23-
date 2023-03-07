@@ -19,7 +19,7 @@ export const data = [
     title: "Image",
   },
   {
-    cover: images.slideshow1,
+    cover: images.slideshow5,
     title: "Image",
   },
   {
