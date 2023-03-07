@@ -10,6 +10,7 @@ import RegisterSuccess from './components/Form/RegisterSuccess';
 import EventsPage from './components/EventPage/eventPage'
 import AllEvents from './components/AllEvents/AllEvents'
 import KaizenForm from "./components/Form/KaizenForm";
+import Team from './components/Team/Team'
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
           <Route path="/registersuccess" element={<RegisterSuccess/>} />
           <Route path="/form/:id" element={<KaizenForm />} />
           <Route path="/:id" element={<EventsPage/>} />
+          <Route path="/team" element={<Team />} />
         </Routes>
       </Router>
 
