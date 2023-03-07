@@ -1,6 +1,7 @@
 body,
 html {
   background-color: rgba(6, 12, 26, 0.8);
+  display: block !important;
 }
 
 .app__container {

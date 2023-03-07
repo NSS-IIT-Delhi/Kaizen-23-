@@ -155,3 +155,8 @@
 .menubar:hover {
   opacity: 1;
 }
+
+button:hover, button:focus {
+  border: none;
+  box-shadow: none !important;
+}
