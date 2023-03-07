@@ -1,6 +1,6 @@
 import slideshow1 from "./slideshow1.jpeg";
 import slideshow5 from "./slideshow5.jpeg";
-import slideshow2 from "./slideshow2.jpg";
+import slideshow2 from "./slideshow2.JPG";
 // import slideshow3 from "./slideshow3.jpg";
 // import slideshow4 from "./slideshow4.jpg";
 // import slideshow6 from "./slideshow6.jpg";
