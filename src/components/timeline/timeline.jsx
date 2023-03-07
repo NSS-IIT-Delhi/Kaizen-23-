@@ -4,7 +4,7 @@ export default function Timeline() {
     return (
         <div className="timeline app__container app__flex">
             <div className="timeline-heading">
-                <h2 className='head-text'>Glimpse of the <span className='accent'>Timeline</span></h2>
+                <h2 className='head-text text-gradient'>Glimpse of the <span className='accent'>Timeline</span></h2>
             </div>
             <div className="timeline-container scrollbar-hidden">
                 <div className="timeline-line"></div>

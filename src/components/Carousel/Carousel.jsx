@@ -65,9 +65,9 @@ export default function ResponsiveCarousel(props) {
         className="app__container app__flex app__carousel"
         style={{ width: "100%", position: "relative" }}
       >
-      <h2 className="head-text">
-        Our Sweetest <span className="accent">Memories</span>
-      </h2>
+        <h2 className="head-text text-gradient">
+          Our Sweetest <span className="accent ">Memories</span>
+        </h2>
 
         <ResponsiveContainer
           carouselRef={ref}
