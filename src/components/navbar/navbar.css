@@ -156,7 +156,17 @@
   opacity: 1;
 }
 
-button:hover, button:focus {
+button:hover{
+  border: none;
+  box-shadow: none !important;
+}
+
+button:focus{
+  border: none;
+  box-shadow: none !important;
+}
+
+button{
   border: none;
   box-shadow: none !important;
 }
