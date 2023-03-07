@@ -1,7 +1,7 @@
 .footer {
   width: 100%;
   /* min-height: 50vh; */
-  background-color: #1b1b1b;
+  background-color: #000a23;
   box-shadow: 0 0 1px rgba(255, 255, 255, 1);
   /* border: 2px solid white; */
   color: white;
@@ -26,36 +26,36 @@
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  align-items: center;
+  align-items: flex-end;
 }
 
 .kaizen-title img {
-  width: 40px;
+  width: 50px;
   /* border:1px solid cyan; */
   object-fit: cover;
 }
 
 .kaizen-title h2 {
-  font-size: 1.7rem;
+  font-size: 2rem;
   font-family: var(--head-font);
 }
 
 .kaizen-desc {
   margin-top: 0.5rem;
   text-align: left;
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   line-height: 1.3rem;
 }
 
 .footer__reach {
-  padding: 2.5rem 60px;
+  padding: 3.5rem 60px;
   /* border: 2px solid yellow; */
   width: 50%;
 }
 
 .reach-contact h2 {
   /* border: 1px solid red; */
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   margin: 0;
 }
 
@@ -97,7 +97,7 @@
 .footer__copyright {
   width: 100%;
   text-align: center;
-  background-color: black;
+  background-color: #1B1B1B;
   bottom: 0;
   padding: 1rem;
   margin-top: 1rem;
@@ -107,7 +107,7 @@
 
 .footer__copyright span {
   font-size: 0.8rem;
-  color:yellow;
+  color: yellow;
 }
 
 @media screen and (max-width: 768px) {

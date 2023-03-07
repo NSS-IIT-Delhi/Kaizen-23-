@@ -13,3 +13,10 @@
   color: rgba(253, 253, 253, 0.731);
   /* text-transform: uppercase; */
 }
+
+@media screen and (max-width:768px){
+  .app__landing-page{
+    background-size: contain;
+
+  }
+}
