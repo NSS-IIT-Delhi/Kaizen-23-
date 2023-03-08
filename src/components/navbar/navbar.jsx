@@ -32,6 +32,17 @@ export default function Navbar() {
     });
   }
 
+  const events = async () =>{ 
+    let path = `/events`; 
+    await navigate(path);
+    await scroller.scrollTo('head', {
+      duration: 1500,
+      offset: 0,
+    });
+  }
+
+
+
   return (
     <>
       <header
@@ -70,17 +81,17 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="">
+                  <a class="nav-link" onClick={events}>
                     Events
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="">
+                  <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
                     CAP
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="">
+                  <a class="nav-link" onClick={()=>{scroller.scrollTo('CONTACT', {duration: 1500,offset: 0,});}}>
                     Contact
                   </a>
                 </li>

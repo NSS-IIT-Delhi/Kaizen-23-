@@ -26,7 +26,7 @@ export default function Footer() {
           in the past.
         </p>
       </div>
-      <div class="footer__reach">
+      <div class="footer__reach" id="CONTACT">
         <div class="reach-contact">
           <h2>CONTACT US</h2>
           <hr />
