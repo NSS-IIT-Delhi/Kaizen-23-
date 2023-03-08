@@ -77,12 +77,12 @@ export default function Home() {
           id="pills-tab"
           role="tablist"
         >
-          {/* <li class="nav-item p-2" role="presentation">
-          <button class="nav-link active p-3" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL</button>
-        </li> */}
+          <li class="nav-item p-2" role="presentation">
+            <button class="nav-link active p-3" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">ALL</button>
+          </li>
           <li class="nav-item p-2" role="presentation">
             <button
-              class="nav-link p-3 active"
+              class="nav-link p-3"
               id="pills-events-tab"
               data-bs-toggle="pill"
               data-bs-target="#pills-events"
@@ -124,7 +124,7 @@ export default function Home() {
           </li>
         </ul>
         <div class="tab-content" id="pills-tabContent">
-          {/* <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
+          <div class="tab-pane fade show active" id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
           <div className="events-container row p-5 justify-content-center">
             {ev.map((data, key) => {return(
 
@@ -136,10 +136,10 @@ export default function Home() {
               
             );})}
           </div>
-        </div> */}
+        </div>
 
           <div
-            class="tab-pane fade show active"
+            class="tab-pane fade"
             id="pills-events"
             role="tabpanel"
             aria-labelledby="pills-events-tab"

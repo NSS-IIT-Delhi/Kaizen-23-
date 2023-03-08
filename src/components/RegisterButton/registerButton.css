@@ -14,7 +14,7 @@
     border: none;
 }
 .btn-anim:hover {
-        background: aquamarine;
+        background: var(--primary-blue);
         color: black;
         filter: contrast(1.1);
     }
@@ -31,7 +31,7 @@
         left: 0px;
         right: 0px;
         bottom: 0px;
-        border: 2px solid aquamarine;
+        border: 2px solid var(--primary-blue);
         transition: all .5s;
         animation: clippath 3s infinite linear;
         border-radius: 10px;

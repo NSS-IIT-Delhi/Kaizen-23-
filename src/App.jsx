@@ -15,15 +15,15 @@ import Data from "./components/DataPage/data";
 function App() {
   return (
     <>
-      <Navbar />
+      
       <Router>
         <Routes>
-          <Route path="/" element={<Home/>} />
-          <Route path="/events" element={<AllEvents/>} />
-          <Route path="/registersuccess" element={<RegisterSuccess/>} />
-          <Route path="/form/:id" element={<KaizenForm />} />
-          <Route path="/s0ws_n7ue_mi21s" element={<Data />} />
-          <Route path="/:id" element={<EventsPage/>} />
+          <Route path="/" element={<><Navbar/><Home/></>} />
+          <Route path="/events" element={<><Navbar/><AllEvents/></>} />
+          <Route path="/registersuccess" element={<><Navbar/><RegisterSuccess/></>} />
+          <Route path="/form/:id" element={<><Navbar /><KaizenForm/></>} />
+          <Route path="/s0ws_n7ue_mi21s" element={<><Navbar/><Data /></>} />
+          <Route path="/:id" element={<><Navbar/><EventsPage/></>} />
         </Routes>
       </Router>
 

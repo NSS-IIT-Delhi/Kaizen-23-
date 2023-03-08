@@ -4,25 +4,7 @@ import { events as allevents } from "../../Events/events";
 import { useNavigate } from "react-router-dom";
 import { scroller } from "react-scroll";
 import Tilt from "react-parallax-tilt";
-// import { images } from "../../assets/images/imageIndex";
 
-// const eventsData = [
-//   {
-//     title: "Event title",
-//     subtitle: "event subtitle",
-//     img: images.bazinga,
-//   },
-//   {
-//     title: "Event title",
-//     subtitle: "event subtitle",
-//     img: images.bazinga,
-//   },
-//   {
-//     title: "Event title",
-//     subtitle: "event subtitle",
-//     img: images.bazinga,
-//   },
-// ];
 
 export default function Events() {
   function pane(lst) {
@@ -90,22 +72,6 @@ export default function Events() {
     <div className="app__container app__flex app__events">
       <h2 className="head-text text-gradient">Explore our <span className="accent">Events</span></h2>
       <div className="event-cards-container">
-        {/* {eventsData.map((event) => {
-          const CardBGstyle = {
-            background: `url(${event.img})`,
-            backgroundPosition: "center",
-            backgroundRepeat: "no-repeat",
-            backgroundSize: "cover",
-          };
-          return (
-            <div className="event-card card" style={CardBGstyle}>
-              <div className="event-content">
-                <h4 className="event-title ">{event.title}</h4>
-                <p className="event-subtitle">{event.subtitle}</p>
-              </div>
-            </div>
-          );
-        })} */}
 
         {pane(events)}
         {pane(competitions)}

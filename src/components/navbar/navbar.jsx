@@ -1,6 +1,8 @@
 import "./navbar.css";
 import logo from "../../assets/images/logo.png";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom";
+import { scroller } from "react-scroll";
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -19,6 +21,27 @@ export default function Navbar() {
       setScrolled(false);
     }
   };
+
+  let navigate = useNavigate(); 
+  const home = async () =>{ 
+    let path = `/`; 
+    await navigate(path);
+    await scroller.scrollTo('HOME', {
+      duration: 1500,
+      offset: 0,
+    });
+  }
+
+  const events = async () =>{ 
+    let path = `/events`; 
+    await navigate(path);
+    await scroller.scrollTo('head', {
+      duration: 1500,
+      offset: 0,
+    });
+  }
+
+
 
   return (
     <>
@@ -53,22 +76,22 @@ export default function Navbar() {
             <div class="collapse navbar-collapse" id="menu">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="">
+                  <a class="nav-link" onClick={home}>
                     Home
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="">
+                  <a class="nav-link" onClick={events}>
                     Events
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="">
+                  <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
                     CAP
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" href="">
+                  <a class="nav-link" onClick={()=>{scroller.scrollTo('CONTACT', {duration: 1500,offset: 0,});}}>
                     Contact
                   </a>
                 </li>
