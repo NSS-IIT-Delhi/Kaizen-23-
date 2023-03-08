@@ -17,6 +17,7 @@
     opacity:0.8;
     /* max-width: 768px; */
     /* font-size: medium; */
+    background-color: #2d2c2c42;
     margin: auto;
     width:45vw;
     border: 3px solid var(--primary-blue)
