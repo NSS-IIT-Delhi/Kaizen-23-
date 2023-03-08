@@ -5,10 +5,11 @@ import { useNavigate } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { useLocation } from 'react-router-dom'
 
-export default function Navbar() {
+export default function Navbar(props) {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
   console.log(location);
+  const {eventsRef,competitionsRef} = props;
 
 
   useEffect(() => {
@@ -85,12 +86,12 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={location.pathname==='/events'?{}:()=>{events('events')}}>
+                  <a class="nav-link" onClick={location.pathname==='/events'? ()=>{eventsRef.current.click()} : ()=>{events('events')}}>
                     Events
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={location.pathname==='/events'?{}:()=>{events('competitions')}}>
+                  <a class="nav-link" onClick={location.pathname==='/events'? ()=>{competitionsRef.current.click()} : ()=>{events('competitions')}}>
                     Competitions
                   </a>
                 </li>                

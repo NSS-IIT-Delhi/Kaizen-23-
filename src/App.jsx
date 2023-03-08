@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useRef} from "react";
 import "./App.css";
 import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 
@@ -13,13 +13,15 @@ import KaizenForm from "./components/Form/KaizenForm";
 import Data from "./components/DataPage/data";
 
 function App() {
+  const eventsRef = React.useRef(null)
+  const competitionsRef = React.useRef(null)
   return (
     <>
       
       <Router>
         <Routes>
           <Route path="/" element={<><Navbar/><Home/></>} />
-          <Route path="/events" element={<><Navbar/><AllEvents/></>} />
+          <Route path="/events" element={<><Navbar eventsRef={eventsRef} competitionsRef={competitionsRef}/><AllEvents eventsRef={eventsRef} competitionsRef={competitionsRef}/></>} />
           <Route path="/registersuccess" element={<><Navbar/><RegisterSuccess/></>} />
           <Route path="/form/:id" element={<><Navbar /><KaizenForm/></>} />
           <Route path="/s0ws_n7ue_mi21s" element={<><Navbar/><Data /></>} />
