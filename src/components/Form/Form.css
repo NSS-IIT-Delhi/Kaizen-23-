@@ -13,7 +13,7 @@
 .formDiv {
     display: grid;
     place-items: center;
-    padding:4rem 2rem;
+    padding: 4rem 2rem;
     opacity:0.8;
     /* max-width: 768px; */
     /* font-size: medium; */
@@ -109,5 +109,5 @@ label{
 }
 
 .subtitle {
-    font-size: 2.5rem;
+    font-size:6vh;
 }
