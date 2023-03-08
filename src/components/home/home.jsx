@@ -5,7 +5,7 @@ import Typewritr from "../Typewriter/typewriter";
 
 export default function Home() {
   return (
-    <>
+    <div id="HOME">
       <Typewritr />
       <Events />
       <Timeline />
@@ -15,6 +15,6 @@ export default function Home() {
       >
         <Carousel />
       </div>
-    </>
+    </div>
   );
 }
