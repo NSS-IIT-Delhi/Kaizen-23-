@@ -8,7 +8,7 @@ export default function Event() {
   const { id } = useParams();
   return (
     <>
-         <h2 className="Title pt-4">Kaizen Techical Team</h2>
+         <h2 className="Titles mt-5 pt-5">Kaizen Techical Team</h2>
          <hr className="hrx"/>
 
       <ul className="background">
@@ -82,7 +82,7 @@ export default function Event() {
         >
           <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
-              src="/Team Members/Urmila.jpg"
+              src="/Team Members/Urmila.JPG"
               className="img-fluid"
               alt=""
               style={{ width:"200px", height: "200px", objectFit: "cover" }}
