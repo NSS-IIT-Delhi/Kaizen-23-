@@ -25,8 +25,8 @@ export default function Event() {
     <>
       <Background/>
       <div class="head" id="head">
-        <h2 class="Title">{title}</h2>
-        <h3 class="px-5" style={{ "color": "#bbbbbb", "font-weight": "900" }}>{description}</h3>
+        <h2 class="Title text-gradient">{title}</h2>
+        <h3 class="px-5 desc" style={{"font-weight": "900" }}>{description}</h3>
       </div>
 
       <main style={{ "position": "relative" }} class="pt-5">
