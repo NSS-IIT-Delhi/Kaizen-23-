@@ -10,39 +10,74 @@ export default function Timeline() {
                 <div className="timeline-line"></div>
                 <div className="timeline-event-box">
                     <div className="timeline-event timeline-event-top">
-                        <div>Registration Deadline</div>
-                        <div>18-March</div>
+                        <div>Women Empowerment Panel</div>
+                        <div>30-March 4PM-7PM</div>
                         <div className="timeline-dot timeline-dot-top"></div>
                     </div>
                     <div className="timeline-event timeline-event-bottom">
-                        <div>Round-1 Quiz</div>
-                        <div>18-March</div>
+                        <div>Inaugural</div>
+                        <div>31-March 5PM-9PM</div>
                         <div className="timeline-dot timeline-dot-bottom"></div>
                     </div>
                     <div className="timeline-event timeline-event-top">
-                        <div>First Day of Kaizen</div>
-                        <div>19-March</div>
+                        <div>Quizzing</div>
+                        <div>1-April 10AM-2PM</div>
                         <div className="timeline-dot timeline-dot-top"></div>
                     </div>
                     <div className="timeline-event timeline-event-bottom">
-                        <div>Inauguration Ceremony</div>
-                        <div>19-March</div>
+                        <div>Social Convocation</div>
+                        <div>1-April 10AM-2PM</div>
                         <div className="timeline-dot timeline-dot-bottom"></div>
                     </div>
                     <div className="timeline-event timeline-event-top">
-                        <div>Event Date</div>
-                        <div>19-March</div>
+                        <div>Soch Workshop</div>
+                        <div>1-April 2PM-4PM</div>
                         <div className="timeline-dot timeline-dot-top"></div>
                     </div>
                     <div className="timeline-event timeline-event-bottom">
-                        <div>Registration Deadline</div>
-                        <div>20-March</div>
+                        <div>Sakshi Workshop</div>
+                        <div>1-April 3PM-5PM</div>
                         <div className="timeline-dot timeline-dot-bottom"></div>
                     </div>
                     <div className="timeline-event timeline-event-top">
-                        <div>Finish Date</div>
-                        <div>20-April</div>
+                        <div>YuvaChetna Panel Discussion</div>
+                        <div>1-April 5PM-8PM</div>
                         <div className="timeline-dot timeline-dot-top"></div>
+                    </div>
+                    <div className="timeline-event timeline-event-bottom">
+                        <div>Fashion Show</div>
+                        <div>1-April 6PM-10PM</div>
+                        <div className="timeline-dot timeline-dot-bottom"></div>
+                    </div>
+                    <div className="timeline-event timeline-event-top">
+                        <div>Case Samadhan</div>
+                        <div>2-April 9AM-1PM</div>
+                        <div className="timeline-dot timeline-dot-top"></div>
+                    </div>
+                    <div className="timeline-event timeline-event-bottom">
+                        <div>Shiksha Talk</div>
+                        <div>2-April 9AM-10AM</div>
+                        <div className="timeline-dot timeline-dot-bottom"></div>
+                    </div>
+                    <div className="timeline-event timeline-event-top">
+                        <div>Goonj Workshop</div>
+                        <div>2-April 12PM-3PM</div>
+                        <div className="timeline-dot timeline-dot-top"></div>
+                    </div>
+                    <div className="timeline-event timeline-event-bottom">
+                        <div>Sociopreneur Samvad</div>
+                        <div>2-April 1PM-4PM</div>
+                        <div className="timeline-dot timeline-dot-bottom"></div>
+                    </div>
+                    <div className="timeline-event timeline-event-top">
+                        <div>Parody Compitition</div>
+                        <div>2-April 3:30PM-5:30PM</div>
+                        <div className="timeline-dot timeline-dot-top"></div>
+                    </div>
+                    <div className="timeline-event timeline-event-bottom">
+                        <div>Closing Ceremony</div>
+                        <div>2-April 5PM-9PM</div>
+                        <div className="timeline-dot timeline-dot-bottom"></div>
                     </div>
                 </div>
             </div>
