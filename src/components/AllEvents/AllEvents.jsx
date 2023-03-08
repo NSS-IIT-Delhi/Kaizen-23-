@@ -7,8 +7,9 @@ import "./AllEvents.css";
 import Background from "../background/background";
 import { useLocation } from 'react-router-dom'
 
-export default function AllEvents() {
-
+export default function AllEvents(props) {
+  const {eventsRef,competitionsRef} = props;
+  console.log(eventsRef)
   const location = useLocation();
   let active = location.state ? location.state.active : 'all' ;
 
@@ -103,6 +104,7 @@ export default function AllEvents() {
               role="tab"
               aria-controls="pills-events"
               aria-selected="false"
+              ref={eventsRef}
             >
               EVENTS
             </button>
@@ -117,6 +119,7 @@ export default function AllEvents() {
               role="tab"
               aria-controls="pills-competitions"
               aria-selected="true"
+              ref={competitionsRef}
             >
               COMPETITIONS
             </button>
