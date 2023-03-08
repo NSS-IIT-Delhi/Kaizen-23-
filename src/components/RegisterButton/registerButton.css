@@ -15,7 +15,7 @@
 }
 .btn-anim:hover {
         background: var(--primary-blue);
-        color: black;
+        /* color: black; */
         filter: contrast(1.1);
     }
     

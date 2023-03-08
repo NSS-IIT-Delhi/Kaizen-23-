@@ -3,9 +3,13 @@ import logo from "../../assets/images/logo.png";
 import React, { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { scroller } from "react-scroll";
+import { useLocation } from 'react-router-dom'
 
 export default function Navbar() {
   const [scrolled, setScrolled] = useState(false);
+  const location = useLocation();
+  console.log(location);
+
 
   useEffect(() => {
     window.addEventListener("scroll", handleScroll);
@@ -32,9 +36,9 @@ export default function Navbar() {
     });
   }
 
-  const events = async () =>{ 
+  const events = async (to) =>{ 
     let path = `/events`; 
-    await navigate(path);
+    await navigate(path, { state: { active:to } });
     await scroller.scrollTo('head', {
       duration: 1500,
       offset: 0,
@@ -81,10 +85,15 @@ export default function Navbar() {
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={events}>
+                  <a class="nav-link" onClick={location.pathname==='/events'?{}:()=>{events('events')}}>
                     Events
                   </a>
                 </li>
+                <li class="nav-item mx-1">
+                  <a class="nav-link" onClick={location.pathname==='/events'?{}:()=>{events('competitions')}}>
+                    Competitions
+                  </a>
+                </li>                
                 <li class="nav-item mx-1">
                   <a class="nav-link" href="https://cap-kaizen-iitd.netlify.app/">
                     CAP
