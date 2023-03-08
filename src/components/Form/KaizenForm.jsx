@@ -24,7 +24,7 @@ export default function KaizenForm () {
     let navigate = useNavigate(); 
     const home = () =>{ 
       let path = `/registersuccess`; 
-      navigate(path,{ state: { alert:true } }); 
+      navigate(path); 
     }
 
     const submit = async () => {  

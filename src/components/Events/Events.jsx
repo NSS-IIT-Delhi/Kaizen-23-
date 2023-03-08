@@ -52,7 +52,7 @@ export default function Events() {
   let navigate = useNavigate();
   const toevents = async () => {
     let path = `/events`;
-    await navigate(path);
+    await navigate(path, {state: {active:'all'}});
     await scroller.scrollTo("head", {
       duration: 1500,
       offset: 0,
