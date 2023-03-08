@@ -74,7 +74,7 @@ export default function AllEvents() {
     <>
       <Background />
       <div class="head" id="head">
-        <h2 class="pt-2 Title">EVENTS</h2>
+        <h2 class="pt-2 Title text-gradient">Events</h2>
       </div>
       <main style={{ position: "relative" }}>
         <ul
