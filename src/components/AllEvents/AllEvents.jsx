@@ -10,7 +10,7 @@ import { useLocation } from 'react-router-dom'
 export default function AllEvents() {
 
   const location = useLocation();
-  let active = location.state.active;
+  let active = location.state ? location.state.active : 'all' ;
 
 
   function pane(lst) {
