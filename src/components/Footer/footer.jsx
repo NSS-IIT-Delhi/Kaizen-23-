@@ -12,14 +12,18 @@ export default function Footer() {
     <footer id="footer" class="footer">
       <div class="footer__kaizen">
         <div class="kaizen-title">
-          <h2>Kaizen</h2>
+          <h2 class="text-gradient">Kaizen</h2>
           <img src={kaizen} alt="" />
         </div>
         <p class="kaizen-desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia
-          facilis consectetur temporibus asperiores eius quae dolor beatae non
-          dolorum. Mollitia quas est obcaecati, impedit earum cum! Recusandae,
-          provident quos? Eveniet?
+          Kaizen is one of the largest social extravaganzas organised in India
+          by NSS IIT Delhi, which recognises and works on the continuous
+          developments in our society. Attracting a footfall of over 10k+ with a
+          reach of 1500+ universities and schools across India. Personalities
+          like Justice DY Chandrachud The Chief Justice of India, Naveli
+          Deshmukh Miss Universe India 2nd Runner up NSS Brand Ambassador, Geeta
+          Thatra IGES and Research Scholar, etc. have been associated with NSS
+          in the past.
         </p>
       </div>
       <div class="footer__reach">

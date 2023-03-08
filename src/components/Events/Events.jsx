@@ -88,7 +88,7 @@ export default function Events() {
 
   return (
     <div className="app__container app__flex app__events">
-      <h2 className="head-text">Explore our <span className="accent">Events</span></h2>
+      <h2 className="head-text text-gradient">Explore our <span className="accent">Events</span></h2>
       <div className="event-cards-container">
         {/* {eventsData.map((event) => {
           const CardBGstyle = {

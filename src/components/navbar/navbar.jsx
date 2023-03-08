@@ -24,7 +24,7 @@ export default function Navbar() {
     <>
       <header
         class="header sticky-top"
-        style={{ "background-color": `rgb(0,0,0,${scrolled ? 0.2 : 0})` }}
+        style={{ "background-color": `rgb(0,0,0,${scrolled ? 0.7 : 0})` }}
       >
         <nav
           class={`navbar navbar-expand-md p-${scrolled ? 0 : 2}`}
@@ -35,7 +35,7 @@ export default function Navbar() {
               <img src={logo} height="55px" />
             </a>
             <a class="navbar-brand" href="">
-              <b className='logo head-text'>Kaizen'23</b>
+              <b className="logo head-text text-gradient">Kaizen'23</b>
             </a>
             <button
               class="navbar-toggler"

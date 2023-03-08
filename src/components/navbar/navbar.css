@@ -57,13 +57,14 @@
     cursor: pointer;
 }
 
-.navbar .navbar-brand{
-  -webkit-text-fill-color: aquamarine;
-}
+/* .navbar .navbar-brand{
+  -webkit-text-fill-color: var(--primary-blue);
+} */
 
 .logo{
   font-size: 2rem;
-  color: aquamarine;
+  /* color: var(--primary-blue); */
+
   font-family: var(--head-font);
 }
 .logo span{

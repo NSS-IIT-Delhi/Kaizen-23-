@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
 
 :root {
-  --primary-blue:#646cff;
+  --primary-blue:#0052a7;
   --primary-black:#242424;
   --head-font: 'Kaushan Script', cursive;
 
@@ -43,10 +43,12 @@ body {
   min-width: 320px;
   min-height: 100vh;
   /* background-color: var(--primary-black); */
+  
+  background-color: black;
 }
 
 h1 {
-  font-size: 3.2em;
+  /* font-size: 3.2em; */
   line-height: 1.1;
 }
 

@@ -1,129 +1,124 @@
 .footer {
-    width: 100%;
-    /* min-height: 50vh; */
-    background-color: #1b1b1b;
-    box-shadow: 0 0 1px rgba(255, 255, 255, 1);
-    /* border: 2px solid white; */
-    color: white;
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-between;
-    align-items: flex-start;
-    position: relative;
-    font-family: "Poppins", sans-serif;    
-    /* overflow-y: hidden; */
-  }
-  
-  .footer__kaizen {
-    /* height:300px; */
-    /* position: absolute; */
-    width: 50%;
-    /* border: 2px solid white; */
-    padding: 2.5rem 60px;
-  }
-  
-  .kaizen-title {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
+  width: 100%;
+  /* min-height: 50vh; */
+  background-color: #000a23;
+  box-shadow: 0 0 1px rgba(255, 255, 255, 1);
+  /* border: 2px solid white; */
+  color: white;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  position: relative;
+  font-family: "Poppins", sans-serif;
+  /* overflow-y: hidden; */
+}
 
+.footer__kaizen {
+  /* height:300px; */
+  /* position: absolute; */
+  width: 50%;
+  /* border: 2px solid white; */
+  padding: 2.5rem 60px;
+}
+
+.kaizen-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+.kaizen-title img {
+  width: 50px;
+  /* border:1px solid cyan; */
+  object-fit: cover;
+}
+
+.kaizen-title h2 {
+  font-size: 2rem;
+  font-family: var(--head-font);
+}
+
+.kaizen-desc {
+  margin-top: 0.5rem;
+  text-align: left;
+  font-size: 0.85rem;
+  line-height: 1.3rem;
+}
+
+.footer__reach {
+  padding: 3.5rem 60px;
+  /* border: 2px solid yellow; */
+  width: 50%;
+}
+
+.reach-contact h2 {
+  /* border: 1px solid red; */
+  font-size: 1.4rem;
+  margin: 0;
+}
+
+.reach-contact hr {
+  background-color: cyan;
+  height: 2px;
+  border-radius: 50px;
+  width: 80%;
+  margin: 0;
+  margin: 7px 0 16px 0;
+}
+
+.reach-contact ul {
+  padding: 0;
+  /* border: 1px solid white; */
+  list-style: none;
+  font-size: 0.8rem;
+}
+
+.reach-contact ul span {
+  font-weight: bold;
+  color: aliceblue;
+}
+
+.reach-socials {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.reach-socials > a {
+  width: 25px;
+  height: 25px;
+  margin-right: 1rem;
+  margin-top: 0.5rem;
+}
+
+.footer__copyright {
+  width: 100%;
+  text-align: center;
+  background-color: #1B1B1B;
+  bottom: 0;
+  padding: 1rem;
+  margin-top: 1rem;
+  /* position: absolute; */
+  /* border: 1px solid red; */
+}
+
+.footer__copyright span {
+  font-size: 0.8rem;
+  color: yellow;
+}
+
+@media screen and (max-width: 768px) {
+  .footer {
+    padding-bottom: 0;
   }
-  
-  .kaizen-title img {
-    width: 40px;
-    /* border:1px solid cyan; */
-    object-fit: cover;
-  }
-  
-  .kaizen-title h2 {
-    font-size: 1.7rem;
-    font-family: var(--head-font);
-  }
-  
-  .kaizen-desc {
-    margin-top: 0.5rem;
-    text-align: left;
-    font-size: 0.8rem;
-    line-height: 1.3rem;
-  }
-  
+  .footer__kaizen,
   .footer__reach {
-    padding: 2.5rem 60px;
-    /* border: 2px solid yellow; */
-    width: 50%;
-  }
-  
-  
-  
-  .reach-contact h2 {
-    /* border: 1px solid red; */
-    font-size: 1.2rem;
-    margin: 0;
-  }
-  
-  .reach-contact hr {
-    background-color: cyan;
-    height: 2px;
-    border-radius: 50px;
-    width: 80%;
-    margin: 0;
-    margin: 7px 0 16px 0;
-  }
-  
-  .reach-contact ul {
-    padding: 0;
-    /* border: 1px solid white; */
-    list-style: none;
-    font-size: 0.8rem;
-  }
-  
-  .reach-contact ul span {
-    font-weight: bold;
-    color: aliceblue;
-  }
-  
-  .reach-socials {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-  }
-  
-  .reach-socials > a {
-    width: 25px;
-    height: 25px;
-    margin-right: 1rem;
-    margin-top: 0.5rem;
-  }
-  
-  .footer__copyright {
+    margin: 1rem;
     width: 100%;
-    text-align: center;
-    background-color: black;
-    bottom: 0;
-    padding: 1rem;
-    margin-top:1rem;
-    /* position: absolute; */
-    /* border: 1px solid red; */
+    margin-bottom: 0.5rem;
+    padding: 0;
   }
-  
-  .footer__copyright span {
-    font-size: 0.8rem;
-    color: aquamarine;
-  }
-  
-  @media screen and (max-width: 768px) {
-    .footer{
-      padding-bottom:0;
-    }
-    .footer__kaizen,
-    .footer__reach {
-      margin: 1rem;
-      width: 100%;
-      margin-bottom: 0.5rem;
-      padding: 0;
-    }
-  }
-
-  
+}

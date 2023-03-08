@@ -1,11 +1,12 @@
 body,
 html {
-  background-color: rgba(6, 12, 26, 0.8);
+  /* background-color: rgba(6, 12, 26, 0.8); */
   display: block !important;
   overflow-x: hidden;
 }
 
 .app__container {
+  background-color: black;
   min-height: 100vh;
   width: 100%;
 }
@@ -15,17 +16,59 @@ html {
   align-items: center;
 }
 
-.head-text{
+.head-text {
   color: white;
   font-family: var(--head-font);
   font-size: 3rem;
   text-align: center;
+}
 
+.text-gradient{
+  color: var(--primary-blue);
 }
-.accent{
-  color: aquamarine;
+
+.gradient{
+  background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a);
 }
-.underline{
+
+@supports (-webkit-background-clip: text) {
+  .text-gradient {
+    background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a);
+    -webkit-background-clip: text; /* vendor-prefixed property */
+    -webkit-text-fill-color: transparent;
+    background-clip: text; /* standard property */
+    color: transparent;
+  }
+}
+/* (#f1ccfc, #006fc2, #00317a, #001b4e) */
+
+.accent {
+  color: var(--primary-blue);
+}
+.underline {
   text-decoration-line: white;
+}
 
+/* Style for Scrollbar */
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* box-shadow: inset 0 0 5px grey;  */
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--primary-blue);
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 425px) {
+  .head-text {
+    font-size: 2rem;
+  }
 }
