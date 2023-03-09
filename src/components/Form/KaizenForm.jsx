@@ -4,7 +4,7 @@ import {collection, setDoc, doc} from 'firebase/firestore'
 import db from '../Firebase/firebaseConfig'
 import { useNavigate, useParams } from "react-router-dom";
 import {events} from '../../Events/events'
-import { scroller,animateScroll } from "react-scroll";
+// import { scroller,animateScroll } from "react-scroll";
 
 // import Header from "./navbar.jsx";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -53,7 +53,7 @@ export default function KaizenForm () {
         <Background/>
             <section className="wrapper text-center" id="formSec">
                 <div className="formDiv">
-                    <h2 className="subtitle" data-aos="fade-up">
+                    <h2 className="subtitle">
                         Register For {events[`${id}`]['title']}
                     </h2>
                     <br/>
@@ -65,7 +65,7 @@ export default function KaizenForm () {
                             >
                             <fieldset>
                                 <div class="container">
-                                    <label htmlFor="Name" data-aos="fade-up">
+                                    <label htmlFor="Name">
                                         Your Name*:
                                     </label>
                                     <br />
@@ -73,7 +73,7 @@ export default function KaizenForm () {
                                         type="text"
                                         id="Name"
                                         name="Name"
-                                        data-aos="fade-up"
+                                    
                                         required
                                         onChange = {(e) => handleInputChange(e)}
                                     />
@@ -81,7 +81,7 @@ export default function KaizenForm () {
                             </fieldset>
                             <fieldset>
                                 <div class="container">
-                                    <label htmlFor="Mobile" data-aos="fade-up">
+                                    <label htmlFor="Mobile">
                                         Contact Number(WhatsApp)*:
                                     </label>
                                     <br />
@@ -89,7 +89,7 @@ export default function KaizenForm () {
                                         type="text"
                                         id="Mobile"
                                         name="Mobile"
-                                        data-aos="fade-up"
+                                    
                                         pattern="[\s]{0,}[+0-9]{10,}[\s]{0,}"
                                         required
                                         onChange= {(e) => handleInputChange(e)}
@@ -98,7 +98,7 @@ export default function KaizenForm () {
                             </fieldset>
                             <fieldset>
                                 <div class="container">
-                                    <label htmlFor="email" data-aos="fade-up">
+                                    <label htmlFor="email">
                                         E-mail ID*:
                                     </label>
                                     <br />
@@ -107,7 +107,7 @@ export default function KaizenForm () {
                                         id="Email"
                                         name="Email"
                                         pattern="[\s]{0,}[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}[\s]{0,}$"
-                                        data-aos="fade-up"
+                                    
                                         required
                                         onChange={(e) => handleInputChange(e)}
                                     />
@@ -115,7 +115,7 @@ export default function KaizenForm () {
                             </fieldset>
                             <fieldset>
                                 <div class="container">
-                                    <label htmlFor="College" data-aos="fade-up">
+                                    <label htmlFor="College">
                                         College Name*:
                                     </label>
                                     <br />
