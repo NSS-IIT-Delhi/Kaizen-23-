@@ -12,9 +12,10 @@
     transition: all .3s;
     cursor: pointer;
     border: none;
+    font-weight: 700;
 }
 .btn-anim:hover {
-        background: var(--primary-blue);
+    background: linear-gradient(to right, #006fc2,#00317a)!important;
         /* color: black; */
         filter: contrast(1.1);
     }

@@ -114,13 +114,12 @@ body{
     text-align: center;
 	width: 100%;
 	z-index: 8;
-	font-family: 'IBM Plex Sans Condensed';
+	font-family: 'Kaushan Script', cursive;
 	font-size: 50px;
 	font-weight: 900;
-	mix-blend-mode: difference;	
-	color: white;
-    letter-spacing: 15px;
-    word-wrap: break-word;
+	/* mix-blend-mode: difference;	 */
+    letter-spacing: 5px;
+    /* word-wrap: break-word; */
   }
 
   .sections-container hr{
@@ -131,3 +130,9 @@ body{
 	background-color: white;
   }
 
+.desc{
+	font-size: 1.4rem;
+}
+.family{
+	font-family: 'Kaushan Script', cursive;
+}

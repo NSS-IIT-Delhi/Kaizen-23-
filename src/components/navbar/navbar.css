@@ -53,8 +53,12 @@
 }
 
 .navbar .nav-link:hover {
-    /* -webkit-text-fill-color: aquamarine; */
     cursor: pointer;
+    background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    color: transparent;
 }
 
 /* .navbar .navbar-brand{

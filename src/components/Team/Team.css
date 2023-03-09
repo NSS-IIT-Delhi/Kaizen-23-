@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+body{
+    background: #152238;
+  overflow-x: hidden;
+}
+
+.Titles {
+    font-family: 'Kaushan Script', cursive;
+    text-align: center;
+	width: 100%;
+	z-index: 8;
+	font-size: 3rem;
+	font-weight: 900;
+	/* mix-blend-mode: difference;	 */
+	color:#00317a;
+    letter-spacing: 10px;
+    /* word-wrap: break-word; */
+  }
+
+
+  @keyframes animate {
+    0%{
+        transform: translateY(0) rotate(0deg);
+        opacity: 1;
+        border-radius: 30;
+    }
+    100%{
+        transform: translateY(-1000px) rotate(720deg);
+        opacity: 0;
+        border-radius: 50%;
+    }
+}
+
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.background li {
+    position: absolute;
+    display: block;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    background: rgba(255, 255, 255, 0.2);
+    animation: animate 12s linear infinite;
+}
+
+.background li:nth-child(0) {
+    left: 52%;
+    width: 191px;
+    height: 191px;
+    bottom: -191px;
+    animation-delay: 1s;
+}
+.background li:nth-child(1) {
+    left: 55%;
+    width: 115px;
+    height: 115px;
+    bottom: -115px;
+    animation-delay: 4s;
+}
+.background li:nth-child(2) {
+    left: 42%;
+    width: 171px;
+    height: 171px;
+    bottom: -171px;
+    animation-delay: 2s;
+}
+.background li:nth-child(3) {
+    left: 73%;
+    width: 153px;
+    height: 153px;
+    bottom: -153px;
+    animation-delay: 9s;
+}
+.background li:nth-child(4) {
+    left: 86%;
+    width: 168px;
+    height: 168px;
+    bottom: -168px;
+    animation-delay: 7s;
+}
+.background li:nth-child(5) {
+    left: 19%;
+    width: 131px;
+    height: 131px;
+    bottom: -131px;
+    animation-delay: 6s;
+}
+.background li:nth-child(6) {
+    left: 82%;
+    width: 100px;
+    height: 100px;
+    bottom: -100px;
+    animation-delay: 4s;
+}
+.background li:nth-child(7) {
+    left: 48%;
+    width: 134px;
+    height: 134px;
+    bottom: -134px;
+    animation-delay: 15s;
+}
+.background li:nth-child(8) {
+    left: 4%;
+    width: 195px;
+    height: 195px;
+    bottom: -195px;
+    animation-delay: 3s;
+}
+.background li:nth-child(9) {
+    left: 3%;
+    width: 149px;
+    height: 149px;
+    bottom: -149px;
+    animation-delay: 10s;
+}
+
+
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display|Fjalla+One|Poppins:300,400,500,600,700,900&subset=latin-ext');
+
+.section-header {
+    text-align: center;
+    padding-bottom: 10px;
+}
+.section-header p {
+    margin: 10px 0 0 0;
+    padding: 0;
+    font-size: 2.2rem;
+    line-height: 42px;
+    font-weight: 700;
+    color: #006fc2;
+}
+/* .gy-4 {
+    --bs-gutter-y: 1.5rem;
+} */
+.team .member {
+    overflow: hidden;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 100000;
+    transition: all ease-in-out 0.3s;
+}
+.team .member .member-info {
+    padding: 10px 15px 20px 15px;
+    color: black;
+    /* text-align: center; */
+    font-size: 1.4rem;
+}
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 1.4rem;
+    color:black;
+}
+.new{
+    margin: auto;
+width: 100%;
+text-align: center;
+justify-content: center;
+/* align-items: center; */
+}
+.member:hover{
+    transform: translateY(-2.5px);
+    box-shadow: 0px 0px 15px #006fc2;
+}
+.hrx{
+    width: 27rem;
+}
+a i {
+    color: black;
+}
+i:hover {
+    color: rgba(0, 0, 0, 0.75);
+    text-decoration: none;
+    }
+@media (max-width:576px) {
+    .member{
+        width: 200px;
+        margin: auto;
+    }
+    .hrx{
+        width: 20rem;
+    }
+}
+.aos-animate, body[data-aos-delay="100"] [data-aos].aos-animate {
+    transition-delay: .3s;
+    }
+    [data-aos^=fade][data-aos^=fade].aos-animate {
+    opacity: 1;
+    transform: translateZ(0);
+    }
+    [data-aos][data-aos][data-aos-delay="100"], body[data-aos-delay="100"] [data-aos] {
+    transition-delay: 0;
+    }
+[data-aos][data-aos][data-aos-easing=ease-in-out], body[data-aos-easing=ease-in-out] [data-aos] {
+    transition-timing-function: ease-in-out;
+    }
+    [data-aos][data-aos][data-aos-duration="1000"], body[data-aos-duration="1000"] [data-aos] {
+    transition-duration: 1s;
+    }
+[data-aos=fade-up] {
+    transform: translate3d(0,100px,0);
+    }
