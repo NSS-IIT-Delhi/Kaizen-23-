@@ -1,3 +1,3 @@
-# KAIZEN-23 FROM SCRATCH using React
+# KAIZEN-23
 
 Deployed Link: https://kaizen-23.netlify.app/
