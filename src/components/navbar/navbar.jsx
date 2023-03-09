@@ -71,11 +71,17 @@ export default function Navbar(props) {
               data-bs-toggle="collapse"
               data-bs-target="#menu"
             >
-              <div class="menubar">
+              {/* <div class="menubar">
                 <span class="first-span"></span>
                 <span class="second-span"></span>
                 <span class="third-span"></span>
-              </div>
+              </div> */}
+    <label for="check">
+      <input type="checkbox" id="check"/> 
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>              
             </button>
 
             <div class="collapse navbar-collapse" id="menu">
