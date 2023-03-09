@@ -1,15 +1,6 @@
 /* @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Fjalla+One|Poppins:300,400,500,600,700,900&subset=latin-ext'); */
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed&display=swap');
 
-body{
-  background: #152238;
-}
-
-.reg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
 .btn-close:focus{
 	box-shadow: none;

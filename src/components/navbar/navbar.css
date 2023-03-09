@@ -77,16 +77,19 @@
 
 
 
+.navbar-toggler {
+  width: 35px;
+  padding: 0%;
+}
 
-
-label{
+.navbar-toggler{
  display:flex;
   flex-direction:column;
   width:35px;
   cursor:pointer;
 }
 
-label span{
+.navbar-toggler span{
   background: #fff;
   border-radius:10px;
   height:3.5px;

@@ -30,6 +30,9 @@ import ingenious_geeks from './banners/ig_poster.jpeg'
 import samrat from './cardPictures/samrat.png'
 import seshan from './cardPictures/seshan.jpeg'
 
+// export const categories = [ 'events', 'competitions', 'workshops']
+
+
 export const events = 
     {
         "sociopreneurs":{
