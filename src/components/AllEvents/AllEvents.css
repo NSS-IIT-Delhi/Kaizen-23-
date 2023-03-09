@@ -1,14 +1,7 @@
 /* @import url('https://fonts.googleapis.com/css?family=Playfair+Display|Fjalla+One|Poppins:300,400,500,600,700,900&subset=latin-ext'); */
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&family=Open+Sans:wght@400;500&display=swap');
-body{
-  background: #152238;
-}
 
-.reg{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Merriweather&family=Open+Sans:wght@400;500&display=swap');
+
 
 .btn-close:focus{
 	box-shadow: none;

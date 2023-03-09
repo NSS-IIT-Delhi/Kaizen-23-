@@ -65,18 +65,18 @@ export default function Navbar(props) {
             <a class="navbar-brand" href="">
               <b className="logo head-text text-gradient">Kaizen'23</b>
             </a>
-            <button
+            <label
               class="navbar-toggler"
               type="button"
               data-bs-toggle="collapse"
               data-bs-target="#menu"
-            >
-              <div class="menubar">
-                <span class="first-span"></span>
-                <span class="second-span"></span>
-                <span class="third-span"></span>
-              </div>
-            </button>
+              for="check" 
+              >
+              <input type="checkbox" id="check"/> 
+              <span></span>
+              <span></span>
+              <span></span>             
+            </label>
 
             <div class="collapse navbar-collapse" id="menu">
               <ul class="navbar-nav ms-auto">

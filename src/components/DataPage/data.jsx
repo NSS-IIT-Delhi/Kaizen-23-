@@ -1,17 +1,17 @@
 import Table from './table';
+import { events as allevents } from "../../Events/events";
+
 
 export default function Data(){  
-
-   
+  const evt = Array.from(Object.entries(allevents));
 
     return (
 
       <div class="p-5 justify-content-center">
-        <Table coll="aurora"/>
-        <Table coll="tamasha"/>
-        <Table coll="ingenious_geeks"/>
-        <Table coll="bazinga"/>
-        <Table coll="all_rise"/>
+        {evt.map((data, key) => {return(
+          <Table coll={data[0]}/>
+        );
+        })}
       </div>
 
     )
