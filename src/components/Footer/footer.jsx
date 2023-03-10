@@ -31,13 +31,13 @@ export default function Footer() {
           <h2>CONTACT US</h2>
           <hr />
           <ul>
-            <li>
+            {/* <li>
               <span>Phone :</span>
               +91 1234567890
-            </li>
+            </li> */}
             <li>
-              <span>Email :</span>
-              nssiitd.team@abc.in
+              <span>Email : </span>
+              nssinbox@gmail.com
             </li>
           </ul>
         </div>
