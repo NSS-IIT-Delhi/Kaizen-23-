@@ -59,10 +59,10 @@ export default function Navbar(props) {
           style={{ backdropFilter: `${scrolled ? "blur(8px)" : ""}` }}
         >
           <div class="container-fluid">
-            <a class="navbar-brand" href="">
+            <a class="navbar-brand" href="" onClick={home}>
               <img src={logo} height="55px" />
             </a>
-            <a class="navbar-brand" href="">
+            <a class="navbar-brand" href="" onClick={home}>
               <b className="logo head-text text-gradient">Kaizen'23</b>
             </a>
             <label
