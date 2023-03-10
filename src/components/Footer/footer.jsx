@@ -8,6 +8,7 @@ import insta from "../../assets/images/instagram.png";
 import fb from "../../assets/images/facebook.png";
 
 export default function Footer() {
+
   return (
     <footer id="footer" class="footer">
       <div class="footer__kaizen">
@@ -71,7 +72,7 @@ export default function Footer() {
 
       <section class="footer__copyright">
         © 2023 NSS IIT DELHI - All rights reserved <br />
-        <a style={{textDecoration:'none',color:'#ff0'}} href="https://cap-kaizen-iitd.netlify.app/team" target="_blank"><span>Designed by NSS Tech Team</span></a>
+        <a style={{textDecoration:'none',color:'#ff0'}} href="https://kaizeniitd.org/team" target="_blank"><span>Designed by NSS Tech Team</span></a>
       </section>
     </footer>
   );
