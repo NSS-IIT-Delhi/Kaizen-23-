@@ -14,6 +14,7 @@ export default function Event() {
   const ev = events[`${id}`]
   const date = ev["date"];
   const time = ev["time"];
+  const rulebook = ev["rulebook"];
   const venue = ev["venue"];
   const title = ev["title"];
   const image = ev["image"];

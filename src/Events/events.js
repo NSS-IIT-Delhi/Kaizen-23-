@@ -35,16 +35,17 @@ import seshan from './cardPictures/seshan.jpeg'
 
 export const events = 
     {
-        "sociopreneurs":{
-            "title": "SOCIOPRENEURS",
-            "description": "A platform to motivate aspiring social entrepreneurs to develop their ideas and inspire them for social change",
+        "style_green":{
+            "title": "STYLE GREEN",
+            "description": "A stage to exhibit recyclable and sustainable fashion",
             "image": sociopreneurs,
-            "date": "18th April",
+            "date": "2nd April",
             "time": "6:45pm - 8:45pm",
             "venue": "Seminar Hall, and Live Streaming on Zoom",
-            "content": "B-plan event to provide a platform to aspiring social entrepreneurs. It aims to encourage change-makers provide them mentorship from renowned experts.",
-            "rank":"10",
+            "content": "A stage to exhibit recyclable and sustainable fashion.",
+            "rank":"11",
             "category":"competition",
+            "rulebook":'',
 
             "sections": [
                {"type": "TS",
@@ -58,7 +59,22 @@ export const events =
                         "title": "1st Runner Up",
                         "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
                     },
-                ]},
+                ]},              
+            ]
+        },
+        "sarcastic_spardha":{
+            "title": "SARCASTIC SPARDHA",
+            "description": "A parody making competition to bring attention to social issues and inspire positive change in our society",
+            "image": sociopreneurs,
+            "date": "2nd April",
+            "time": "6:45pm - 8:45pm",
+            "venue": "Seminar Hall, and Live Streaming on Zoom",
+            "content": "A parody is a creative work that imitates or mocks a well-known piece of art, literature, or music in a humorous way. Therefore, we are using the power of parody to bring attention to social issues and inspire positive change in our society            ",
+            "rank":"10",
+            "category":"competition",
+            "rulebook":'',
+
+            "sections": [
                 {"type": "TS",
                 "title":"PRIZES",
                 "data":[
@@ -73,17 +89,17 @@ export const events =
                 ]},                
             ]
         },
-        "aurora":{
-            "title": "AURORA",
-            "description": "Beginning Kaizen with the best of speakers and a fun-filled evening with talented performers, this is the platform to propel social change",
+        "social_tasveer":{
+            "title": "SOCIAL TASVEER",
+            "description": "A photo story competition on social issues to picture the change you want to see in the world",
             "image": aurora,
-            "date": "18th April",
+            "date": "22th March",
             "time": "6:45pm - 8:45pm",
             "venue": "Seminar Hall, and Live Streaming on Zoom",
-            "content": "Knowledge and delight converge in Aurora - the inaugural ceremony of Kaizen '22, studded with esteemed guests and making way for change to happen.",
+            "content": "A photostory competition on social issues to picture the change you want to see in the world",
             "rank":"9",
             "category":"competition",
-
+            "rulebook":'',
 
             
             "sections": [
@@ -102,14 +118,14 @@ export const events =
                 
             ]
         },
-        "tamasha":{
-            "title": "TAMASHA",
-            "description": "Beginning Kaizen with the best of speakers and a fun-filled evening with talented performers, this is the platform to propel social change",
+        "social_sawaal":{
+            "title": "THE SOCIAL SAWAAL",
+            "description": "A quizzing competition for school students to encourage young minds",
             "image": tamasha,
-            "date": "18th April",
+            "date": "1st April",
             "time": "6:45pm - 8:45pm",
             "venue": "Seminar Hall, and Live Streaming on Zoom",
-            "content": "Drama competition for the movie buffs who are tired of troublesome depictions shown in movies, giving them an opportunity to present their perfect story, in the form of a 5-minute-Act!",
+            "content": "A quizzing competition for school students, is a flagship event at Kaizen '23, where we encourage young minds to become aware of the social aspects of humanity and compete against the brightest minds in the NCR region",
             "rank":"8",
             "category":"competition",
 
@@ -130,14 +146,14 @@ export const events =
                 ]},
             ]
         },     
-        "bazinga":{
-            "title": "BAZINGA",
-            "description": "A Social Stand Up Comedy Event for all the young comedians out there.",
+        "soch":{
+            "title": "SOCH",
+            "description": " Aworkshop based on Gender Sensitization",
             "image": bazinga,
             "date": "18th April",
             "time": "6:45pm - 8:45pm",
             "venue": "Seminar Hall, and Live Streaming on Zoom",
-            "content": "A platform for all the young comedians out there to tickle the audience with their greatest comic skills and shoot their punchlines on the social issues around. Be the source of all the guffaws and chuckles to become the best of them all.",
+            "content": "This workshop will be based on Gender Sensitization, where we’ll discuss about all about different types of Gender, Myths & Facts about LGBTQ+ Community and intreact with speakers from the community.",
             "rank":"2",
             "category":"workshop",
 
@@ -186,9 +202,9 @@ export const events =
                 ]},
             ]
         }        ,
-        "all_rise":{
-            "title": "ALL RISE",
-            "description": "A mock courtroom setup over a fictitious case to educate people about basic laws and rights",
+        "sakshi":{
+            "title": "SAKSHI",
+            "description": "A workshop on Stop Child Sexual Abuse",
             "image": all_rise,
             "date": "18th April",
             "time": "6:45pm - 8:45pm",
@@ -215,16 +231,16 @@ export const events =
             ]
         },        
         "ingenious_geeks":{
-            "title": "INGENIOUS GEEKS",
-            "description": "An event to promote individual thinking and innovative ideas among school kids through application-based learning",
+            "title": "INGENIOUS GEEKS 2.0",
+            "description": "A science exhibition competition for school students to showcase their creative innovative mind",
             "image": ingenious_geeks,
-            "date": "18th April",
+            "date": "2nd April",
             "time": "6:45pm - 8:45pm",
             "venue": "Seminar Hall, and Live Streaming on Zoom",
-            "content": "A pan-India virtual science exhibition, providing the students a platform to develop effcient solutions to the problems existing in the society by creating innovative science models",
+            "content": "A science exhibition competition for school students to showcase their creative innovative mind",
             "rank":"4",
-            "category":"event",
-
+            "category":"competition",
+            'rulebook':'https://drive.google.com/file/d/12d7VWu8OWXT8DI-Z5DiQjP1bNRd5zmoQ/view?usp=share_link',
 
             
             "sections": [
@@ -253,6 +269,10 @@ export const events =
                     {
                         "title": "1st Runner Up",
                         "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
+                    },
+                    {
+                        "title": "2nd Runner Up",
+                        "subtitle": "Rs. 2000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
                     },
                 ]},
               
