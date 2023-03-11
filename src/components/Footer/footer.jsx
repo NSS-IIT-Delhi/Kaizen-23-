@@ -72,7 +72,7 @@ export default function Footer() {
 
       <section class="footer__copyright">
         © 2023 NSS IIT DELHI - All rights reserved <br />
-        <a style={{textDecoration:'none',color:'#ff0'}} href="https://kaizeniitd.org/team" target="_blank"><span>Designed by NSS Tech Team</span></a>
+        <a style={{textDecoration:'none',color:'#ff0'}} href="https://kaizeniitd.org/team"><span>Designed by NSS Tech Team</span></a>
       </section>
     </footer>
   );
