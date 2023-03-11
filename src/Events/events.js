@@ -34,7 +34,156 @@ import seshan from './cardPictures/seshan.jpeg'
 
 
 export const events = 
-    {
+    {"aaghaaz":{
+        "title": "Aaghaaz-e-kaizen",
+        "description": "The opening ceremony of Kaizen",
+        "image": resolved,
+        "date": "1st April",
+        "time": "6:45pm - 8:45pm",
+        "venue": "Seminar Hall, and Live Streaming on Zoom",
+        "content": "The opening ceremony of Kaizen will be commenced with the traditional inauguration by lighting the lamp, followed by a beautiful song by the students of NAB NGO and a cultural dance performance. The chief guest would deliver a speech, highlighting the importance of social service in our society. The official declaration of the start of the Kaizen will mark the beginning of a series of exciting events and activities planned for the duration of the fest.",
+        "rank":"6",
+        "category":"event",
+        "sections": [
+           {"type": "TS",
+            "title":"PRIZES",
+            "data":[
+                {
+                    "title": "Winner",
+                    "subtitle": "Rs. 5000 + Discount Coupons from GeeksforGeeks worth Rs. 2000 + certificate",
+                },
+                {
+                    "title": "1st Runner Up",
+                    "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
+                },
+            ]},
+        ]
+    }        ,
+    "social_convention":{
+        "title": "SOCIAL CONVENTION",
+        "description": "SevaSummit: The Social Symposium",
+        "image": resolved,
+        "date": "1st April",
+        "time": "6:45pm - 8:45pm",
+        "venue": "Seminar Hall, and Live Streaming on Zoom",
+        "content": "SevaSummit: The Social Symposium",
+        "rank":"61",
+        "category":"event",
+        "sections": [
+           {"type": "TS",
+            "title":"PRIZES",
+            "data":[
+                {
+                    "title": "Winner",
+                    "subtitle": "Rs. 5000 + Discount Coupons from GeeksforGeeks worth Rs. 2000 + certificate",
+                },
+                {
+                    "title": "1st Runner Up",
+                    "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
+                },
+            ]},
+        ]
+    }        ,
+    "yuva_chetna":{
+        "title": "YUVA CHETNA",
+        "description": "Panel discussion on Youth Engagement in Social Work",
+        "image": resolved,
+        "date": "1st April",
+        "time": "6:45pm - 8:45pm",
+        "venue": "Seminar Hall, and Live Streaming on Zoom",
+        "content": "The event Yuva Chetna is a panel discussion featuring IAS and IPS officers, aiming to encourage youth to become active agents of change and participate in addressing critical issues in society. The discussion will inspire young people to use their skills and knowledge to make a difference in their communities. ",
+        "rank":"612",
+        "category":"event",
+        "sections": [
+           {"type": "TS",
+            "title":"PRIZES",
+            "data":[
+                {
+                    "title": "Winner",
+                    "subtitle": "Rs. 5000 + Discount Coupons from GeeksforGeeks worth Rs. 2000 + certificate",
+                },
+                {
+                    "title": "1st Runner Up",
+                    "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
+                },
+            ]},
+        ]
+    }        ,
+    "shiksha_talk":{
+        "title": "SHIKSHA TALK",
+        "description": " Empowering Rural India Through Education",
+        "image": resolved,
+        "date": "1st April",
+        "time": "6:45pm - 8:45pm",
+        "venue": "Seminar Hall, and Live Streaming on Zoom",
+        "content": "The event will host a panel discussion with renowned and respected educators who have experience working with rural communities. They will discuss the challenges faced by rural areas in accessing education and share innovative approaches to improving education outcomes.        ",
+        "rank":"631",
+        "category":"event",
+        "sections": [
+           {"type": "TS",
+            "title":"PRIZES",
+            "data":[
+                {
+                    "title": "Winner",
+                    "subtitle": "Rs. 5000 + Discount Coupons from GeeksforGeeks worth Rs. 2000 + certificate",
+                },
+                {
+                    "title": "1st Runner Up",
+                    "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
+                },
+            ]},
+        ]
+    }        ,
+    "sociopreneur_samvad":{
+        "title": "SOCIOPRENEUR SAMVAD",
+        "description": "Pioneering change through Innovation",
+        "image": resolved,
+        "date": "1st April",
+        "time": "6:45pm - 8:45pm",
+        "venue": "Seminar Hall, and Live Streaming on Zoom",
+        "content": "The Sociopreneur Samvad is an exciting event for those passionate about social entrepreneurship and making a positive impact on the society. The distinguished guests will provide their valuable personal experiences about the subject, the obstacles they faced and the solutions they utilized to overcome them. Join for an enlightening event!!",
+        "rank":"601",
+        "category":"event",
+        "sections": [
+           {"type": "TS",
+            "title":"PRIZES",
+            "data":[
+                {
+                    "title": "Winner",
+                    "subtitle": "Rs. 5000 + Discount Coupons from GeeksforGeeks worth Rs. 2000 + certificate",
+                },
+                {
+                    "title": "1st Runner Up",
+                    "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
+                },
+            ]},
+        ]
+    }        ,
+    "closing_ceremony":{
+        "title": "CLOSING CEREMONY",
+        "description": "SevaSummit: The Social Symposium",
+        "image": resolved,
+        "date": "1st April",
+        "time": "6:45pm - 8:45pm",
+        "venue": "Seminar Hall, and Live Streaming on Zoom",
+        "content": "The closing ceremony of the social festival Kaizen will be an amazing event, featuring a live painting by FACC, followed by a mesmerising music performance by Music club IITD, and a captivating guest performance.Also, the prize distribution ceremony, to recognize the participation of students. The chief guest will be Mr Shyam Sunder Paliwal, and the guest speakers will be Kirti Bharti and Aneesh Karma. The chief guest speech will culminate in a successful conclusion to the festival. The event will leave everyone motivated to continue their pursuit of growth and improvement.",
+        "rank":"61",
+        "category":"event",
+        "sections": [
+           {"type": "TS",
+            "title":"PRIZES",
+            "data":[
+                {
+                    "title": "Winner",
+                    "subtitle": "Rs. 5000 + Discount Coupons from GeeksforGeeks worth Rs. 2000 + certificate",
+                },
+                {
+                    "title": "1st Runner Up",
+                    "subtitle": "Rs. 3000 + Discount Coupons from GeeksforGeeks worth Rs. 1500 + certificate",   
+                },
+            ]},
+        ]
+    }        ,
         "style_green":{
             "title": "STYLE GREEN",
             "description": "A stage to exhibit recyclable and sustainable fashion",
@@ -148,7 +297,7 @@ export const events =
         },     
         "soch":{
             "title": "SOCH",
-            "description": " Aworkshop based on Gender Sensitization",
+            "description": " A workshop on Gender Sensitization",
             "image": bazinga,
             "date": "18th April",
             "time": "6:45pm - 8:45pm",
@@ -174,16 +323,17 @@ export const events =
                 ]},
             ]
         },
-        "resolved":{
-            "title": "404 RESOLVED",
-            "description": "A design-based, sprint where participants compete to find the best technical solution to a social problem",
-            "image": resolved,
+        
+        "sakshi":{
+            "title": "SAKSHI",
+            "description": "A workshop on Stop Child Sexual Abuse",
+            "image": all_rise,
             "date": "18th April",
             "time": "6:45pm - 8:45pm",
             "venue": "Seminar Hall, and Live Streaming on Zoom",
-            "content": "A design sprint hackathon aimed to devise technical scalable solutions for burning social nodus persisting in society.",
-            "rank":"6",
-            "category":"event",
+            "content": "Sakshi NGO is a non-profit organization based in India that focuses on providing education, healthcare, and empowerment programs for underprivileged children and women in rural areas. Their aim is to create sustainable development and improve the quality of life for marginalized communities.Sakshi will be conducting a workshop.Topic - Stop Child Sexual Abuse POCSO Act 2012",
+            "rank":"1",
+            "category":"workshop",
 
 
             
@@ -201,16 +351,16 @@ export const events =
                     },
                 ]},
             ]
-        }        ,
-        "sakshi":{
-            "title": "SAKSHI",
-            "description": "A workshop on Stop Child Sexual Abuse",
+        },        
+        "goonj":{
+            "title": "GOONJ",
+            "description": "A workshop on Menstrual Health & Hygiene",
             "image": all_rise,
             "date": "18th April",
             "time": "6:45pm - 8:45pm",
             "venue": "Seminar Hall, and Live Streaming on Zoom",
-            "content": "It emulates a courtroom and captures the thrill of a real court hearing, to raise awareness on common laws to protect oneself with!",
-            "rank":"1",
+            "content": "Goonj is a social organization based in India that aims to address the basic needs of underprivileged communities, such as clothing, sanitary pads, and school supplies, through a unique model of resource mobilization and distribution. They also provide disaster relief and rehabilitation programs during emergencies. Goonj will be conducting a workshop. Topic - Menstrual Health & Hygiene",
+            "rank":"12",
             "category":"workshop",
 
 
