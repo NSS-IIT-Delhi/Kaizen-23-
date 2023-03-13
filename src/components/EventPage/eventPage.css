@@ -4,6 +4,7 @@
 .image{
     height: max-content;
     width: max-content;
+	padding-right: 35px;
     z-index: 4;
 	transition: transform 1s; /*Note this!*/
     
