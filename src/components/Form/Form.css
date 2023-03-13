@@ -3,7 +3,7 @@
 #formSec {
     display: grid;
     height: auto;
-    padding: 6rem 2rem 2rem;
+    padding: 6rem 0.5rem 0.5rem;
     background-color: black;
     color:whitesmoke;
     font-family: 'Merriweather', serif;
@@ -13,7 +13,7 @@
 .formDiv {
     display: grid;
     place-items: center;
-    padding: 4rem 2rem;
+    padding: 4rem 0.5rem 0.5rem;
     opacity:0.8;
     /* max-width: 768px; */
     /* font-size: medium; */

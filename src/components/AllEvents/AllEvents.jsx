@@ -16,7 +16,7 @@ export default function AllEvents(props) {
 
   function pane(lst) {
     return (
-      <div className="events-container row p-5 justify-content-center">
+      <div className="events-container row p-2 justify-content-center">
         {lst.map((data, key) => {
           data = ev[data];
           return (
@@ -141,7 +141,7 @@ export default function AllEvents(props) {
         </ul>
         <div class="tab-content" id="pills-tabContent">
           <div class={`tab-pane fade ${active==='all'?"show active":""}`} id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
-          <div className="events-container row p-5 justify-content-center">
+          <div className="events-container row p-2 justify-content-center">
             {ev.map((data, key) => {return(
 
               <div class="event col-xl-4 col-lg-5 col-md-6 col-sm-10 col-11 px-5 py-3" id={data[0]}>
