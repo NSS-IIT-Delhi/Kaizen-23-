@@ -33,7 +33,7 @@ export default function Event() {
       <main style={{ "position": "relative" }} class="pt-5">
 
         <div class="row justify-content-center p-3">
-          <div class="col-xl-5 col-lg-5 col-md-7 col-sm-8 col-12">
+          <div class="col-xl-5 col-lg-5 col-md-7 col-sm-8 col-12 justify-content-center">
             
             <div class="image mx-auto">
               <div class="up"></div>
@@ -42,6 +42,14 @@ export default function Event() {
               </div>
               <div class="down"></div>
             </div>
+            <div class="p-5">
+              {rulebook?
+              <a className="rulebook-btn" href={rulebook}>
+                Rulebook
+              </a>
+              :<></>}
+            </div>
+
 
           </div>
 
