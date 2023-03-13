@@ -136,3 +136,33 @@ body{
 .family{
 	font-family: 'Kaushan Script', cursive;
 }
+
+
+.rulebook-btn {
+	margin: auto;
+	margin: 1.5rem;
+	align-self: center;
+	border: 1.5px solid var(--primary-blue);
+	background: black;
+	color: white;
+	border-radius: 3px;
+	padding: 0.6em 1.2em;
+	font-size: 1.5rem;
+	font-weight: 500;
+	font-family: inherit;
+	cursor: pointer;
+	transition:  0.3s ease-in-out;
+  }
+  .rulebook-btn:hover {
+	/* background: var(--primary-blue); */
+	background: linear-gradient(to right, #006fc2,#00317a);
+	/* color: black; */
+  }
+  
+  .rulebook-btn a {
+	color: white;
+  }
+  .rulebook-btn a:hover {
+	color: black;
+  }
+  
