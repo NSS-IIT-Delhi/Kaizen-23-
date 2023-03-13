@@ -33,9 +33,9 @@ export default function Event() {
       <main style={{ "position": "relative" }} class="pt-5">
 
         <div class="row justify-content-center p-3">
-          <div class="col-xl-5 col-lg-5 col-md-7 col-sm-8 col-12 justify-content-center">
+          <div class="reg col-xl-5 col-lg-5 col-md-7 col-sm-8 col-12 flex-column">
             
-            <div class="image mx-auto">
+            <div class="image">
               <div class="up"></div>
               <div class="Border">
                 <img src={image} class="p3" />
