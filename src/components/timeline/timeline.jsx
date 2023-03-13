@@ -1,7 +1,7 @@
 import './timeline.css'
 import { events } from '../../Events/events'
 import { useNavigate } from 'react-router-dom';
-
+import { scroller } from "react-scroll";
 
 
 function element_list(){
@@ -10,7 +10,7 @@ function element_list(){
     let navigate = useNavigate();
     const open_event_page = async (id) => {
         let path = `/${id}`;
-        navigate(path);
+        await navigate(path);
         await scroller.scrollTo("head", {duration: 1500, offset: 0,});
     };
 
