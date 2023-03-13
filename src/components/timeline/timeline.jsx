@@ -8,7 +8,7 @@ function element_list(){
     let is_top = true;
     let alignment;
     let navigate = useNavigate();
-    const toevent = async (id) => {
+    const open_event_page = async (id) => {
         let path = `/${id}`;
         navigate(path);
         await scroller.scrollTo("head", {duration: 1500, offset: 0,});
@@ -24,16 +24,11 @@ function element_list(){
         is_top = !is_top;
 
         return (
-            <div className={`timeline-event timeline-event-${alignment}`} 
-            onClick={() => {
-                console.log("hello timeline");
-                // window.open(`./${event_data[0]}`, "_self");
-                toevent(event_data[0])
-                }} >
+            <div className={`timeline-event timeline-event-${alignment}`} onClick={() => {open_event_page(event_data[0])}} >
                 {/* <div>{event[1].rank}</div> */}
                 <div>{event_data[1].title}</div>
-                <div>{event_data[1].date}</div>
-                <div>{event_data[1].time}</div>
+                <div className='timeline-date-and-time'>{event_data[1].date}</div>
+                <div className='timeline-date-and-time'>{event_data[1].time}</div>
                 <div className={`timeline-dot timeline-dot-${alignment}`}></div>
             </div>
         )
