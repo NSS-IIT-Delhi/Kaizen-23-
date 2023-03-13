@@ -66,6 +66,7 @@
     /* border: 2px solid red; */
     /* box-shadow: 0 0 5px aquamarine; */
     /* padding: 2rem; */
+    cursor: pointer;
 }
 .timeline-event:hover{
     /* transform: scale(1.1); */
