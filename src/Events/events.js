@@ -23,11 +23,21 @@
 // export const categories = [ 'events', 'competitions', 'workshops']
 
 import img from './banners/7.png'
-import case_samadhan from './banners/case_samadhan.png'
-import rangreza from './banners/rangreza.png'
-import sarcastic_spardha from './banners/sarcastic_spardha.png'
-import social_sawaal from './banners/social_sawaal.png'
-import social_tasveer from './banners/social_tasveer.png'
+import case_samadhan_back from './banners/case_samadhan_back.png'
+import case_samadhan_text from './banners/case_samadhan_text.png'
+import case_samadhan_full from './banners/case_samadhan_full.png'
+import rangreza_back from './banners/rangreza_back.png'
+import rangreza_text from './banners/rangreza_text.png'
+import rangreza_full from './banners/rangreza_full.png'
+import satirical_spardha_back from './banners/satirical_spardha_back.png'
+import satirical_spardha_text from './banners/satirical_spardha_text.png'
+import satirical_spardha_full from './banners/satirical_spardha_full.png'
+import social_sawaal_back from './banners/social_sawaal_back.png'
+import social_sawaal_text from './banners/social_sawaal_text.png'
+import social_sawaal_full from './banners/social_sawaal_full.png'
+import social_tasveer_back from './banners/social_tasveer_back.png'
+import social_tasveer_text from './banners/social_tasveer_text.png'
+import social_tasveer_full from './banners/social_tasveer_full.png'
 
 export const events = 
 {
@@ -47,12 +57,14 @@ export const events =
 "social_sawaal":{
     "title": "THE SOCIAL SAWAAL",
     "description": "A quizzing competition for school students to encourage young minds",
-    "image": social_sawaal,
+    "image": social_sawaal_back,
+    "image_text": social_sawaal_text,
+    "image_full": social_sawaal_full,
     "date": "1st April",
     "time": "10:00am - 12:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "A quizzing competition for school students, is a flagship event at Kaizen '23, where we encourage young minds to become aware of the social aspects of humanity and compete against the brightest minds in the NCR region",
-    "rank":"2",
+    "rank":"1",
     "time-order":"30",
     "category":"competition",
     "sections": []
@@ -126,7 +138,9 @@ export const events =
 "rangreza":{
     "title": "RANGREZA",
     "description": "Fashion Show",
-    "image": rangreza,
+    "image": rangreza_back,
+    "image_text": rangreza_text,
+    "image_full": rangreza_full,
     "date": "2nd April",
     "time": "7:00 pm - 10:00 pm",
     "venue": null,
@@ -140,12 +154,14 @@ export const events =
 "case_samadhan":{
     "title": "CASE SAMADHAN",
     "description": "A social case study competition to address real-world problems through critical thinking and innovation",
-    "image": case_samadhan,
+    "image": case_samadhan_back,
+    "image_text": case_samadhan_text,
+    "image_full": case_samadhan_full,
     "date": "2nd April",
     "time": "10:00 am - 12:00 noon",
     "venue": null,
     "content": "A social case study competition to address real-world problems through critical thinking and innovation",
-    "rank":"1",
+    "rank":"2",
     "time-order":"100",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
@@ -205,15 +221,17 @@ export const events =
 
     "sections": []
 },
-"sarcastic_spardha":{
-    "title": "SARCASTIC SPARDHA",
+"satirical_spardha_text":{
+    "title": "SATIRICAL SPARDHA",
     "description": "A parody making competition to bring attention to social issues and inspire positive change in our society",
-    "image": sarcastic_spardha,
+    "image": satirical_spardha_back,
+    "image_text": satirical_spardha_text,
+    "image_full": satirical_spardha_full,
     "date": "2nd April",
     "time": "3:30pm - 5:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "A parody is a creative work that imitates or mocks a well-known piece of art, literature, or music in a humorous way. Therefore, we are using the power of parody to bring attention to social issues and inspire positive change in our society            ",
-    "rank":"4",
+    "rank":"3",
     "time-order":"150",
     "category":"competition",
     "sections": []
@@ -221,12 +239,14 @@ export const events =
 "social_tasveer":{
     "title": "SOCIAL TASVEER",
     "description": "A photo story competition on social issues to picture the change you want to see in the world",
-    "image": social_tasveer,
+    "image": social_tasveer_back,
+    "image_text": social_tasveer_text,
+    "image_full": social_tasveer_full,
     "date": "22th March",
     "time": "6:45pm - 8:45pm",
     "venue": "Online",
     "content": "A photostory competition on social issues to picture the change you want to see in the world",
-    "rank":"3",
+    "rank":"4",
     "time-order":"10",
     "category":"competition",    
     "sections": []
