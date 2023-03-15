@@ -25,14 +25,19 @@
 import img from './banners/7.png'
 import case_samadhan_back from './banners/case_samadhan_back.png'
 import case_samadhan_text from './banners/case_samadhan_text.png'
+import case_samadhan_full from './banners/case_samadhan_full.png'
 import rangreza_back from './banners/rangreza_back.png'
 import rangreza_text from './banners/rangreza_text.png'
+import rangreza_full from './banners/rangreza_full.png'
 import satirical_spardha_back from './banners/satirical_spardha_back.png'
 import satirical_spardha_text from './banners/satirical_spardha_text.png'
+import satirical_spardha_full from './banners/satirical_spardha_full.png'
 import social_sawaal_back from './banners/social_sawaal_back.png'
 import social_sawaal_text from './banners/social_sawaal_text.png'
+import social_sawaal_full from './banners/social_sawaal_full.png'
 import social_tasveer_back from './banners/social_tasveer_back.png'
 import social_tasveer_text from './banners/social_tasveer_text.png'
+import social_tasveer_full from './banners/social_tasveer_full.png'
 
 export const events = 
 {
@@ -53,6 +58,7 @@ export const events =
     "description": "A quizzing competition for school students to encourage young minds",
     "image": social_sawaal_back,
     "image_text": social_sawaal_text,
+    "image_full": social_sawaal_full,
     "date": "1st April",
     "time": "10:00am - 12:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -127,6 +133,7 @@ export const events =
     "description": "Fashion Show",
     "image": rangreza_back,
     "image_text": rangreza_text,
+    "image_full": rangreza_full,
     "date": "2nd April",
     "time": "7:00 pm - 10:00 pm",
     "venue": null,
@@ -141,6 +148,7 @@ export const events =
     "description": "A social case study competition to address real-world problems through critical thinking and innovation",
     "image": case_samadhan_back,
     "image_text": case_samadhan_text,
+    "image_full": case_samadhan_full,
     "date": "2nd April",
     "time": "10:00 am - 12:00 noon",
     "venue": null,
@@ -205,6 +213,7 @@ export const events =
     "description": "A parody making competition to bring attention to social issues and inspire positive change in our society",
     "image": satirical_spardha_back,
     "image_text": satirical_spardha_text,
+    "image_full": satirical_spardha_full,
     "date": "2nd April",
     "time": "3:30pm - 5:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -218,6 +227,7 @@ export const events =
     "description": "A photo story competition on social issues to picture the change you want to see in the world",
     "image": social_tasveer_back,
     "image_text": social_tasveer_text,
+    "image_full": social_tasveer_full,
     "date": "22th March",
     "time": "6:45pm - 8:45pm",
     "venue": "Online",
