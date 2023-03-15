@@ -25,7 +25,7 @@ function element_list(){
 
         return (
             <div className={`timeline-event timeline-event-${alignment}`} onClick={() => {open_event_page(event_data[0])}} >
-                <div>{event_data[1]["time-order"]}</div>
+                {/* <div>{event_data[1]["time-order"]}</div> */}
                 <div>{event_data[1].title}</div>
                 <div className='timeline-date-and-time'>{event_data[1].date}</div>
                 <div className='timeline-date-and-time'>{event_data[1].time}</div>
