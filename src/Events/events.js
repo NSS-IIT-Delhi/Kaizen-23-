@@ -50,6 +50,7 @@ export const events =
     "venue": "Seminar Hall",
     "content": "The opening ceremony of Kaizen will be commenced with the traditional inauguration by lighting the lamp, followed by a beautiful song by the students of NAB NGO and a cultural dance performance. The chief guest would deliver a speech, highlighting the importance of social service in our society. The official declaration of the start of the Kaizen will mark the beginning of a series of exciting events and activities planned for the duration of the fest.",
     "rank":"6",
+    "time-order":"20",
     "category":"event",
     "sections": []
 },
@@ -64,6 +65,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "A quizzing competition for school students, is a flagship event at Kaizen '23, where we encourage young minds to become aware of the social aspects of humanity and compete against the brightest minds in the NCR region",
     "rank":"1",
+    "time-order":"30",
     "category":"competition",
     "sections": []
 },     
@@ -76,6 +78,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "SevaSummit: The Social Symposium",
     "rank":"61",
+    "time-order":"40",
     "category":"event",
     "sections": []
 },
@@ -88,6 +91,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "A science exhibition competition for school students to showcase their creative innovative mind",
     "rank":"9",
+    "time-order":"50",
     "category":"competition",
     'rulebook':'https://drive.google.com/file/d/12d7VWu8OWXT8DI-Z5DiQjP1bNRd5zmoQ/view?usp=share_link',
     "sections": []
@@ -101,6 +105,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "This workshop will be based on Gender Sensitization, where we’ll discuss about all about different types of Gender, Myths & Facts about LGBTQ+ Community and intreact with speakers from the community.",
     "rank":"7",
+    "time-order":"60",
     "category":"workshop", 
     "sections": []
 },
@@ -113,6 +118,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "Sakshi NGO is a non-profit organization based in India that focuses on providing education, healthcare, and empowerment programs for underprivileged children and women in rural areas. Their aim is to create sustainable development and improve the quality of life for marginalized communities.Sakshi will be conducting a workshop.Topic - Stop Child Sexual Abuse POCSO Act 2012",
     "rank":"10",
+    "time-order":"70",
     "category":"workshop",
     "sections": []
 },
@@ -125,6 +131,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "The event Yuva Chetna is a panel discussion featuring IAS and IPS officers, aiming to encourage youth to become active agents of change and participate in addressing critical issues in society. The discussion will inspire young people to use their skills and knowledge to make a difference in their communities. ",
     "rank":"612",
+    "time-order":"80",
     "category":"event",
     "sections": []
 },
@@ -139,6 +146,7 @@ export const events =
     "venue": null,
     "content": "Fashion Show",
     "rank":"5",
+    "time-order":"170",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "sections": []
@@ -154,6 +162,7 @@ export const events =
     "venue": null,
     "content": "A social case study competition to address real-world problems through critical thinking and innovation",
     "rank":"2",
+    "time-order":"100",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "sections": []
@@ -167,6 +176,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "Goonj is a social organization based in India that aims to address the basic needs of underprivileged communities, such as clothing, sanitary pads, and school supplies, through a unique model of resource mobilization and distribution. They also provide disaster relief and rehabilitation programs during emergencies. Goonj will be conducting a workshop. Topic - Menstrual Health & Hygiene",
     "rank":"12",
+    "time-order":"130",
     "category":"workshop",
     "sections": []
 }, 
@@ -179,6 +189,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "The event will host a panel discussion with renowned and respected educators who have experience working with rural communities. They will discuss the challenges faced by rural areas in accessing education and share innovative approaches to improving education outcomes.        ",
     "rank":"631",
+    "time-order":"120",
     "category":"event",
     "sections": []
 },
@@ -191,6 +202,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "The Sociopreneur Samvad is an exciting event for those passionate about social entrepreneurship and making a positive impact on the society. The distinguished guests will provide their valuable personal experiences about the subject, the obstacles they faced and the solutions they utilized to overcome them. Join for an enlightening event!!",
     "rank":"601",
+    "time-order":"140",
     "category":"event",
     "sections": []
 },
@@ -203,6 +215,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "A stage to exhibit recyclable and sustainable fashion.",
     "rank":"11",
+    "time-order":"90",
     "category":"competition",
     "rulebook":'',
 
@@ -219,6 +232,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "A parody is a creative work that imitates or mocks a well-known piece of art, literature, or music in a humorous way. Therefore, we are using the power of parody to bring attention to social issues and inspire positive change in our society            ",
     "rank":"3",
+    "time-order":"150",
     "category":"competition",
     "sections": []
 },
@@ -233,6 +247,7 @@ export const events =
     "venue": "Online",
     "content": "A photostory competition on social issues to picture the change you want to see in the world",
     "rank":"4",
+    "time-order":"10",
     "category":"competition",    
     "sections": []
 },       
@@ -245,6 +260,7 @@ export const events =
     "venue": "Seminar Hall, and Live Streaming on Zoom",
     "content": "The closing ceremony of the social festival Kaizen will be an amazing event, featuring a live painting by FACC, followed by a mesmerising music performance by Music club IITD, and a captivating guest performance.Also, the prize distribution ceremony, to recognize the participation of students. The chief guest will be Mr Shyam Sunder Paliwal, and the guest speakers will be Kirti Bharti and Aneesh Karma. The chief guest speech will culminate in a successful conclusion to the festival. The event will leave everyone motivated to continue their pursuit of growth and improvement.",
     "rank":"61",
+    "time-order":"160",
     "category":"event",
     "sections": []
 },      
