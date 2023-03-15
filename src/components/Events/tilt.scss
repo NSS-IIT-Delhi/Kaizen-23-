@@ -1,0 +1,29 @@
+.parallax-effect-glare-scale {
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    border-radius: 15px;
+    transform-style: preserve-3d;
+  
+    .inner-element {
+      position: absolute;
+      bottom: 20%;
+      width: 100%;      
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      font-size: x-large;
+      font-family: var(--bs-body-font-family);
+      font-weight: 700;
+      color: white;
+      transform: translateZ(60px);
+      opacity: 0;
+    }
+  }
+
+.parallax-effect-glare-scale:hover .inner-element {
+  transition: 0.3s ease-in-out;
+  opacity: 1;
+}
+
