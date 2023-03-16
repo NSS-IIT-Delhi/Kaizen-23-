@@ -119,7 +119,7 @@ export const events =
     "rank":"7",
     "time-order":"60",
     "category":"workshop", 
-    "fields": [{"title":"Entry Number","required":false,"small_text":"(IITD only)"},{"title":"What are your views on Gender Equality?","required":true,"small_text":null},{"title":"Referral Code","required":false,"small_text":null}],
+    "fields": [],
     "sections": [],
 },
 "sakshi":{
