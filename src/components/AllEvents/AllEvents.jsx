@@ -216,7 +216,6 @@ export default function AllEvents(props) {
             role="tabpanel"
             aria-labelledby="pills-workshops-tab"
           >
-                        <h2 className="text-center text-primary">Coming Soon</h2>
             {pane(workshops)}
           </div>
         </div>
