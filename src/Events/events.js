@@ -117,7 +117,6 @@ export const events =
     "image_back": soch,
     "image_text": null,
     // "image": img,
-    'text':'Coming Soon',
     "image": soch,
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
