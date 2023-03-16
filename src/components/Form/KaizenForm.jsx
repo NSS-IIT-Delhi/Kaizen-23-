@@ -128,7 +128,7 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="College">
-                                        {data.title}{data.required?<span style={{"color":"red"}}>*</span>:<></>}
+                                        {data.title}{data.small_text ? <span style={{"fontSize":"14px","color":"grey"}}>{" "}{data.small_text}</span>:<></>}{data.required?<span style={{"color":"red"}}>*</span>:<></>}
                                     </label>
                                     <br />
                                     <input type="text" name="college name" id="College" required={data.required} onChange={(e) => handleInputChange(e)}/>
