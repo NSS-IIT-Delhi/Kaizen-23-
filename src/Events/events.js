@@ -116,12 +116,9 @@ export const events =
     "description": " A workshop on Gender Sensitization",
     "image_back": soch,
     "image_text": null,
-<<<<<<< HEAD
-    "image": img,
+    // "image": img,
     'text':'Coming Soon',
-=======
     "image": soch,
->>>>>>> 1e9e946f099b6be1f700804f25c4d958c2e8d3ac
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
