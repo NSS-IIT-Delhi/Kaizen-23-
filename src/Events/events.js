@@ -124,7 +124,7 @@ export const events =
     "image": soch,
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
-    "venue": "Seminar Hall, and Live Streaming on Zoom",
+    "venue": null,
     "content": "This workshop will be based on Gender Sensitization, where we'll discuss about all about different types of Gender, Myths & Facts about LGBTQ+ Community and intreact with speakers from the community.",
     "rank":"7",
     "time-order":"60",
