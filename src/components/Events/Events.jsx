@@ -44,7 +44,7 @@ export default function Events() {
             gyroscope={true}
             >
             <img
-              src={data[1].image}
+              src={data[1].image_back}
               class = "event_image"
               style={{
                 cursor: "pointer",

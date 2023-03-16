@@ -17,7 +17,7 @@ export default function Event() {
   const rulebook = ev["rulebook"];
   const venue = ev["venue"];
   const title = ev["title"];
-  const image = ev["image_full"];
+  const image = ev["image"];
   const content = ev["content"];
   const sections = ev["sections"];
   const description = ev["description"];

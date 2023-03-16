@@ -66,7 +66,7 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="Name">
-                                        Your Name*:
+                                        Your Name<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input
@@ -82,7 +82,7 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="Mobile">
-                                        Contact Number(WhatsApp)*:
+                                        Contact Number(WhatsApp)<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input
@@ -99,7 +99,7 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="email">
-                                        E-mail ID*:
+                                        E-mail ID<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input
@@ -116,12 +116,27 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="College">
-                                        College Name*:
+                                        College Name<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input type="text" name="college name" id="College" required onChange={(e) => handleInputChange(e)} />
                                 </div>
                             </fieldset>
+
+                            {events[`${id}`]['fields'].map((data,key)=>{                                
+                                return(
+                            <fieldset>
+                                <div class="container">
+                                    <label htmlFor="College">
+                                        {data.title}{data.required?<span style={{"color":"red"}}>*</span>:<></>}
+                                    </label>
+                                    <br />
+                                    <input type="text" name="college name" id="College" required={data.required} onChange={(e) => handleInputChange(e)}/>
+                                </div>
+                            </fieldset>
+                                );
+                            })}
+
                             <fieldset style={{ placeItems: "center" }}>
                                 <input
                                     className="formSub"
