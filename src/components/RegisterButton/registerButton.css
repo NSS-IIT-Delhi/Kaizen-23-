@@ -15,7 +15,7 @@
     font-weight: 700;
 }
 .btn-anim:hover {
-    background: linear-gradient(to right, #006fc2,#00317a)!important;
+    background: var(--primary-blue)!important;
         /* color: black; */
         filter: contrast(1.1);
     }

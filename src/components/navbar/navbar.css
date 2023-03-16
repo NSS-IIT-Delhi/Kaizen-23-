@@ -54,9 +54,9 @@
 
 .navbar .nav-link:hover {
     cursor: pointer;
-    background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a);
+    /* background: white; */
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
+    -webkit-text-fill-color: white;
     background-clip: text;
     color: transparent;
 }
