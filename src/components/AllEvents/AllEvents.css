@@ -37,3 +37,11 @@
   background: linear-gradient(to right, #006fc2,#00317a)!important; 
     color: white !important;
 }
+
+.coming-soon{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: blue;
+}

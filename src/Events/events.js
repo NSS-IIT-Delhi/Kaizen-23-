@@ -39,6 +39,7 @@ import social_tasveer_back from './banners/social_tasveer_back.png'
 import social_tasveer_text from './banners/social_tasveer_text.png'
 import social_tasveer from './banners/social_tasveer_full.png'
 
+
 export const events = 
 {
 "aaghaaz":{
@@ -47,6 +48,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "31st March",
     "time": "6:30pm - 8:30pm",
     "venue": "Seminar Hall",
@@ -79,6 +81,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "1st April",
     "time": "10:30am - 1:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -95,6 +98,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "1st April",
     "time": "12:00pm - 2:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -112,6 +116,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -128,6 +133,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "1st April",
     "time": "3:00pm - 4:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -144,6 +150,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "1st April",
     "time": "5:00pm - 6:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -194,6 +201,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "2nd April",
     "time": "1:00pm - 2:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -210,6 +218,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "2nd April",
     "time": "11:00am - 12:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -226,6 +235,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "2nd April",
     "time": "2:00pm - 3:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -242,6 +252,7 @@ export const events =
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "1st April",
     "time": "7:00pm - 9:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -284,13 +295,14 @@ export const events =
     "category":"competition",    
     "fields":[],
     "sections": []
-},       
+},           
 "closing_ceremony":{
     "title": "CLOSING CEREMONY",
     "description": "SevaSummit: The Social Symposium",
     "image_back": img,
     "image_text": null,
     "image": img,
+    'text':'Coming Soon',
     "date": "2nd April",
     "time": "6:00pm - 8:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
