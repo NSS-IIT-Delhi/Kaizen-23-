@@ -38,6 +38,7 @@ import social_sawaal from './banners/social_sawaal_full.png'
 import social_tasveer_back from './banners/social_tasveer_back.png'
 import social_tasveer_text from './banners/social_tasveer_text.png'
 import social_tasveer from './banners/social_tasveer_full.png'
+import soch from './banners/soch.png'
 
 
 export const events = 
@@ -113,10 +114,14 @@ export const events =
 "soch":{
     "title": "SOCH",
     "description": " A workshop on Gender Sensitization",
-    "image_back": img,
+    "image_back": soch,
     "image_text": null,
+<<<<<<< HEAD
     "image": img,
     'text':'Coming Soon',
+=======
+    "image": soch,
+>>>>>>> 1e9e946f099b6be1f700804f25c4d958c2e8d3ac
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -124,7 +129,7 @@ export const events =
     "rank":"7",
     "time-order":"60",
     "category":"workshop", 
-    "fields": [{"title":"Entry Number","required":false,"small_text":"(IITD only)"},{"title":"What are your views on Gender Equality?","required":true,"small_text":null},{"title":"Referral Code","required":false,"small_text":null}],
+    "fields": [],
     "sections": [],
 },
 "sakshi":{

@@ -9,7 +9,7 @@ export default function Data(){
 
       <div class="p-5 justify-content-center">
         {evt.map((data, key) => {return(
-          <Table coll={data[0]}/>
+          <Table coll={data[0]} fields={data[1].fields}/>
         );
         })}
       </div>
