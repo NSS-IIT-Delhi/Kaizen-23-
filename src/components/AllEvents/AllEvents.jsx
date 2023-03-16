@@ -42,7 +42,8 @@ export default function AllEvents(props) {
                     />     
                   <div class="overlay">
                   </div>  
-                  <img class="text-img" src={data[1].image_text} style={{"position":"absolute","top":"0px","left":"0px","width":"100%","zIndex":"102"}}/>
+                <span><img class="text-img" src={data[1].image_text} style={{"position":"absolute","top":"0px","left":"0px","width":"100%","zIndex":"102"}}/>
+                  <h2 className="coming-soon">{data[1].text}</h2></span>  
                   <div className="inner-element">
                     <div>{data[1].date}</div>
                     <div>{data[1].time}</div>
@@ -106,7 +107,7 @@ export default function AllEvents(props) {
               data-bs-target="#pills-all" 
               type="button" role="tab" 
               aria-controls="pills-all" 
-              aria-selected="true">ALL</button>
+              aria-selected="true" >ALL</button>
           </li>
           <li class="nav-item p-2" role="presentation">
             <button
@@ -177,7 +178,8 @@ export default function AllEvents(props) {
                       />     
                     <div class="overlay">
                     </div>  
-                    <img class="text-img" src={data[1].image_text} style={{"position":"absolute","top":"0px","left":"0px","width":"100%","zIndex":"102"}}/>
+                    <span><img class="text-img" src={data[1].image_text} style={{"position":"absolute","top":"0px","left":"0px","width":"100%","zIndex":"102"}}/>
+                    <h2 className="coming-soon">{data[1].text}</h2></span>
                     <div className="inner-element">
                       <div>{data[1].date}</div>
                       <div>{data[1].time}</div>
@@ -197,6 +199,7 @@ export default function AllEvents(props) {
             role="tabpanel"
             aria-labelledby="pills-events-tab"
           >
+            <h2 className="text-center text-primary">Coming Soon</h2>
             {pane(events)}
           </div>
           <div
@@ -213,6 +216,7 @@ export default function AllEvents(props) {
             role="tabpanel"
             aria-labelledby="pills-workshops-tab"
           >
+                        <h2 className="text-center text-primary">Coming Soon</h2>
             {pane(workshops)}
           </div>
         </div>
