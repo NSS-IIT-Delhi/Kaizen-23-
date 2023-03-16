@@ -140,19 +140,19 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="Entry">
-                                        Entry Number: <span style={{"fontSize":"14px","color":"grey"}}>{" "}(IITD only)</span>
+                                        Entry Number <span style={{"fontSize":"14px","color":"grey"}}>{" "}(IITD only)</span>
                                     </label>
                                     <br />
-                                    <input type="text" name="Entry" id="Entry" required onChange={(e) => handleInputChange(e)} />
+                                    <input type="text" name="Entry" id="Entry" onChange={(e) => handleInputChange(e)} />
                                 </div>
                             </fieldset>   
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="Referral">
-                                        Referral<span style={{"color":"red"}}>*</span>:
+                                        Referral
                                     </label>
                                     <br />
-                                    <input type="text" name="Referral" id="Referral" required onChange={(e) => handleInputChange(e)} />
+                                    <input type="text" name="Referral" id="Referral" onChange={(e) => handleInputChange(e)} />
                                 </div>
                             </fieldset>                                                     
 
