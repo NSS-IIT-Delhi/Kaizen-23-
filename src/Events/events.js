@@ -39,6 +39,11 @@ import social_tasveer_back from './banners/social_tasveer_back.png'
 import social_tasveer_text from './banners/social_tasveer_text.png'
 import social_tasveer from './banners/social_tasveer_full.png'
 import soch from './banners/soch.png'
+import soch_back from './banners/soch_back.png'
+import soch_text from './banners/soch_text.png'
+import art_e_deewar from './banners/art_e_deewar.png'
+import art_e_deewar_back from './banners/art_e_deewar_back.png'
+import art_e_deewar_text from './banners/art_e_deewar_text.png'
 
 
 export const events = 
@@ -114,9 +119,8 @@ export const events =
 "soch":{
     "title": "SOCH",
     "description": " A workshop on Gender Sensitization",
-    "image_back": soch,
-    "image_text": null,
-    // "image": img,
+    "image_back": soch_back,
+    "image_text": soch_text,
     "image": soch,
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
@@ -314,5 +318,20 @@ export const events =
     "fields":[],
     "sections": []
 },      
-
+"art-e-deewar":{
+    "title": "Art-e-Deewar",
+    "description": "A STREET ART COMPETITION",
+    "image_back": art_e_deewar_back,
+    "image_text": art_e_deewar_text,
+    "image": art_e_deewar,
+    "date": "2nd April",
+    "time": "6:00pm - 8:30pm",
+    "venue": null,
+    "content": "A STREET ART COMPETITION",
+    "rank":"6",
+    "time-order":"160",
+    "category":"event",
+    "fields":[],
+    "sections": []
+}, 
 }
