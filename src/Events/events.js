@@ -22,7 +22,6 @@
 
 // export const categories = [ 'events', 'competitions', 'workshops']
 
-// import coming_soon from './banners/7.png'
 import case_samadhan_back from './banners/case_samadhan_back.png'
 import case_samadhan_text from './banners/case_samadhan_text.png'
 import case_samadhan from './banners/case_samadhan_full.png'
@@ -62,6 +61,7 @@ export const events =
     "rank":"6",
     "time-order":"20",
     "category":"event",
+    "register":null,
     "fields":[],
     "sections": []
 },
@@ -78,6 +78,7 @@ export const events =
     "rank":"1",
     "time-order":"30",
     "category":"competition",
+    "register":null,
     "fields":[],
     "sections": []
 },     
@@ -87,7 +88,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "1st April",
     "time": "10:30am - 1:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -95,6 +95,7 @@ export const events =
     "rank":"61",
     "time-order":"40",
     "category":"event",
+    "register":null,
     "fields":[],
     "sections": []
 },
@@ -104,7 +105,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "1st April",
     "time": "12:00pm - 2:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -113,6 +113,7 @@ export const events =
     "time-order":"50",
     "category":"competition",
     'rulebook':'https://drive.google.com/file/d/12d7VWu8OWXT8DI-Z5DiQjP1bNRd5zmoQ/view?usp=share_link',
+    "register":null,
     "fields":[],
     "sections": []
 },
@@ -129,6 +130,7 @@ export const events =
     "rank":"7",
     "time-order":"60",
     "category":"workshop", 
+    "register":null,
     "fields": [],
     "sections": [],
 },
@@ -138,7 +140,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "1st April",
     "time": "3:00pm - 4:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -146,6 +147,7 @@ export const events =
     "rank":"10",
     "time-order":"70",
     "category":"workshop",
+    "register":null,
     "fields":[],
     "sections": []
 },
@@ -155,7 +157,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "1st April",
     "time": "5:00pm - 6:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -163,6 +164,7 @@ export const events =
     "rank":"612",
     "time-order":"80",
     "category":"event",
+    "register":null,
     "fields":[],
     "sections": []
 },
@@ -180,6 +182,7 @@ export const events =
     "time-order":"170",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "register":"https://unstop.com/competitions/rangreza-your-net-zero-wardrobe-kaizen23-iit-delhi-635127",
     "fields":[],
     "sections": []
 },
@@ -197,6 +200,7 @@ export const events =
     "time-order":"100",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "register":"https://unstop.com/competitions/case-samadhan-social-case-competition-kaizen23-iit-delhi-632396",
     "fields":[],
     "sections": []
 },
@@ -206,7 +210,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "2nd April",
     "time": "1:00pm - 2:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -214,6 +217,7 @@ export const events =
     "rank":"12",
     "time-order":"130",
     "category":"workshop",
+    "register":null,
     "fields":[],
     "sections": []
 }, 
@@ -223,7 +227,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "2nd April",
     "time": "11:00am - 12:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -231,6 +234,7 @@ export const events =
     "rank":"631",
     "time-order":"120",
     "category":"event",
+    "register":null,
     "fields":[],
     "sections": []
 },
@@ -240,7 +244,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "2nd April",
     "time": "2:00pm - 3:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -248,6 +251,7 @@ export const events =
     "rank":"601",
     "time-order":"140",
     "category":"event",
+    "register":null,
     "fields":[],
     "sections": []
 },
@@ -257,7 +261,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "1st April",
     "time": "7:00pm - 9:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -266,10 +269,11 @@ export const events =
     "time-order":"90",
     "category":"competition",
     "rulebook":'',
+    "register":null,
     "fields":[],
     "sections": []
 },
-"satirical_spardha_text":{
+"satirical_spardha":{
     "title": "SATIRICAL SPARDHA",
     "description": "A parody making competition to bring attention to social issues and inspire positive change in our society",
     "image_back": satirical_spardha_back,
@@ -282,6 +286,7 @@ export const events =
     "rank":"3",
     "time-order":"150",
     "category":"competition",
+    "register":"https://unstop.com/competitions/satirical-saparathha-parody-making-competition-kaizen23-iit-delhi-627299",
     "fields":[],
     "sections": []
 },
@@ -298,6 +303,7 @@ export const events =
     "rank":"4",
     "time-order":"10",
     "category":"competition",    
+    "register":"https://unstop.com/events/social-tasveer-photostory-competition-kaizen23-iit-delhi-634874",
     "fields":[],
     "sections": []
 },           
@@ -307,7 +313,6 @@ export const events =
     "image_back": coming_soon,
     "image_text": null,
     "image": coming_soon,
-    
     "date": "2nd April",
     "time": "6:00pm - 8:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -315,6 +320,7 @@ export const events =
     "rank":"61",
     "time-order":"160",
     "category":"event",
+    "register":null,
     "fields":[],
     "sections": []
 },      
@@ -331,6 +337,7 @@ export const events =
     "rank":"6",
     "time-order":"160",
     "category":"event",
+    "register":null,
     "fields":[],
     "sections": []
 }, 
