@@ -44,6 +44,8 @@ import art_e_deewar from './banners/art_e_deewar.png'
 import art_e_deewar_back from './banners/art_e_deewar_back.png'
 import art_e_deewar_text from './banners/art_e_deewar_text.png'
 import coming_soon from './banners/coming_soon.png'
+import gender_sensitization from './banners/gender_sensitisation.png'
+import gender_text from './banners/gender_text.png'
 
 
 export const events = 
@@ -120,9 +122,9 @@ export const events =
 "soch":{
     "title": "SOCH",
     "description": " A workshop on Gender Sensitization",
-    "image_back": soch_back,
-    "image_text": soch_text,
-    "image": soch,
+    "image_back": gender_sensitization,
+    // "image_text": soch_text,
+    "image": gender_sensitization,
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
     "venue": null,
