@@ -22,7 +22,7 @@
 
 // export const categories = [ 'events', 'competitions', 'workshops']
 
-import img from './banners/7.png'
+// import coming_soon from './banners/7.png'
 import case_samadhan_back from './banners/case_samadhan_back.png'
 import case_samadhan_text from './banners/case_samadhan_text.png'
 import case_samadhan from './banners/case_samadhan_full.png'
@@ -44,6 +44,7 @@ import soch_text from './banners/soch_text.png'
 import art_e_deewar from './banners/art_e_deewar.png'
 import art_e_deewar_back from './banners/art_e_deewar_back.png'
 import art_e_deewar_text from './banners/art_e_deewar_text.png'
+import coming_soon from './banners/coming_soon.png'
 
 
 export const events = 
@@ -51,10 +52,9 @@ export const events =
 "aaghaaz":{
     "title": "Aaghaaz-e-kaizen",
     "description": "The opening ceremony of Kaizen",
-    "image_back": img,
-    "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image_back": coming_soon,
+    // "image_text": null,
+    "image": coming_soon,
     "date": "31st March",
     "time": "6:30pm - 8:30pm",
     "venue": "Seminar Hall",
@@ -84,10 +84,10 @@ export const events =
 "social_convention":{
     "title": "SOCIAL CONVENTION",
     "description": "SevaSummit: The Social Symposium",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "1st April",
     "time": "10:30am - 1:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -101,10 +101,10 @@ export const events =
 "ingenious_geeks":{
     "title": "INGENIOUS GEEKS 2.0",
     "description": "A science exhibition competition for school students to showcase their creative innovative mind",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "1st April",
     "time": "12:00pm - 2:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -135,10 +135,10 @@ export const events =
 "sakshi":{
     "title": "SAKSHI",
     "description": "A workshop on Stop Child Sexual Abuse",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "1st April",
     "time": "3:00pm - 4:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -152,10 +152,10 @@ export const events =
 "yuva_chetna":{
     "title": "YUVA CHETNA",
     "description": "Panel discussion on Youth Engagement in Social Work",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "1st April",
     "time": "5:00pm - 6:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -203,10 +203,10 @@ export const events =
 "goonj":{
     "title": "GOONJ",
     "description": "A workshop on Menstrual Health & Hygiene",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "2nd April",
     "time": "1:00pm - 2:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -220,10 +220,10 @@ export const events =
 "shiksha_talk":{
     "title": "SHIKSHA TALK",
     "description": " Empowering Rural India Through Education",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "2nd April",
     "time": "11:00am - 12:00pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -237,10 +237,10 @@ export const events =
 "sociopreneur_samvad":{
     "title": "SOCIOPRENEUR SAMVAD",
     "description": "Pioneering change through Innovation",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "2nd April",
     "time": "2:00pm - 3:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -254,10 +254,10 @@ export const events =
 "style_green":{
     "title": "STYLE GREEN",
     "description": "A stage to exhibit recyclable and sustainable fashion",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "1st April",
     "time": "7:00pm - 9:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
@@ -304,10 +304,10 @@ export const events =
 "closing_ceremony":{
     "title": "CLOSING CEREMONY",
     "description": "SevaSummit: The Social Symposium",
-    "image_back": img,
+    "image_back": coming_soon,
     "image_text": null,
-    "image": img,
-    'text':'Coming Soon',
+    "image": coming_soon,
+    
     "date": "2nd April",
     "time": "6:00pm - 8:30pm",
     "venue": "Seminar Hall, and Live Streaming on Zoom",
