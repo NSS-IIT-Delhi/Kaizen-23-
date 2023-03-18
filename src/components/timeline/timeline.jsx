@@ -9,10 +9,14 @@ function element_list(){
     let alignment;
     let navigate = useNavigate();
     const open_event_page = async (id, registeration_link) => {
-        let path =  ((registeration_link === null)||(registeration_link == "")) ?  `/${id}` : registeration_link;
-        // let path =  `/${id}`;
-        await navigate(path);
-        await scroller.scrollTo("head", {duration: 1500, offset: 0,});
+        if(registeration_link === null){
+            let path = `/${id}`;
+            await navigate(path);
+            await scroller.scrollTo("head", {duration: 1500, offset: 0,});
+        }
+        else{
+            window.open(registeration_link, "_self");
+        }
     };
 
     return Object.entries(events)
@@ -25,7 +29,7 @@ function element_list(){
         is_top = !is_top;
 
         return (
-            <div className={`timeline-event timeline-event-${alignment}`} onClick={() => {open_event_page(event_data[0], event_data[1].registeration_link)}} >
+            <div className={`timeline-event timeline-event-${alignment}`} onClick={() => {open_event_page(event_data[0], event_data[1].register)}} >
                 {/* <div>{event_data[1]["time-order"]}</div> */}
                 <div>{event_data[1].title}</div>
                 <div className='timeline-date-and-time'>{event_data[1].date}</div>

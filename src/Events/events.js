@@ -55,7 +55,7 @@ export const events =
     "date": "30st March",
     "time": "4pm - 7pm",
     "time-order": "15",
-    "registeration_link": "./",
+    "register": null,
     },
 
 "aaghaaz":{
