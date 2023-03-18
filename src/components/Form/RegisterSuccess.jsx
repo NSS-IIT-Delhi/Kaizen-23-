@@ -16,7 +16,7 @@ export default function RegisterSuccess () {
 
     return (
         <>
-            <div class="row justify-content-center text-center" style={{"position":"relative"}}>
+            <div class="row justify-content-center text-center" style={{"position":"relative"}} id="head">
                 <div class="col" style={{"color":'white',"padding-top":"10rem"}}>
                     <h1>Registered Sucessfully</h1>
                 </div>
