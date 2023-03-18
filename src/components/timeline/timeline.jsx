@@ -18,8 +18,7 @@ function element_list(){
     .sort((a,b) => 
         {return a[1]["time-order"] - b[1]["time-order"];}
     ).map((event_data)=>{
-        let return_element;
-
+        
         alignment = (is_top)? "top" : "bottom";
         is_top = !is_top;
 
