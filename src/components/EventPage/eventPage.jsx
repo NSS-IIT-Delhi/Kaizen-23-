@@ -14,6 +14,7 @@ export default function Event() {
   const ev = events[`${id}`]
   const date = ev["date"];
   const time = ev["time"];
+  const link = ev["register"];
   const rulebook = ev["rulebook"];
   const venue = ev["venue"];
   const title = ev["title"];
@@ -54,7 +55,7 @@ export default function Event() {
           </div>
 
           <div className='reg col-xl-6 col-lg-6 col-md-5 col-sm-12 col-12 flex-column'>
-            <div class="pb-5 pt-3"><RegisterButton id={id} /></div>
+            <div class="pb-5 pt-3"><RegisterButton id={id} link={link}/></div>
             <div class="py-4 px-5">
               <h4 class="px-3" style={{ "color": "white" }}>
                 <svg width="24" height="24" fill="var(--primary-blue)" class="bi bi-calendar-event" viewBox="0 0 16 16">

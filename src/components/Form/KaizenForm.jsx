@@ -19,7 +19,13 @@ export default function KaizenForm () {
     const [Name, setName] = useState('')
     const [Email, setEmail] = useState('')
     const [Number, setNumber] = useState('')
-    const [College, setCollege] = useState('')    
+    const [College, setCollege] = useState('') 
+    const [Entry, setEntry] = useState('') 
+    const [Referral, setReferral] = useState('') 
+    // for (var cur in events[`${id}`]['fields']){
+    //     const [College, setCollege] = useState('') 
+
+    // }  
     
     let navigate = useNavigate(); 
     const home = () =>{ 
@@ -32,12 +38,16 @@ export default function KaizenForm () {
             'Name': Name,
             'Email': Email,
             'Number': Number,
-            'College': College
+            'College': College,
+            'Entry': Entry,
+            'Referral': Referral
             });                     
         setName('');
         setEmail('');
         setNumber('');
         setCollege(''); 
+        setEntry(''); 
+        setReferral(''); 
         home();
     }
     const handleInputChange = (e) => {
@@ -46,6 +56,11 @@ export default function KaizenForm () {
         if(id === "Mobile"){setNumber(value);}
         if(id === "Email"){setEmail(value);}
         if(id === "College"){setCollege(value);}
+        if(id === "Entry"){setEntry(value);}
+        if(id === "Referral"){setReferral(value);}
+        // for (var cur in events[`${id}`]['fields']){}
+
+        
     }
 
     return (
@@ -66,7 +81,7 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="Name">
-                                        Your Name*:
+                                        Your Name<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input
@@ -82,7 +97,7 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="Mobile">
-                                        Contact Number(WhatsApp)*:
+                                        Contact Number(WhatsApp)<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input
@@ -99,7 +114,7 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="email">
-                                        E-mail ID*:
+                                        E-mail ID<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input
@@ -116,12 +131,45 @@ export default function KaizenForm () {
                             <fieldset>
                                 <div class="container">
                                     <label htmlFor="College">
-                                        College Name*:
+                                        College Name<span style={{"color":"red"}}>*</span>:
                                     </label>
                                     <br />
                                     <input type="text" name="college name" id="College" required onChange={(e) => handleInputChange(e)} />
                                 </div>
                             </fieldset>
+                            <fieldset>
+                                <div class="container">
+                                    <label htmlFor="Entry">
+                                        Entry Number <span style={{"fontSize":"14px","color":"grey"}}>{" "}(IITD only)</span>
+                                    </label>
+                                    <br />
+                                    <input type="text" name="Entry" id="Entry" onChange={(e) => handleInputChange(e)} />
+                                </div>
+                            </fieldset>   
+                            <fieldset>
+                                <div class="container">
+                                    <label htmlFor="Referral">
+                                        Referral
+                                    </label>
+                                    <br />
+                                    <input type="text" name="Referral" id="Referral" onChange={(e) => handleInputChange(e)} />
+                                </div>
+                            </fieldset>                                                     
+
+                            {/* {events[`${id}`]['fields'].map((data,key)=>{                                
+                                return(
+                            <fieldset>
+                                <div class="container">
+                                    <label htmlFor={data.title}>
+                                        {data.title}{data.small_text ? <span style={{"fontSize":"14px","color":"grey"}}>{" "}{data.small_text}</span>:<></>}{data.required?<span style={{"color":"red"}}>*</span>:<></>}
+                                    </label>
+                                    <br />
+                                    <input type="text" name={data.title} id={data.title} required={data.required} onChange={(e) => handleInputChange(e)}/>
+                                </div>
+                            </fieldset>
+                                );
+                            })} */}
+
                             <fieldset style={{ placeItems: "center" }}>
                                 <input
                                     className="formSub"
@@ -135,6 +183,6 @@ export default function KaizenForm () {
                 </div>
             </section >
         </>
-    )
+    );
 
 }

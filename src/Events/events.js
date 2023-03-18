@@ -22,12 +22,31 @@
 
 // export const categories = [ 'events', 'competitions', 'workshops']
 
-import img from './banners/7.png'
-import case_samadhan from './banners/case_samadhan.png'
-import rangreza from './banners/rangreza.png'
-import sarcastic_spardha from './banners/sarcastic_spardha.png'
-import social_sawaal from './banners/social_sawaal.png'
-import social_tasveer from './banners/social_tasveer.png'
+import case_samadhan_back from './banners/case_samadhan_back.png'
+import case_samadhan_text from './banners/case_samadhan_text.png'
+import case_samadhan from './banners/case_samadhan_full.png'
+import rangreza_back from './banners/rangreza_back.png'
+import rangreza_text from './banners/rangreza_text.png'
+import rangreza from './banners/rangreza_full.png'
+import satirical_spardha_back from './banners/satirical_spardha_back.png'
+import satirical_spardha_text from './banners/satirical_spardha_text.png'
+import satirical_spardha from './banners/satirical_spardha_full.png'
+import social_sawaal_back from './banners/social_sawaal_back.png'
+import social_sawaal_text from './banners/social_sawaal_text.png'
+import social_sawaal from './banners/social_sawaal_full.png'
+import social_tasveer_back from './banners/social_tasveer_back.png'
+import social_tasveer_text from './banners/social_tasveer_text.png'
+import social_tasveer from './banners/social_tasveer_full.png'
+import soch from './banners/soch.png'
+import soch_back from './banners/soch_back.png'
+import soch_text from './banners/soch_text.png'
+import art_e_deewar from './banners/art_e_deewar.png'
+import art_e_deewar_back from './banners/art_e_deewar_back.png'
+import art_e_deewar_text from './banners/art_e_deewar_text.png'
+import coming_soon from './banners/coming_soon.png'
+import gender_sensitization from './banners/gender_sensitisation.png'
+import gender_text from './banners/gender_text.png'
+
 
 export const events = 
 {
@@ -42,7 +61,9 @@ export const events =
 "aaghaaz":{
     "title": "Aaghaaz-e-kaizen",
     "description": "The opening ceremony of Kaizen",
-    "image": img,
+    "image_back": coming_soon,
+    // "image_text": null,
+    "image": coming_soon,
     "date": "31st March",
     "time": "6:30pm - 8:30pm",
     "venue": "Seminar Hall",
@@ -50,26 +71,33 @@ export const events =
     "rank":"6",
     "time-order":"20",
     "category":"event",
-    "sections": [],
-    "registeration_link":"", // TODO add this to all the events
+    "register":null,
+    "fields":[],
+    "sections": []
 },
 "social_sawaal":{
     "title": "THE SOCIAL SAWAAL",
     "description": "A quizzing competition for school students to encourage young minds",
+    "image_back": social_sawaal_back,
+    "image_text": social_sawaal_text,
     "image": social_sawaal,
     "date": "1st April",
     "time": "10:00am - 12:00pm",
     "venue": "LH121/LH325/LH114/LH108/LH111",
     "content": "A quizzing competition for school students, is a flagship event at Kaizen '23, where we encourage young minds to become aware of the social aspects of humanity and compete against the brightest minds in the NCR region",
-    "rank":"2",
+    "rank":"1",
     "time-order":"30",
     "category":"competition",
+    "register":null,
+    "fields":[],
     "sections": []
 },     
 "social_convention":{
     "title": "SOCIAL CONVENTION",
     "description": "SevaSummit: The Social Symposium",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "1st April",
     "time": "10:30am - 1:30pm",
     "venue": "Seminar Hall",
@@ -77,12 +105,16 @@ export const events =
     "rank":"61",
     "time-order":"40",
     "category":"event",
+    "register":null,
+    "fields":[],
     "sections": []
 },
 "ingenious_geeks":{
     "title": "INGENIOUS GEEKS 2.0",
     "description": "A science exhibition competition for school students to showcase their creative innovative mind",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "1st April",
     "time": "12:00pm - 2:00pm",
     "venue": "Seminar Hall",
@@ -91,12 +123,16 @@ export const events =
     "time-order":"50",
     "category":"competition",
     'rulebook':'https://drive.google.com/file/d/12d7VWu8OWXT8DI-Z5DiQjP1bNRd5zmoQ/view?usp=share_link',
+    "register":null,
+    "fields":[],
     "sections": []
 },
 "soch":{
     "title": "SOCH",
     "description": " A workshop on Gender Sensitization",
-    "image": img,
+    "image_back": gender_sensitization,
+    // "image_text": soch_text,
+    "image": gender_sensitization,
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
     "venue": "LH-308,310, 316, 318",
@@ -104,12 +140,16 @@ export const events =
     "rank":"7",
     "time-order":"60",
     "category":"workshop", 
-    "sections": []
+    "register":null,
+    "fields": [],
+    "sections": [],
 },
 "sakshi":{
     "title": "SAKSHI",
     "description": "A workshop on Stop Child Sexual Abuse",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "1st April",
     "time": "3:00pm - 4:00pm",
     "venue": "LH-308,310, 316, 318",
@@ -117,12 +157,16 @@ export const events =
     "rank":"10",
     "time-order":"70",
     "category":"workshop",
+    "register":null,
+    "fields":[],
     "sections": []
 },
 "yuva_chetna":{
     "title": "YUVA CHETNA",
     "description": "Panel discussion on Youth Engagement in Social Work",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "1st April",
     "time": "5:00pm - 6:30pm",
     "venue": "Seminar Hall",
@@ -130,11 +174,15 @@ export const events =
     "rank":"612",
     "time-order":"80",
     "category":"event",
+    "register":null,
+    "fields":[],
     "sections": []
 },
 "rangreza":{
     "title": "RANGREZA",
     "description": "Fashion Show",
+    "image_back": rangreza_back,
+    "image_text": rangreza_text,
     "image": rangreza,
     "date": "2nd April",
     "time": "7:00 pm - 10:00 pm",
@@ -144,26 +192,34 @@ export const events =
     "time-order":"170",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "register":"https://unstop.com/competitions/rangreza-your-net-zero-wardrobe-kaizen23-iit-delhi-635127",
+    "fields":[],
     "sections": []
 },
 "case_samadhan":{
     "title": "CASE SAMADHAN",
     "description": "A social case study competition to address real-world problems through critical thinking and innovation",
+    "image_back": case_samadhan_back,
+    "image_text": case_samadhan_text,
     "image": case_samadhan,
     "date": "2nd April",
     "time": "10:00 am - 12:00 noon",
     "venue": "LH-308,310, 316, 318",
     "content": "A social case study competition to address real-world problems through critical thinking and innovation",
-    "rank":"1",
+    "rank":"2",
     "time-order":"100",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "register":"https://unstop.com/competitions/case-samadhan-social-case-competition-kaizen23-iit-delhi-632396",
+    "fields":[],
     "sections": []
 },
 "goonj":{
     "title": "GOONJ",
     "description": "A workshop on Menstrual Health & Hygiene",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "2nd April",
     "time": "1:00pm - 2:00pm",
     "venue": "LH-308,310, 316, 318",
@@ -171,12 +227,16 @@ export const events =
     "rank":"12",
     "time-order":"130",
     "category":"workshop",
+    "register":null,
+    "fields":[],
     "sections": []
 }, 
 "shiksha_talk":{
     "title": "SHIKSHA TALK",
     "description": " Empowering Rural India Through Education",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "2nd April",
     "time": "11:00am - 12:00pm",
     "venue": "Seminar Hall",
@@ -184,12 +244,16 @@ export const events =
     "rank":"631",
     "time-order":"120",
     "category":"event",
+    "register":null,
+    "fields":[],
     "sections": []
 },
 "sociopreneur_samvad":{
     "title": "SOCIOPRENEUR SAMVAD",
     "description": "Pioneering change through Innovation",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "2nd April",
     "time": "2:00pm - 3:30pm",
     "venue": "Seminar Hall",
@@ -197,12 +261,16 @@ export const events =
     "rank":"601",
     "time-order":"140",
     "category":"event",
+    "register":null,
+    "fields":[],
     "sections": []
 },
 "style_green":{
     "title": "STYLE GREEN",
     "description": "A stage to exhibit recyclable and sustainable fashion",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "1st April",
     "time": "7:00pm - 9:30pm",
     "venue": "LH114/LH108/LH111",
@@ -211,39 +279,50 @@ export const events =
     "time-order":"90",
     "category":"competition",
     "rulebook":'',
-
+    "register":null,
+    "fields":[],
     "sections": []
 },
-"sarcastic_spardha":{
-    "title": "SARCASTIC SPARDHA",
+"satirical_spardha":{
+    "title": "SATIRICAL SPARDHA",
     "description": "A parody making competition to bring attention to social issues and inspire positive change in our society",
-    "image": sarcastic_spardha,
+    "image_back": satirical_spardha_back,
+    "image_text": satirical_spardha_text,
+    "image": satirical_spardha,
     "date": "2nd April",
     "time": "3:30pm - 5:30pm",
     "venue": "Seminar Hall",
     "content": "A parody is a creative work that imitates or mocks a well-known piece of art, literature, or music in a humorous way. Therefore, we are using the power of parody to bring attention to social issues and inspire positive change in our society            ",
-    "rank":"4",
+    "rank":"3",
     "time-order":"150",
     "category":"competition",
+    "register":"https://unstop.com/competitions/satirical-saparathha-parody-making-competition-kaizen23-iit-delhi-627299",
+    "fields":[],
     "sections": []
 },
 "social_tasveer":{
     "title": "SOCIAL TASVEER",
     "description": "A photo story competition on social issues to picture the change you want to see in the world",
+    "image_back": social_tasveer_back,
+    "image_text": social_tasveer_text,
     "image": social_tasveer,
     "date": "22th March",
     "time": "6:45pm - 8:45pm",
     "venue": "Online",
     "content": "A photostory competition on social issues to picture the change you want to see in the world",
-    "rank":"3",
+    "rank":"4",
     "time-order":"10",
     "category":"competition",    
+    "register":"https://unstop.com/events/social-tasveer-photostory-competition-kaizen23-iit-delhi-634874",
+    "fields":[],
     "sections": []
-},       
+},           
 "closing_ceremony":{
     "title": "CLOSING CEREMONY",
     "description": "SevaSummit: The Social Symposium",
-    "image": img,
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
     "date": "2nd April",
     "time": "6:00pm - 8:30pm",
     "venue": "LH114/LH108/LH111",
@@ -251,7 +330,25 @@ export const events =
     "rank":"61",
     "time-order":"160",
     "category":"event",
+    "register":null,
+    "fields":[],
     "sections": []
 },      
-
+"art-e-deewar":{
+    "title": "Art-e-Deewar",
+    "description": "A STREET ART COMPETITION",
+    "image_back": art_e_deewar_back,
+    "image_text": art_e_deewar_text,
+    "image": art_e_deewar,
+    "date": "2nd April",
+    "time": "6:00pm - 8:30pm",
+    "venue": null,
+    "content": "A STREET ART COMPETITION",
+    "rank":"6",
+    "time-order":"160",
+    "category":"event",
+    "register":null,
+    "fields":[],
+    "sections": []
+}, 
 }

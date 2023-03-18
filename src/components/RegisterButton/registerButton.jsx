@@ -1,7 +1,8 @@
 import './registerButton.css'
 import { useNavigate } from 'react-router-dom';
+function RegisterButton ({id,link}) {
 
-function RegisterButton ({id}) {
+console.log(link);
 
     let navigate = useNavigate(); 
     const form = (id) =>{ 
@@ -10,7 +11,7 @@ function RegisterButton ({id}) {
     }
 
     return (
-        <button class="btn-anim" onClick={()=>form(id)}>
+        <button class="btn-anim" onClick={()=>{link===null?{}:location.href = link;link===null?form(id):{}}}>
             Register Now
         </button>
     );

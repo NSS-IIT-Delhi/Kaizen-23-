@@ -30,6 +30,11 @@ export default function Table(params){
             <th scope="col">Email</th>
             <th scope="col">Number</th>
             <th scope="col">College</th>
+            <th scope="col">Entry</th>
+            <th scope="col">Referral</th>
+            {/* {params.fields.map((data2, key) => {console.log(data2)
+                    return(<th scope="col">{data2.title}</th>)
+                ;})}             */}
             </tr>
         </thead>
         <tbody>
@@ -43,6 +48,11 @@ export default function Table(params){
                 <td>{data.Email}</td>
                 <td>{data.Number}</td>
                 <td>{data.College}</td>
+                <td>{data.Entry}</td>
+                <td>{data.Referral}</td>
+                {/* {params.fields.map((data2, key) => {console.log(data2)
+                    return(<td>{data.College}</td>)
+                ;})}    */}
             </tr>
             
         );})

@@ -24,17 +24,32 @@ export default function AllEvents(props) {
               class="event col-xl-4 col-lg-5 col-md-6 col-sm-10 col-11 px-5 py-3"
               id={data[0]}
             >
-              <Tilt style={{ backgroundColor: "transparent" }}>
-                <img
-                  src={data[1].image}
-                  onClick={() => event(data[0])}
-                  style={{
-                    cursor: "pointer",
-                    "border-radius": "15px",
-                    "max-width": "100%",
-                  }}
-                />
-              </Tilt>
+              <div onClick={() => event(data[0])} style={{cursor: "pointer"}}>
+                <Tilt
+                  className="parallax-effect-glare-scale"
+                  perspective={1000}
+                  scale={1.02}
+                  gyroscope={true}
+                  >
+                  <img
+                    src={data[1].image_back}
+                    class = "event_image"
+                    style={{
+                      cursor: "pointer",
+                      "border-radius": "15px",
+                      "max-width": "100%",
+                    }}
+                    />     
+                  <div class="overlay">
+                  </div>  
+  <img class="text-img" src={data[1].image_text} style={{"position":"absolute","top":"0px","left":"0px","width":"100%","zIndex":"102"}}/>
+
+                  <div className="inner-element">
+                    <div>{data[1].date}</div>
+                    <div>{data[1].time}</div>
+                  </div>
+                </Tilt> 
+              </div>             
             </div>
           );
         })}
@@ -92,7 +107,7 @@ export default function AllEvents(props) {
               data-bs-target="#pills-all" 
               type="button" role="tab" 
               aria-controls="pills-all" 
-              aria-selected="true">ALL</button>
+              aria-selected="true" >ALL</button>
           </li>
           <li class="nav-item p-2" role="presentation">
             <button
@@ -145,9 +160,32 @@ export default function AllEvents(props) {
             {ev.map((data, key) => {return(
 
               <div class="event col-xl-4 col-lg-5 col-md-6 col-sm-10 col-11 px-5 py-3" id={data[0]}>
-                <Tilt style={{ backgroundColor: "transparent" }}>
-                  <img src={data[1].image} onClick={()=>event(data[0])} style={{cursor: "pointer","border-radius":"15px","max-width":"100%"}}/>
-                </Tilt>
+                <div onClick={() => event(data[0])} style={{cursor: "pointer"}}>
+                  <Tilt
+                    className="parallax-effect-glare-scale"
+                    perspective={1000}
+                    scale={1.02}
+                    gyroscope={true}
+                    >
+                    <img
+                      src={data[1].image_back}
+                      class = "event_image"
+                      style={{
+                        cursor: "pointer",
+                        "border-radius": "15px",
+                        "max-width": "100%",
+                      }}
+                      />     
+                    <div class="overlay">
+                    </div>  
+<img class="text-img" src={data[1].image_text} style={{"position":"absolute","top":"0px","left":"0px","width":"100%","zIndex":"102"}}/>
+
+                    <div className="inner-element">
+                      <div>{data[1].date}</div>
+                      <div>{data[1].time}</div>
+                    </div>
+                  </Tilt> 
+                </div>                 
               </div>
               
             );
@@ -161,6 +199,7 @@ export default function AllEvents(props) {
             role="tabpanel"
             aria-labelledby="pills-events-tab"
           >
+            <h2 className="text-center text-primary">Coming Soon</h2>
             {pane(events)}
           </div>
           <div
