@@ -52,10 +52,21 @@ export const events =
 {
 "women_empowerment_panel":{
     "title": "WomenEmpowerment Panel",
+    "description": "",
+    "image_back": coming_soon,
+    // "image_text": null,
+    "image": coming_soon,
     "date": "30st March",
     "time": "4pm - 7pm",
+    "venue": "Seminar Hall",
+    "content": "",
+    "rank":"6",
     "time-order": "15",
-    "register": null,
+    "category":"event",
+    "register":null,
+    "fields":[],
+    "sections": []
+
     },
 
 "aaghaaz":{
@@ -83,7 +94,7 @@ export const events =
     "image": social_sawaal,
     "date": "1st April",
     "time": "10:00am - 12:00pm",
-    "venue": "LH121/LH325/LH114/LH108/LH111",
+    "venue": "LH121,325,114,108,111",
     "content": "A quizzing competition for school students, is a flagship event at Kaizen '23, where we encourage young minds to become aware of the social aspects of humanity and compete against the brightest minds in the NCR region",
     "rank":"1",
     "time-order":"30",
@@ -135,7 +146,7 @@ export const events =
     "image": gender_sensitization,
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
-    "venue": "LH-308,310, 316, 318",
+    "venue": "LH-308,310,316,318",
     "content": "This workshop will be based on Gender Sensitization, where we’ll discuss about all about different types of Gender, Myths & Facts about LGBTQ+ Community and intreact with speakers from the community.",
     "rank":"7",
     "time-order":"60",
@@ -178,24 +189,25 @@ export const events =
     "fields":[],
     "sections": []
 },
-"rangreza":{
-    "title": "RANGREZA",
-    "description": "Fashion Show",
-    "image_back": rangreza_back,
-    "image_text": rangreza_text,
-    "image": rangreza,
-    "date": "2nd April",
-    "time": "7:00 pm - 10:00 pm",
-    "venue": "Dogra Hall",
-    "content": "Fashion Show",
-    "rank":"5",
-    "time-order":"170",
+"style_green":{
+    "title": "STYLE GREEN",
+    "description": "A stage to exhibit recyclable and sustainable fashion",
+    "image_back": coming_soon,
+    "image_text": null,
+    "image": coming_soon,
+    "date": "1st April",
+    "time": "7:00pm - 9:30pm",
+    "venue": "LH114, 108, 111",
+    "content": "A stage to exhibit recyclable and sustainable fashion.",
+    "rank":"11",
+    "time-order":"90",
     "category":"competition",
-    "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-    "register":"https://unstop.com/competitions/rangreza-your-net-zero-wardrobe-kaizen23-iit-delhi-635127",
+    "rulebook":'',
+    "register":null,
     "fields":[],
     "sections": []
 },
+
 "case_samadhan":{
     "title": "CASE SAMADHAN",
     "description": "A social case study competition to address real-world problems through critical thinking and innovation",
@@ -265,24 +277,7 @@ export const events =
     "fields":[],
     "sections": []
 },
-"style_green":{
-    "title": "STYLE GREEN",
-    "description": "A stage to exhibit recyclable and sustainable fashion",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
-    "date": "1st April",
-    "time": "7:00pm - 9:30pm",
-    "venue": "LH114/LH108/LH111",
-    "content": "A stage to exhibit recyclable and sustainable fashion.",
-    "rank":"11",
-    "time-order":"90",
-    "category":"competition",
-    "rulebook":'',
-    "register":null,
-    "fields":[],
-    "sections": []
-},
+
 "satirical_spardha":{
     "title": "SATIRICAL SPARDHA",
     "description": "A parody making competition to bring attention to social issues and inspire positive change in our society",
@@ -325,7 +320,7 @@ export const events =
     "image": coming_soon,
     "date": "2nd April",
     "time": "6:00pm - 8:30pm",
-    "venue": "LH114/LH108/LH111",
+    "venue": "LH114, 108, 111",
     "content": "The closing ceremony of the social festival Kaizen will be an amazing event, featuring a live painting by FACC, followed by a mesmerising music performance by Music club IITD, and a captivating guest performance.Also, the prize distribution ceremony, to recognize the participation of students. The chief guest will be Mr Shyam Sunder Paliwal, and the guest speakers will be Kirti Bharti and Aneesh Karma. The chief guest speech will culminate in a successful conclusion to the festival. The event will leave everyone motivated to continue their pursuit of growth and improvement.",
     "rank":"61",
     "time-order":"160",
@@ -333,7 +328,25 @@ export const events =
     "register":null,
     "fields":[],
     "sections": []
-},      
+},
+"rangreza":{
+    "title": "RANGREZA",
+    "description": "Fashion Show",
+    "image_back": rangreza_back,
+    "image_text": rangreza_text,
+    "image": rangreza,
+    "date": "2nd April",
+    "time": "7:00 pm - 10:00 pm",
+    "venue": "Dogra Hall",
+    "content": "Fashion Show",
+    "rank":"5",
+    "time-order":"170",
+    "category":"competition",
+    "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
+    "register":"https://unstop.com/competitions/rangreza-your-net-zero-wardrobe-kaizen23-iit-delhi-635127",
+    "fields":[],
+    "sections": []
+},
 "art-e-deewar":{
     "title": "Art-e-Deewar",
     "description": "A STREET ART COMPETITION",
