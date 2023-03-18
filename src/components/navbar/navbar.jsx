@@ -1,6 +1,6 @@
 import "./navbar.css";
 import logo from "../../assets/images/logo.png";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useState, useRef } from "react";
 import { useNavigate } from "react-router-dom";
 import { scroller } from "react-scroll";
 import { useLocation } from 'react-router-dom'
@@ -10,6 +10,7 @@ export default function Navbar(props) {
   const location = useLocation();
   console.log(location);
   const {eventsRef,competitionsRef} = props;
+  const navBtnRef = React.useRef(null)
 
 
   useEffect(() => {
@@ -71,6 +72,7 @@ export default function Navbar(props) {
               data-bs-toggle="collapse"
               data-bs-target="#menu"
               for="check" 
+              ref={navBtnRef}
               >
               <input type="checkbox" id="check"/> 
               <span></span>
@@ -81,17 +83,17 @@ export default function Navbar(props) {
             <div class="collapse navbar-collapse" id="menu">
               <ul class="navbar-nav ms-auto">
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={home}>
+                  <a class="nav-link" onClick={()=>{navBtnRef.current.click();home()}}>
                     Home
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={location.pathname==='/events'? ()=>{eventsRef.current.click()} : ()=>{events('events')}}>
+                  <a class="nav-link" onClick={()=>{navBtnRef.current.click();location.pathname==='/events'? eventsRef.current.click() : events('events')}}>
                     Events
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={location.pathname==='/events'? ()=>{competitionsRef.current.click()} : ()=>{events('competitions')}}>
+                  <a class="nav-link" onClick={()=>{navBtnRef.current.click();location.pathname==='/events'? competitionsRef.current.click() : events('competitions')}}>
                     Competitions
                   </a>
                 </li>                
@@ -101,7 +103,7 @@ export default function Navbar(props) {
                   </a>
                 </li>
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={()=>{scroller.scrollTo('CONTACT', {duration: 1500,offset: 0,});}}>
+                  <a class="nav-link" onClick={()=>{navBtnRef.current.click();scroller.scrollTo('CONTACT', {duration: 1500,offset: 0,});}}>
                     Contact
                   </a>
                 </li>
