@@ -4,7 +4,8 @@ import {collection, setDoc, doc} from 'firebase/firestore'
 import db from '../Firebase/firebaseConfig'
 import { useNavigate, useParams } from "react-router-dom";
 import {events} from '../../Events/events'
-// import { scroller,animateScroll } from "react-scroll";
+import { scroller } from "react-scroll";
+
 
 // import Header from "./navbar.jsx";
 // import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
@@ -28,12 +29,14 @@ export default function KaizenForm () {
     // }  
     
     let navigate = useNavigate(); 
-    const home = () =>{ 
-      let path = `/registersuccess`; 
-      navigate(path); 
-    }
 
     const submit = async () => {  
+        let path = `/registersuccess`; 
+        await navigate(path);
+        await scroller.scrollTo('head', {
+          duration: 1500,
+          offset: 0,
+        });        
         await setDoc(doc(db.db, id,`${Email}`), {
             'Name': Name,
             'Email': Email,
@@ -48,7 +51,6 @@ export default function KaizenForm () {
         setCollege(''); 
         setEntry(''); 
         setReferral(''); 
-        home();
     }
     const handleInputChange = (e) => {
         const {id , value} = e.target;
