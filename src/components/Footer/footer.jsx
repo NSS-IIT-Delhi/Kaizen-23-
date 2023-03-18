@@ -1,7 +1,7 @@
 import "./footer.css";
 import twitter from "../../assets/images/twitter.png";
 import yt from "../../assets/images/youtube.png";
-import web from "../../assets/images/web-link.png";
+import web from "../../assets/images/NSS_logo.png";
 import linkedin from "../../assets/images/linkedin.png";
 import kaizen from "../../assets/images/kaizen.png";
 import insta from "../../assets/images/instagram.png";
@@ -19,11 +19,11 @@ export default function Footer() {
         <p class="kaizen-desc">
           Kaizen is one of the largest social extravaganzas organised in India
           by NSS IIT Delhi, which recognises and works on the continuous
-          developments in our society. Attracting a footfall of over 10k+ with a
-          reach of 1500+ universities and schools across India. Personalities
-          like Justice DY Chandrachud The Chief Justice of India, Naveli
-          Deshmukh Miss Universe India 2nd Runner up NSS Brand Ambassador, Geeta
-          Thatra IGES and Research Scholar, etc. have been associated with NSS
+          developments in our society. Attracting a footfall of 10,000+ with a
+          reach of 1500+ universities and schools across India. <br />
+          Personalities like Justice DY Chandrachud (Chief Justice of India), Naveli
+          Deshmukh (Miss Universe India 2nd Runner Up) NSS Brand Ambassador, Geeta
+          Thatra, IGES and Research Scholar have been associated with NSS
           in the past.
         </p>
       </div>
@@ -43,6 +43,9 @@ export default function Footer() {
           </ul>
         </div>
         <div class="reach-socials">
+        <a href="http://nss.iitd.ac.in/#!/" target="blank">
+            <img alt="FB" src={web} style={{ "max-width": "100%" }} />
+          </a>
           <a href="https://www.facebook.com/NSSIITDelhi" target="blank">
             <img alt="FB" src={fb} style={{ "max-width": "100%" }} />
           </a>
@@ -63,9 +66,6 @@ export default function Footer() {
           </a>
           <a href="https://mobile.twitter.com/nss_iitd" target="blank">
             <img alt="TWITTER" src={twitter} style={{ "max-width": "100%" }} />
-          </a>
-          <a href="http://nss.iitd.ac.in/#!/" target="blank">
-            <img alt="FB" src={web} style={{ "max-width": "100%" }} />
           </a>
         </div>
       </div>
