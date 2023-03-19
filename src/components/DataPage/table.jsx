@@ -1,19 +1,20 @@
 import {useEffect,useState} from 'react'
 import { collection, getDocs } from "firebase/firestore";
 import db from '../Firebase/firebaseConfig'
+import timestamp from '../Firebase/firebaseConfig'
 import { useRef } from "react";
 import { useDownloadExcel } from "react-export-table-to-excel";
 import './table.css'
 
 export default function Table(params){
     const [lst,setLst]=useState([]);
- 
+    const tsmp = Date(timestamp)
     const tableRef = useRef(null);
 
     const { onDownload } = useDownloadExcel({
       currentTableRef: tableRef.current,
-      filename: "Export",
-      sheet: "Export"
+      filename: `${params.coll} ${tsmp}`,
+      sheet: `${params.coll}`
     });    
 
     useEffect( ()=>{

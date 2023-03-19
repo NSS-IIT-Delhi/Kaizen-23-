@@ -1,8 +1,8 @@
 import { initializeApp } from "firebase/app";
 // import { getAnalytics } from "firebase/analytics";
-import { getFirestore } from "firebase/firestore";
+import { getFirestore, Timestamp } from "firebase/firestore";
 
-
+let timestamp = Timestamp
 const firebaseConfig = {
   apiKey: "AIzaSyDJ39kQFirTRkVrG6aWLDJYlFNM55QndjE",
   authDomain: "events-350a4.firebaseapp.com",
@@ -18,4 +18,4 @@ const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
 // const analytics = getAnalytics(app);
 
-export default {db}
+export default {db,timestamp}
