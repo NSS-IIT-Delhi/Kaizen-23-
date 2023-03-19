@@ -9,7 +9,7 @@ a{
     cursor: pointer;
     transition: all .3s ease-in-out;
 }
-a:hover {
+img:hover {
     -webkit-transform: translateY(-2.5px);
     transform: translateY(-2.5px);
 }
