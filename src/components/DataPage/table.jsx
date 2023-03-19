@@ -1,11 +1,21 @@
 import {useEffect,useState} from 'react'
 import { collection, getDocs } from "firebase/firestore";
 import db from '../Firebase/firebaseConfig'
-
+import { useRef } from "react";
+import { useDownloadExcel } from "react-export-table-to-excel";
+import './table.css'
 
 export default function Table(params){
     const [lst,setLst]=useState([]);
-    
+ 
+    const tableRef = useRef(null);
+
+    const { onDownload } = useDownloadExcel({
+      currentTableRef: tableRef.current,
+      filename: "Export",
+      sheet: "Export"
+    });    
+
     useEffect( ()=>{
         var dataa=[];
         const get_data = async () => {
@@ -21,8 +31,8 @@ export default function Table(params){
 
     return(
         <div class="py-5" style={{"color":"white"}}>
-        <center><h1>{params.coll}</h1></center>
-        <table class="table" style={{"color":"white"}}>
+        <center><h1>{params.coll}</h1><button onClick={onDownload}> Export excel </button></center>
+        <table class="table"  ref={tableRef}>
         <thead>
             <tr>
             <th scope="col">#</th>
@@ -41,7 +51,6 @@ export default function Table(params){
 {
         lst.map((data, key) => {
             return(
-
             <tr>
                 <th scope="row">{key+1}</th>
                 <td>{data.Name}</td>
