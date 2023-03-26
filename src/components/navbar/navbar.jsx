@@ -107,7 +107,7 @@ export default function Navbar(props) {
                 </li>                
                 <li class="nav-item mx-1">
                   <a class="nav-link" onClick={()=>{navBtnRef.current.click();sponser()}}>
-                    Sponsers
+                    Sponsors
                   </a>
                 </li>                
                 <li class="nav-item mx-1">
