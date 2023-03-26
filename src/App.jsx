@@ -108,7 +108,7 @@ function App() {
                 }
               />
               <Route
-                path="/sponser"
+                path="/sponsor"
                 element={
                   <>
                     <Navbar />

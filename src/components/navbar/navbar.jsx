@@ -46,8 +46,8 @@ export default function Navbar(props) {
       offset: 0,
     });
   }
-  const sponser = async (to) =>{ 
-    let path = `/sponser`; 
+  const sponsor = async (to) =>{ 
+    let path = `/sponsor`; 
     await navigate(path, { state: { active:to } });
     await scroller.scrollTo('head', {
       duration: 1500,
@@ -106,7 +106,7 @@ export default function Navbar(props) {
                   </a>
                 </li>                
                 <li class="nav-item mx-1">
-                  <a class="nav-link" onClick={()=>{navBtnRef.current.click();sponser()}}>
+                  <a class="nav-link" onClick={()=>{navBtnRef.current.click();sponsor()}}>
                     Sponsors
                   </a>
                 </li>                
