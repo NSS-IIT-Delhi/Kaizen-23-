@@ -64,7 +64,7 @@ export const events =
     "time-order": "15",
     "category":"event",
     "register":null,
-    "fields":[],
+    "fields":[{title:"Your questions for panel",required:false}],
     "sections": []
 
     },
@@ -224,7 +224,7 @@ export const events =
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "register":null,
     "register-text":"Register as audience",
-    "fields":[{title:"Questions"}],
+    "fields":[],
     "sections": []
 },
 "goonj":{
@@ -258,7 +258,7 @@ export const events =
     "time-order":"120",
     "category":"event",
     "register":null,
-    "fields":[],
+    "fields":[{title:"Your questions for panel",required:false}],
     "sections": []
 },
 "sociopreneur_samvad":{
@@ -275,7 +275,7 @@ export const events =
     "time-order":"140",
     "category":"event",
     "register":null,
-    "fields":[],
+    "fields":[{title:"Your questions for panel",required:false}],
     "sections": []
 },
 
@@ -294,7 +294,7 @@ export const events =
     "category":"competition",
     "register":null,
     "register-text":"Register as audience",    
-    "fields":[{title:"Questions",required:false}],
+    "fields":[],
     "sections": []
 },
 "social_tasveer":{
@@ -347,7 +347,7 @@ export const events =
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
     "register":null,
     "register-text":"Register as audience",    
-    "fields":[{title:"Questions",required:false}],
+    "fields":[],
     "sections": []
 },
 "art-e-deewar":{
