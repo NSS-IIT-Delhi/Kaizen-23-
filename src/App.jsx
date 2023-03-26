@@ -12,6 +12,7 @@ import AllEvents from './components/AllEvents/AllEvents'
 import KaizenForm from "./components/Form/KaizenForm";
 import Data from "./components/DataPage/data";
 import Team from "./components/Team/Team";
+import Sponsers from "./components/Sponsers/Sponsers";
 
 function App() {
   const eventsRef = React.useRef(null)
@@ -23,6 +24,7 @@ function App() {
         <Routes>
           <Route path="/" element={<><Navbar/><Home/></>} />
           <Route path="/events" element={<><Navbar eventsRef={eventsRef} competitionsRef={competitionsRef}/><AllEvents eventsRef={eventsRef} competitionsRef={competitionsRef}/></>} />
+          <Route path="/sponsors" element={<><Navbar eventsRef={eventsRef} competitionsRef={competitionsRef}/><Sponsers/></>} />
           <Route path="/registersuccess" element={<><Navbar/><RegisterSuccess/></>} />
           <Route path="/team" element={<><Navbar/><Team/></>} />
           <Route path="/form/:id" element={<><Navbar /><KaizenForm/></>} />

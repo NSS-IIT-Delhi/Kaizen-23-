@@ -15,7 +15,7 @@ export default function Home() {
         className="Carousel-container"
       >
         <Carousel />
-        <Sponsers />
+        {/* <Sponsers /> */}
       </div>
     </div>
   );
