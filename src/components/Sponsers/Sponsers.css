@@ -13,3 +13,7 @@ img:hover {
     -webkit-transform: translateY(-2.5px);
     transform: translateY(-2.5px);
 }
+
+.extra-margin {
+    margin-top: 30px;
+}

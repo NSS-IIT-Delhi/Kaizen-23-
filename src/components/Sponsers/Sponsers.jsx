@@ -4,7 +4,7 @@ const Sponsers = () => {
   return (
     <div>
       <div class="container">
-        <h1 className="text-gradient head-text text-center mb-5 mt-5">
+        <h1 className="text-gradient head-text text-center mb-5 mt-5 extra-margin">
           Our Collaborators
         </h1>
         <div class="row justify-content-center m-auto">
