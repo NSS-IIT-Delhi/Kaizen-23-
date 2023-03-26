@@ -26,7 +26,9 @@ function App() {
     let imagesLoadedCount = 0;
 
     if (images.length === 0) {
-      setIsLoaded(true);
+      setTimeout(() => {
+        setIsLoaded(true);
+      }, 4000);
       return;
     }
 
@@ -34,7 +36,6 @@ function App() {
       imagesLoadedCount++;
       if (imagesLoadedCount === images.length) {
         setIsLoaded(true);
-        // console.log(isLoaded)
       }
     }
 
