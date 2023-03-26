@@ -43,9 +43,9 @@ export default function Table(params){
             <th scope="col">College</th>
             <th scope="col">Entry</th>
             <th scope="col">Referral</th>
-            {/* {params.fields.map((data2, key) => {console.log(data2)
+            {params.fields.map((data2, key) => {console.log(data2)
                     return(<th scope="col">{data2.title}</th>)
-                ;})}             */}
+                ;})}            
             </tr>
         </thead>
         <tbody>
@@ -60,9 +60,9 @@ export default function Table(params){
                 <td>{data.College}</td>
                 <td>{data.Entry}</td>
                 <td>{data.Referral}</td>
-                {/* {params.fields.map((data2, key) => {console.log(data2)
-                    return(<td>{data.College}</td>)
-                ;})}    */}
+                {params.fields.map((data2, key) => {console.log(data2)
+                    return(<td>{data[data2.title]}</td>)
+                ;})}   
             </tr>
             
         );})

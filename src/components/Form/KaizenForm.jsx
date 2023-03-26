@@ -16,18 +16,21 @@ import Background from "../background/background";
 export default function KaizenForm () {
 
     const { id } = useParams(); 
-
+    const ID = id
     const [Name, setName] = useState('')
     const [Email, setEmail] = useState('')
     const [Number, setNumber] = useState('')
     const [College, setCollege] = useState('') 
     const [Entry, setEntry] = useState('') 
     const [Referral, setReferral] = useState('') 
-    // for (var cur in events[`${id}`]['fields']){
-    //     const [College, setCollege] = useState('') 
+    const states = {};
 
-    // }  
-    
+    events[`${id}`]['fields'].map((data,key)=>{
+        // console.log(data)
+        const [getter, setter] = new useState('') 
+        states[data.title] = {getter:getter,setter:setter}
+    })
+    // console.log(states)
     let navigate = useNavigate(); 
 
     const submit = async () => {  
@@ -36,21 +39,29 @@ export default function KaizenForm () {
         await scroller.scrollTo('head', {
           duration: 1500,
           offset: 0,
-        });        
-        await setDoc(doc(db.db, id,`${Email}`), {
+        });  
+        let curSt={} 
+        events[`${id}`]['fields'].map((data,key)=>{
+            curSt[`${data.title}`] = states[data.title].getter
+        })             
+        await setDoc(doc(db.db, id,`${Email}`), Object.assign({
             'Name': Name,
             'Email': Email,
             'Number': Number,
             'College': College,
             'Entry': Entry,
             'Referral': Referral
-            });                     
+            
+            },curSt));                     
         setName('');
         setEmail('');
         setNumber('');
         setCollege(''); 
         setEntry(''); 
         setReferral(''); 
+        events[`${id}`]['fields'].map((data,key)=>{
+            states[data.title].setter('');
+        })         
     }
     const handleInputChange = (e) => {
         const {id , value} = e.target;
@@ -60,8 +71,9 @@ export default function KaizenForm () {
         if(id === "College"){setCollege(value);}
         if(id === "Entry"){setEntry(value);}
         if(id === "Referral"){setReferral(value);}
-        // for (var cur in events[`${id}`]['fields']){}
-
+        events[`${ID}`]['fields'].map((data,key)=>{
+            if(id === data.title){states[data.title].setter(value);}       
+        })   
         
     }
 
@@ -158,7 +170,7 @@ export default function KaizenForm () {
                                 </div>
                             </fieldset>                                                     
 
-                            {/* {events[`${id}`]['fields'].map((data,key)=>{                                
+                            {events[`${id}`]['fields'].map((data,key)=>{                              ;
                                 return(
                             <fieldset>
                                 <div class="container">
@@ -170,7 +182,7 @@ export default function KaizenForm () {
                                 </div>
                             </fieldset>
                                 );
-                            })} */}
+                            })}
 
                             <fieldset style={{ placeItems: "center" }}>
                                 <input
