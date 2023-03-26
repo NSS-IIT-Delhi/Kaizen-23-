@@ -80,7 +80,7 @@ export default function KaizenForm () {
     return (
         <>
         <Background/>
-            <section className="wrapper text-center" id="formSec">
+            <section className="wrapper_form text-center" id="formSec">
                 <div className="formDiv">
                     <h2 className="subtitle">
                         Register For {events[`${id}`]['title']}
