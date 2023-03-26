@@ -50,8 +50,8 @@ import gender_text from './banners/gender_text.png'
 
 export const events = 
 {
-"women_empowerment_panel":{
-    "title": "WomenEmpowerment Panel",
+"nyayri_panel_discussion":{
+    "title": "Nyayri Panel Discussion",
     "description": "",
     "image_back": coming_soon,
     // "image_text": null,
@@ -66,7 +66,6 @@ export const events =
     "register":null,
     "fields":[{title:"Your questions for panel",required:false}],
     "sections": []
-
     },
 
 "aaghaaz":{
