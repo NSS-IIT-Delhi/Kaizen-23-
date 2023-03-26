@@ -46,6 +46,14 @@ export default function Navbar(props) {
       offset: 0,
     });
   }
+  const sponser = async (to) =>{ 
+    let path = `/sponser`; 
+    await navigate(path, { state: { active:to } });
+    await scroller.scrollTo('head', {
+      duration: 1500,
+      offset: 0,
+    });
+  }
 
 
 
@@ -95,6 +103,11 @@ export default function Navbar(props) {
                 <li class="nav-item mx-1">
                   <a class="nav-link" onClick={()=>{navBtnRef.current.click();location.pathname==='/events'? competitionsRef.current.click() : events('competitions')}}>
                     Competitions
+                  </a>
+                </li>                
+                <li class="nav-item mx-1">
+                  <a class="nav-link" onClick={()=>{navBtnRef.current.click();sponser()}}>
+                    Sponsers
                   </a>
                 </li>                
                 <li class="nav-item mx-1">

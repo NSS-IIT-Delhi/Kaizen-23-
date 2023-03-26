@@ -13,6 +13,7 @@ import KaizenForm from "./components/Form/KaizenForm";
 import Data from "./components/DataPage/data";
 import Team from "./components/Team/Team";
 import Loader from "./components/Loader/Loader";
+import Sponser from "./components/SponsersP/Sponser";
 
 function App() {
   const eventsRef = React.useRef(null);
@@ -103,6 +104,15 @@ function App() {
                   <>
                     <Navbar />
                     <Team />
+                  </>
+                }
+              />
+              <Route
+                path="/sponser"
+                element={
+                  <>
+                    <Navbar />
+                    <Sponser />
                   </>
                 }
               />
