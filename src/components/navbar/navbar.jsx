@@ -8,7 +8,7 @@ import { useLocation } from 'react-router-dom'
 export default function Navbar(props) {
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
-  console.log(location);
+  // console.log(location);
   const {eventsRef,competitionsRef} = props;
   const navBtnRef = React.useRef(null)
 

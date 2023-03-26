@@ -222,8 +222,9 @@ export const events =
     "time-order":"100",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-    "register":"https://unstop.com/competitions/case-samadhan-social-case-competition-kaizen23-iit-delhi-632396",
-    "fields":[],
+    "register":null,
+    "register-text":"Register as audience",
+    "fields":[{title:"Questions"}],
     "sections": []
 },
 "goonj":{
@@ -291,8 +292,9 @@ export const events =
     "rank":"5",
     "time-order":"150",
     "category":"competition",
-    "register":"https://unstop.com/competitions/satirical-saparathha-parody-making-competition-kaizen23-iit-delhi-627299",
-    "fields":[],
+    "register":null,
+    "register-text":"Register as audience",    
+    "fields":[{title:"Questions",required:false}],
     "sections": []
 },
 "social_tasveer":{
@@ -343,8 +345,9 @@ export const events =
     "time-order":"170",
     "category":"competition",
     "rulebook": "https://www.canva.com/design/DAFbfwBMwX0/j0J_fWp93dn1yGr62G2DHw/edit?utm_content=DAFbfwBMwX0&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton",
-    "register":"https://unstop.com/competitions/rangreza-your-net-zero-wardrobe-kaizen23-iit-delhi-635127",
-    "fields":[],
+    "register":null,
+    "register-text":"Register as audience",    
+    "fields":[{title:"Questions",required:false}],
     "sections": []
 },
 "art-e-deewar":{

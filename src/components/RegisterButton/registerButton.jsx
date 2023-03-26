@@ -4,7 +4,7 @@ import { scroller } from "react-scroll";
 
 
 
-function RegisterButton ({id,link}) {
+function RegisterButton ({id,link,text}) {
 
     let navigate = useNavigate(); 
     const form = async (id) =>{ 
@@ -17,8 +17,8 @@ function RegisterButton ({id,link}) {
     }
 
     return (
-        <button class="btn-anim" onClick={()=>{link===null?{}:location.href = link;link===null?form(id):{}}}>
-            Register Now
+        <button class="btn-anim px-5 py-4" onClick={()=>{link===null?{}:location.href = link;link===null?form(id):{}}}>
+            {text?text:"Register Now"}
         </button>
     );
 }

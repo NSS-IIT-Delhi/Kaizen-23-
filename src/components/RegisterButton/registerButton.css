@@ -2,8 +2,8 @@
 .btn-anim {
     position: relative;
     margin: auto;
-    width: 200px;
-    line-height: 90px;
+    /* width: 200px; */
+    line-height: 50px;
     text-align: center;
     color: white;
     font-size: 20px;
