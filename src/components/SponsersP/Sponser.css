@@ -13,3 +13,8 @@ img:hover {
     -webkit-transform: translateY(-2.5px);
     transform: translateY(-2.5px);
 }
+
+.wid{
+    position: relative;
+    z-index: 10;
+}
