@@ -1,4 +1,4 @@
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
   .wid {
     width: 100%;
     margin: auto;
@@ -9,17 +9,16 @@ img {
   cursor: pointer;
   transition: all 0.3s ease-in-out;
 }
-/* img:hover {
+img:hover {
     -webkit-transform: translateY(-2.5px);
     transform: translateY(-2.5px);
-} */
+} 
 
 .wid {
   position: relative;
   z-index: 10;
 }
-
-/*testing styles*/
+ */
 
 .sponsors__wrapper {
   flex-direction: column;
