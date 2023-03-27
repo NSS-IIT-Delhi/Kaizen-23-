@@ -2,6 +2,7 @@ import React from "react";
 // import Tilt from "react-parallax-tilt";
 import { useParams } from "react-router-dom";
 import './Sponser.css'
+import './Sponsor'
 
 export default function Event() {
   const { id } = useParams();
@@ -20,7 +21,7 @@ export default function Event() {
         <li></li>
         <li></li>
       </ul>
-      <h2 className="Titles mt-5 pt-5">Our Collaborators</h2>
+      {/* <h2 className="Titles mt-5 pt-5">Our Collaborators</h2> */}
       <div class="container">
         <h1 className="text-gradient head-text text-center mb-4 mt-4">
         Title Sponsor
