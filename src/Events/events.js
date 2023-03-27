@@ -37,6 +37,7 @@ import social_sawaal from './banners/social_sawaal_full.png'
 import social_tasveer_back from './banners/social_tasveer_back.png'
 import social_tasveer_text from './banners/social_tasveer_text.png'
 import social_tasveer from './banners/social_tasveer_full.png'
+import rakshin from './banners/rakshin.png'
 import soch from './banners/soch.png'
 import soch_back from './banners/soch_back.png'
 import soch_text from './banners/soch_text.png'
@@ -159,7 +160,7 @@ export const events =
     "description": "A workshop on Stop Child Sexual Abuse",
     "image_back": coming_soon,
     "image_text": null,
-    "image": coming_soon,
+    "image": rakshin,
     "date": "1st April",
     "time": "11:00am - 12:30pm",
     "venue": "LH-418",
