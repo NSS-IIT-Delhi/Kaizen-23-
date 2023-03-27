@@ -103,7 +103,7 @@ export default function Event() {
         >
           <div className="member" style={{ backgroundColor: "#e6e6e6" }}>
             <img
-              src="/adminerp.svg"
+              src="/Team Members/raghav.jpg"
               className="img-fluid"
               alt=""
               style={{  width:"200px",height:"200px", objectFit: "cover" }}
@@ -111,9 +111,9 @@ export default function Event() {
 
             <div className="member-info">
               <h4 className="text-dark"style={{fontSize:"1.4rem"}}>
-                Raghav{" "}
+                Raghav Kotikala{" "}
 
-                <a href="#" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
+                <a href="https://www.linkedin.com/in/koraghav/" target="_blank" rel="noopener noreferrer"><i className="fa-brands fa-linkedin"></i></a>
               </h4> 
 
             </div>

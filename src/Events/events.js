@@ -40,15 +40,15 @@ import social_tasveer from './banners/social_tasveer_full.png'
 import rakshin from './banners/rakshin.png'
 import rakshin_back from './banners/rakshin_back.png'
 import rakshin_text from './banners/rakshin_text.png'
-import soch from './banners/soch.png'
-import soch_back from './banners/soch_back.png'
-import soch_text from './banners/soch_text.png'
+
 import art_e_deewar from './banners/art_e_deewar.png'
 import art_e_deewar_back from './banners/art_e_deewar_back.png'
 import art_e_deewar_text from './banners/art_e_deewar_text.png'
 import coming_soon from './banners/coming_soon.png'
-import gender_sensitization from './banners/gender_sensitisation.png'
-import gender_text from './banners/gender_text.png'
+import gender_sensitization from './banners/gender_sensitization.png'
+import gender_sensitization_text from './banners/gender_sensitization_text.png'
+import gender_sensitization_back from './banners/gender_sensitization_back.png'
+
 
 
 export const events = 
@@ -143,8 +143,8 @@ export const events =
 "soch":{
     "title": "SOCH",
     "description": " A workshop on Gender Sensitization",
-    "image_back": gender_sensitization,
-    // "image_text": soch_text,
+    "image_back": gender_sensitization_back,
+    "image_text": gender_sensitization_text,
     "image": gender_sensitization,
     "date": "1st April",
     "time": "2:00pm - 3:00pm",
@@ -154,6 +154,7 @@ export const events =
     "time-order":"60",
     "category":"workshop", 
     "register":null,
+    "wa":"https://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa",
     "fields": [],
     "sections": [],
     'whatsapp':"http://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa"
@@ -172,6 +173,9 @@ export const events =
     "time-order":"70",
     "category":"workshop",
     "register":null,
+    "wa":"https://chat.whatsapp.com/C5rwUvYimfxDqNF3GO9qWp",
+    // "contact":["Parth Soni:  +91 9116535915","Shriya Gharat: +91 9834169551"],
+    // "deadline":"March 28th, 2023, 11:59 PM",
     "fields":[],
     "sections": [],
     'whatsapp':"https://chat.whatsapp.com/C5rwUvYimfxDqNF3GO9qWp"
