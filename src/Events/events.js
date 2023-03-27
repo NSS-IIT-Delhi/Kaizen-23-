@@ -157,6 +157,7 @@ export const events =
     "wa":"https://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa",
     "fields": [],
     "sections": [],
+    'whatsapp':"http://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa"
 },
 "sakshi":{
     "title": "SAKSHI",
@@ -176,7 +177,8 @@ export const events =
     // "contact":["Parth Soni:  +91 9116535915","Shriya Gharat: +91 9834169551"],
     // "deadline":"March 28th, 2023, 11:59 PM",
     "fields":[],
-    "sections": []
+    "sections": [],
+    'whatsapp':"https://chat.whatsapp.com/C5rwUvYimfxDqNF3GO9qWp"
 },
 "yuva_chetna":{
     "title": "YUVA CHETNA",
@@ -248,7 +250,8 @@ export const events =
     "category":"workshop",
     "register":null,
     "fields":[],
-    "sections": []
+    "sections": [],
+    'whatsapp':"https://chat.whatsapp.com/JKtXLxebalr77eQmWlY5op"
 }, 
 "shiksha_talk":{
     "title": "SHIKSHA TALK",
