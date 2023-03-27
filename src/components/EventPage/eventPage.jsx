@@ -23,6 +23,7 @@ export default function Event() {
   const content = ev["content"];
   const sections = ev["sections"];
   const description = ev["description"];
+  const whatsapp = ev["whatsapp"];
 
   return (
     <>
@@ -79,6 +80,14 @@ export default function Event() {
                   <path fill-rule="evenodd" d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6zM4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999z"/>
                 </svg>
                 {` ${venue} `}
+              </h4>
+              :<></>}
+              {whatsapp?
+
+              <h4 class="px-3" style={{"color":'white'}}>   
+               <a target='_blank' href={whatsapp}>
+<i className="fa-brands fa-whatsapp wpicon mr-1" style={{"color": "#17ee69;"}}></i>
+</a>Join Whatsapp group for more updates               
               </h4>
               :<></>}
             </div>

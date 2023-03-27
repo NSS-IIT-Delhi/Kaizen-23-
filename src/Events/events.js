@@ -156,6 +156,7 @@ export const events =
     "register":null,
     "fields": [],
     "sections": [],
+    'whatsapp':"http://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa"
 },
 "sakshi":{
     "title": "SAKSHI",
@@ -172,7 +173,8 @@ export const events =
     "category":"workshop",
     "register":null,
     "fields":[],
-    "sections": []
+    "sections": [],
+    'whatsapp':"https://chat.whatsapp.com/C5rwUvYimfxDqNF3GO9qWp"
 },
 "yuva_chetna":{
     "title": "YUVA CHETNA",
@@ -244,7 +246,8 @@ export const events =
     "category":"workshop",
     "register":null,
     "fields":[],
-    "sections": []
+    "sections": [],
+    'whatsapp':"https://chat.whatsapp.com/JKtXLxebalr77eQmWlY5op"
 }, 
 "shiksha_talk":{
     "title": "SHIKSHA TALK",

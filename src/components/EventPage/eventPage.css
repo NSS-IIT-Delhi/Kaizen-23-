@@ -163,4 +163,13 @@ body{
   .rulebook-btn a:hover {
 	color: black;
   }
-  
+  a .wpicon{
+	color: aqua;
+	width: 24px;
+	height: 24px;
+  }
+  a .wpicon:hover{
+	color: aqua;
+	width: 24px;
+	height: 24px;
+  }
