@@ -23,21 +23,31 @@ html {
   text-align: center;
 }
 
+.subhead-text{
+  color: white;
+  font-size: 1.3rem;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  text-align: center;
+  background-color: white;
+}
+
 .text-gradient{
   color: var(--primary-blue);
 }
 
 .gradient{
-  background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a);
+  /* background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a); */
+  background: linear-gradient(to right,#c424f4,#c424f4, #006fc2,#00317a);
 }
 
 @supports (-webkit-background-clip: text) {
   .text-gradient {
-    background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a);
+    /* background: linear-gradient(to right,#f1ccfc, #006fc2,#00317a); */
+    background: linear-gradient(to right,#c424f4,#c424f4, #006fc2,#00317a);
     -webkit-background-clip: text; /* vendor-prefixed property */
     -webkit-text-fill-color: transparent;
     background-clip: text; /* standard property */
-    color: transparent;
+    /* color: transparent; */
   }
 }
 /* (#f1ccfc, #006fc2, #00317a, #001b4e) */
