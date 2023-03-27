@@ -29,7 +29,7 @@ function App() {
     if (images.length === 0) {
       setTimeout(() => {
         setIsLoaded(true);
-      }, 4000);
+      }, 5000);
       return;
     }
 
