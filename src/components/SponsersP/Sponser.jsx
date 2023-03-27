@@ -20,7 +20,8 @@ export default function Event() {
         <li></li>
         <li></li>
       </ul>
-      {/* <h2 className="Titles mt-5 pt-5">Our Collaborators</h2> */}
+      <div className="mt-5 pt-5"></div>
+      {/* <h2 className="Titles ">Our Collaborators</h2> */}
       <div class="container">
         <h1 className="text-gradient head-text text-center mb-4 mt-4">
         Title Sponsor
