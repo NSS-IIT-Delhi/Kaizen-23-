@@ -2,6 +2,7 @@ import React from "react";
 // import Tilt from "react-parallax-tilt";
 import { useParams } from "react-router-dom";
 import './Sponser.css'
+import './Sponsor'
 
 export default function Event() {
   const { id } = useParams();
