@@ -45,7 +45,7 @@ const sponserDetails = {
       url: "https://www.sewainternational.org/",
     },
     {
-      title: "Studio Matrix",
+      title: "Studo Matrix",
       img: "S7.png",
       url: "https://www.studomatrix.in/",
     },
@@ -53,7 +53,7 @@ const sponserDetails = {
   mediaPartners: [
     {
       title: "Hindustan Times",
-      img: "S10.svg",
+      img: "S10.jpeg",
       url: "https://www.hindustantimes.com/",
     },
     {
