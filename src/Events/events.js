@@ -38,6 +38,8 @@ import social_tasveer_back from './banners/social_tasveer_back.png'
 import social_tasveer_text from './banners/social_tasveer_text.png'
 import social_tasveer from './banners/social_tasveer_full.png'
 import rakshin from './banners/rakshin.png'
+import rakshin_back from './banners/rakshin_back.png'
+import rakshin_text from './banners/rakshin_text.png'
 import soch from './banners/soch.png'
 import soch_back from './banners/soch_back.png'
 import soch_text from './banners/soch_text.png'
@@ -158,14 +160,14 @@ export const events =
 "sakshi":{
     "title": "SAKSHI",
     "description": "A workshop on Stop Child Sexual Abuse",
-    "image_back": coming_soon,
-    "image_text": null,
+    "image_back": rakshin_back,
+    "image_text": rakshin_text,
     "image": rakshin,
     "date": "1st April",
     "time": "11:00am - 12:30pm",
     "venue": "LH-418",
     "content": "Sakshi NGO is a non-profit organization based in India that focuses on providing education, healthcare, and empowerment programs for underprivileged children and women in rural areas. Their aim is to create sustainable development and improve the quality of life for marginalized communities.Sakshi will be conducting a workshop.Topic - Stop Child Sexual Abuse POCSO Act 2012",
-    "rank":"10",
+    "rank":"0",
     "time-order":"70",
     "category":"workshop",
     "register":null,
