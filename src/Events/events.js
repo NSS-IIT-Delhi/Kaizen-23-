@@ -154,7 +154,6 @@ export const events =
     "time-order":"60",
     "category":"workshop", 
     "register":null,
-    "wa":"https://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa",
     "fields": [],
     "sections": [],
     'whatsapp':"http://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa"
@@ -173,7 +172,6 @@ export const events =
     "time-order":"70",
     "category":"workshop",
     "register":null,
-    "wa":"https://chat.whatsapp.com/C5rwUvYimfxDqNF3GO9qWp",
     // "contact":["Parth Soni:  +91 9116535915","Shriya Gharat: +91 9834169551"],
     // "deadline":"March 28th, 2023, 11:59 PM",
     "fields":[],
