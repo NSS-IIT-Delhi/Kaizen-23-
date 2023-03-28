@@ -37,15 +37,18 @@ import social_sawaal from './banners/social_sawaal_full.png'
 import social_tasveer_back from './banners/social_tasveer_back.png'
 import social_tasveer_text from './banners/social_tasveer_text.png'
 import social_tasveer from './banners/social_tasveer_full.png'
-import soch from './banners/soch.png'
-import soch_back from './banners/soch_back.png'
-import soch_text from './banners/soch_text.png'
+import rakshin from './banners/rakshin.png'
+import rakshin_back from './banners/rakshin_back.png'
+import rakshin_text from './banners/rakshin_text.png'
+
 import art_e_deewar from './banners/art_e_deewar.png'
 import art_e_deewar_back from './banners/art_e_deewar_back.png'
 import art_e_deewar_text from './banners/art_e_deewar_text.png'
 import coming_soon from './banners/coming_soon.png'
-import gender_sensitization from './banners/gender_sensitisation.png'
-import gender_text from './banners/gender_text.png'
+import gender_sensitization from './banners/gender_sensitization.png'
+import gender_sensitization_text from './banners/gender_sensitization_text.png'
+import gender_sensitization_back from './banners/gender_sensitization_back.png'
+
 
 
 export const events = 
@@ -57,8 +60,11 @@ export const events =
     // "image_text": null,
     "image": coming_soon,
     "date": "March 30",
-    "time": "6 PM-7 PM",
-    "venue": "Seminar Hall",
+    "time": "6 PM - 7 PM",
+    // "venue": "Seminar Hall",
+    // "date": "30th March",
+    // "time": "6pm - 7pm",
+    "venue": "LH111",
     "content": "",
     "rank":"6",
     "time-order": "20",
@@ -140,8 +146,8 @@ export const events =
 "soch":{
     "title": "SOCH",
     "description": " A workshop on Gender Sensitization",
-    "image_back": gender_sensitization,
-    // "image_text": soch_text,
+    "image_back": gender_sensitization_back,
+    "image_text": gender_sensitization_text,
     "image": gender_sensitization,
     "date": "April 1",
     "time": "11 AM - 1:30 PM",
@@ -153,23 +159,27 @@ export const events =
     "register":null,
     "fields": [],
     "sections": [],
+    'whatsapp':"http://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa"
 },
 "sakshi":{
     "title": "SAKSHI",
     "description": "A workshop on Stop Child Sexual Abuse",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": rakshin_back,
+    "image_text": rakshin_text,
+    "image": rakshin,
     "date": "April 1",
     "time": "11 AM - 12:30 PM",
     "venue": "LH418",
     "content": "Sakshi NGO is a non-profit organization based in India that focuses on providing education, healthcare, and empowerment programs for underprivileged children and women in rural areas. Their aim is to create sustainable development and improve the quality of life for marginalized communities.Sakshi will be conducting a workshop.Topic - Stop Child Sexual Abuse POCSO Act 2012",
-    "rank":"10",
+    "rank":"0",
     "time-order":"50",
     "category":"workshop",
     "register":null,
+    // "contact":["Parth Soni:  +91 9116535915","Shriya Gharat: +91 9834169551"],
+    // "deadline":"March 28th, 2023, 11:59 PM",
     "fields":[],
-    "sections": []
+    "sections": [],
+    'whatsapp':"https://chat.whatsapp.com/C5rwUvYimfxDqNF3GO9qWp"
 },
 "yuva_chetna":{
     "title": "YUVA CHETNA",
@@ -241,7 +251,8 @@ export const events =
     "category":"workshop",
     "register":null,
     "fields":[],
-    "sections": []
+    "sections": [],
+    'whatsapp':"https://chat.whatsapp.com/JKtXLxebalr77eQmWlY5op"
 }, 
 "shiksha_talk":{
     "title": "SHIKSHA TALK",
@@ -302,7 +313,7 @@ export const events =
     "image_back": social_tasveer_back,
     "image_text": social_tasveer_text,
     "image": social_tasveer,
-    "date": "March 22",
+    "date": "30th March",
     "time": "6:45pm - 8:45pm",
     "venue": "Online",
     "content": "A photostory competition on social issues to picture the change you want to see in the world",

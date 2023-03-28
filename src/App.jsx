@@ -14,6 +14,7 @@ import Data from "./components/DataPage/data";
 import Team from "./components/Team/Team";
 import Loader from "./components/Loader/Loader";
 import Sponser from "./components/SponsersP/Sponser";
+import Blog from "./components/Blog/Blog";
 
 function App() {
   const eventsRef = React.useRef(null);
@@ -29,7 +30,7 @@ function App() {
     if (images.length === 0) {
       setTimeout(() => {
         setIsLoaded(true);
-      }, 4000);
+      }, 5000);
       return;
     }
 
@@ -145,7 +146,7 @@ function App() {
               />
             </Routes>
           </Router>
-          <Footer />)
+          <Footer />
         </>
       )}
     </>

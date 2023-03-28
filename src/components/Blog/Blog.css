@@ -1,0 +1,35 @@
+.app__blog{
+    color: white;
+    flex-direction: column;
+}
+
+.app__blog-container{
+    margin: 3rem;
+    padding: 2rem 2rem;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+    width: 70vw;
+}
+
+.blog__thumbnail{
+    border-radius: 5px;
+    width: 100%;
+    height: auto;
+    transition: 0.3s ease-in-out;
+}
+
+.blog__thumbnail:hover{
+    transform: scale(1.02);
+}
+
+@media screen and (max-width:768px){
+    .app__blog-container{
+        width: 80vw;
+    }
+}
+@media screen and (max-width:425px){
+    .app__blog-container{
+        width: 90vw;
+        padding: 1rem 1.5rem;
+    }
+}
