@@ -86,7 +86,8 @@ export const events =
     "category":"event",
     "register":null,
     "fields":[{title:"Mention any question you have for our guests",required:false}],
-    "sections": []
+    "sections": [],
+    "whatsapp": "https://chat.whatsapp.com/E7ldFCA5WWh737utvkdf5n",
     },
 
 "aaghaaz":{
@@ -104,7 +105,8 @@ export const events =
     "category":"event",
     "register":null,
     "fields":[],
-    "sections": []
+    "sections": [],
+    "whatsapp": "https://chat.whatsapp.com/HkbBWGknKOfETRfxQ7JxQC",
 },
 "social_sawaal":{
     "title": "THE SOCIAL SAWAAL",
@@ -211,7 +213,8 @@ export const events =
     "category":"event",
     "register":null,
     "fields":[{title:"Mention any question you have for our guests",required:false}],
-    "sections": []
+    "sections": [],
+    "whatsapp": "https://chat.whatsapp.com/BYlJSh7pludDaXqK17BRSX",
 },
 "rise_of_influencers":{
     "title": "Rise of Influencers' Economy",
@@ -284,7 +287,8 @@ export const events =
     "category":"event",
     "register":null,
     "fields":[{title:"Mention any question you have for our guests",required:false}],
-    "sections": []
+    "sections": [],
+    "whatsapp": "https://chat.whatsapp.com/IQL4z4cfWK9A8MV68kXFRJ",
 },
 "sociopreneur_samvad":{
     "title": "SOCIOPRENEUR SAMVAD",
@@ -301,7 +305,8 @@ export const events =
     "category":"event",
     "register":null,
     "fields":[{title:"Mention any question you have for our guests",required:false}],
-    "sections": []
+    "sections": [],
+    "whatsapp":"https://chat.whatsapp.com/LKN7QJLKXuVCCkvbgtsfNx",
 },
 
 "satirical_spardha":{
@@ -354,7 +359,8 @@ export const events =
     "category":"event",
     "register":null,
     "fields":[],
-    "sections": []
+    "sections": [],
+    "whatsapp": "https://chat.whatsapp.com/CKIodtwBKcxJr6K0tg9PhD",
 },
 "rangreza":{
     "title": "RANGREZA",
