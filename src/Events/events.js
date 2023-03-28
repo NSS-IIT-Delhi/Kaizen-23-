@@ -85,7 +85,7 @@ export const events =
     "time-order": "20",
     "category":"event",
     "register":null,
-    "fields":[{title:"Your questions for panel",required:false}],
+    "fields":[{title:"Mention any question you have for our guests",required:false}],
     "sections": []
     },
 
@@ -210,10 +210,10 @@ export const events =
     "time-order":"90",
     "category":"event",
     "register":null,
-    "fields":[],
+    "fields":[{title:"Mention any question you have for our guests",required:false}],
     "sections": []
 },
-"style_green":{
+"rise_of_influencers":{
     "title": "Rise of Influencers' Economy",
     "description": "Panel Discussion",
     "image_back": coming_soon,
@@ -227,8 +227,8 @@ export const events =
     "time-order":"100",
     "category":"competition",
     "rulebook":'',
-    "register":null,
-    "fields":[],
+    "register":"https://docs.google.com/forms/d/e/1FAIpQLSddrmFS3ruqSnXxG9HFUJIb5n02RbGZTKmjBU1iIjQU94Q2SA/viewform",
+    "fields":[{title:"Mention any question you have for our guests",required:false}],
     "sections": []
 },
 
@@ -283,7 +283,7 @@ export const events =
     "time-order":"150",
     "category":"event",
     "register":null,
-    "fields":[{title:"Your questions for panel",required:false}],
+    "fields":[{title:"Mention any question you have for our guests",required:false}],
     "sections": []
 },
 "sociopreneur_samvad":{
@@ -300,7 +300,7 @@ export const events =
     "time-order":"170",
     "category":"event",
     "register":null,
-    "fields":[{title:"Your questions for panel",required:false}],
+    "fields":[{title:"Mention any question you have for our guests",required:false}],
     "sections": []
 },
 
