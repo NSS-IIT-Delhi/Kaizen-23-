@@ -318,7 +318,7 @@ export const events =
     "venue": "Online",
     "content": "A photostory competition on social issues to picture the change you want to see in the world",
     "rank":"4",
-    "time-order":"10",
+    "time-order":"18",
     "category":"competition",    
     "register":"https://unstop.com/competitions/social-tasveer-photostory-competition-kaizen23-iit-delhi-635027",
     "fields":[],
