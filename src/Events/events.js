@@ -49,6 +49,21 @@ import gender_sensitization from './banners/gender_sensitization.png'
 import gender_sensitization_text from './banners/gender_sensitization_text.png'
 import gender_sensitization_back from './banners/gender_sensitization_back.png'
 
+import goonj from './banners/goonj.png'
+import goonj_back from './banners/goonj_back.png'
+import goonj_text from './banners/goonj_text.png'
+import samvaad from      './banners/samvaad.png'
+import samvaad_back from './banners/samvaad_back.png'
+import samvaad_text from './banners/samvaad_text.png'
+import nyayri from      './banners/nyayri.png'
+import nyayri_back from './banners/nyayri_back.png'
+import nyayri_text from './banners/nyayri_text.png'
+import aaghaaz from      './banners/aaghaz.png'
+import aaghaaz_back from './banners/aaghaz_back.png'
+import aaghaaz_text from './banners/aaghaz_text.png'
+import shiksha from      './banners/shiksha.png'
+import shiksha_back from './banners/shiksha_back.png'
+import shiksha_text from './banners/shiksha_text.png'
 
 
 export const events = 
@@ -56,9 +71,9 @@ export const events =
 "nyayri_panel_discussion":{
     "title": "Nyayri Panel Discussion",
     "description": "",
-    "image_back": coming_soon,
-    // "image_text": null,
-    "image": coming_soon,
+    "image_back": nyayri_back,
+    "image_text": nyayri_text,
+    "image": nyayri,
     "date": "30th March",
     "time": "4pm - 7pm",
     "venue": "Seminar Hall",
@@ -74,9 +89,9 @@ export const events =
 "aaghaaz":{
     "title": "Aaghaaz-e-kaizen",
     "description": "The opening ceremony of Kaizen",
-    "image_back": coming_soon,
-    // "image_text": null,
-    "image": coming_soon,
+    "image_back": aaghaaz_back,
+    "image_text": aaghaaz_text,
+    "image": aaghaaz,
     "date": "31st March",
     "time": "6:30pm - 8:30pm",
     "venue": "Seminar Hall",
@@ -236,9 +251,9 @@ export const events =
 "goonj":{
     "title": "GOONJ",
     "description": "A workshop on Menstrual Health & Hygiene",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": goonj_back,
+    "image_text": goonj_text,
+    "image": goonj,
     "date": "2nd April",
     "time": "1:00pm - 2:00pm",
     "venue": "LH-308,310, 316, 318",
@@ -254,9 +269,9 @@ export const events =
 "shiksha_talk":{
     "title": "SHIKSHA TALK",
     "description": " Empowering Rural India Through Education",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": shiksha_back,
+    "image_text": shiksha_text,
+    "image": shiksha,
     "date": "2nd April",
     "time": "11:00am - 12:00pm",
     "venue": "Seminar Hall",
@@ -271,9 +286,9 @@ export const events =
 "sociopreneur_samvad":{
     "title": "SOCIOPRENEUR SAMVAD",
     "description": "Pioneering change through Innovation",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": samvaad_back,
+    "image_text": samvaad_text,
+    "image": samvaad,
     "date": "2nd April",
     "time": "2:00pm - 3:30pm",
     "venue": "Seminar Hall",
