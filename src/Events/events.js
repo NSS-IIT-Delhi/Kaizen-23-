@@ -313,7 +313,7 @@ export const events =
     "image_back": social_tasveer_back,
     "image_text": social_tasveer_text,
     "image": social_tasveer,
-    "date": "30th March",
+    "date": "March 30",
     "time": "6:45pm - 8:45pm",
     "venue": "Online",
     "content": "A photostory competition on social issues to picture the change you want to see in the world",
