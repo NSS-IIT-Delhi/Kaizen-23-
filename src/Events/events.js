@@ -62,7 +62,7 @@ export const events =
     "date": "30th March",
     "time": "6pm - 7pm",
     "venue": "LH111",
-    "content": "",
+    "content": "Supporting Maternal Health and Work-Family Balance for Women Workforce in India.\" Our esteemed panelists include Advocate Pooja Mundada, Project Manager and Legal Lead of Project Nyay'ri, who will speak on women's rights; Priyal Agarwal, Founder of StandWeSpeak, who will address women's entrepreneurship; and Shreya Kulkarni, Mental Health Consultant at Project Nyay'ri, who will talk about women and mental health.",
     "rank":"6",
     "time-order": "15",
     "category":"event",
