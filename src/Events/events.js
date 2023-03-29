@@ -64,6 +64,12 @@ import aaghaaz_text from './banners/aaghaz_text.png'
 import shiksha from      './banners/shiksha.png'
 import shiksha_back from './banners/shiksha_back.png'
 import shiksha_text from './banners/shiksha_text.png'
+import ig from      './banners/ig.png'
+import ig_back from './banners/ig_back.png'
+import ig_text from './banners/ig_text.png'
+import seva_summit from      './banners/seva_summit.png'
+import seva_summit_back from './banners/seva_summit_back.png'
+import seva_summit_text from './banners/seva_summit_text.png'
 
 
 export const events = 
@@ -126,9 +132,9 @@ export const events =
 "social_convention":{
     "title": "SOCIAL CONVENTION",
     "description": "SevaSummit: The Social Symposium",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": seva_summit_back,
+    "image_text": seva_summit_text,
+    "image": seva_summit,
     "date": "April 1",
     "time": "10:30 AM - 1:00 PM",
     "venue": "Seminar Hall",
@@ -143,9 +149,9 @@ export const events =
 "ingenious_geeks":{
     "title": "INGENIOUS GEEKS 2.0",
     "description": "A science exhibition competition for school students to showcase their creative innovative mind",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": ig_back,
+    "image_text": ig_text,
+    "image": ig,
     "date": "April 1",
     "time": "11 AM - 1 PM",
     "venue": "LHC Center",
