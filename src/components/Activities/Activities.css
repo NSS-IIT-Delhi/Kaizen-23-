@@ -12,12 +12,14 @@
     margin-top: 2rem;
     overflow-x: scroll;
     justify-content: flex-start;
+    /* justify-content: center; */
     align-items: center;
 }
 
 .activity-card{
     /* outline:2px solid white; */
     min-width: 250px;
+    max-width: 250px;
     height: auto;
     /* margin-bottom: 0; */
     margin: 2rem 1.5rem;
@@ -47,26 +49,31 @@
 @media screen and (max-width:1024px){
     .activity-card{
         min-width: 270px;
+        max-width: 270px;
     }
 }
 @media screen and (max-width:768px){
     .activity-card{
         min-width: 310px;
+        max-width: 310px;
     }
 }
 @media screen and (max-width:425px){
     .activity-card{
         min-width: 350px;
+        max-width: 350px;
     }
 
 }
 @media screen and (max-width:375px){
     .activity-card{
         min-width: 300px;
+        max-width: 300px;
     }
 }
 @media screen and (max-width:320px){
     .activity-card{
         min-width: 260px;
+        max-width: 260px;
     }
 }
