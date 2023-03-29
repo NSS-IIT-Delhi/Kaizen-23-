@@ -157,7 +157,7 @@ export default function AllEvents(props) {
         <div class="tab-content" id="pills-tabContent">
           <div class={`tab-pane fade ${active==='all'?"show active":""}`} id="pills-all" role="tabpanel" aria-labelledby="pills-all-tab">
           <div className="events-container row p-2 justify-content-center">
-            {ev.map((data, key) => {return(
+            {ev.map((data, key) => {return(data[1].category==="hide"?<></>:
 
               <div class="event col-xl-4 col-lg-5 col-md-6 col-sm-10 col-11 px-5 py-3" id={data[0]}>
                 <div onClick={() => event(data[0])} style={{cursor: "pointer"}}>
@@ -199,7 +199,6 @@ export default function AllEvents(props) {
             role="tabpanel"
             aria-labelledby="pills-events-tab"
           >
-            <h2 className="text-center text-primary">Coming Soon</h2>
             {pane(events)}
           </div>
           <div
