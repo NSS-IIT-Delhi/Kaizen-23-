@@ -6,18 +6,19 @@ import slideshow4 from "./slideshow4.jpeg";
 // import slideshow6 from "./slideshow6.jpg";
 import slideshow7 from "./slideshow7.jpeg";
 
-
-import healthcamp from './healthcamp.jpg'
+import healthcamp from "./healthcamp.jpg";
 
 import slideshow8 from "./slideshow8.jpg";
-import bazinga from "./bazinga.jpeg";/* not needed */
+import bazinga from "./bazinga.jpeg"; /* not needed */
 
+import schedule from "./schedule.png";
 
 // export default { slideshow1, slideshow2, slideshow3, slideshow4, slideshow5,slideshow6,slideshow7,slideshow8,bazinga };
 export default {
   slideshow1,
   slideshow5,
   bazinga,
+  schedule,
   healthcamp,
   slideshow4,
   slideshow2,
