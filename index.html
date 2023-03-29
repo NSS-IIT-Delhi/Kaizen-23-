@@ -12,5 +12,16 @@
     <div id="root"></div>
     <script src="https://kit.fontawesome.com/39a82ae9af.js" crossorigin="anonymous"></script>
     <script type="module" src="/src/main.jsx"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script>
+$( window ).on("load", function() {
+      $(".app__loader").hide();
+});    
+setTimeout(function() {
+      $(".app__loader").hide();
+}, 2500);    
+    </script>    
+
   </body>
 </html>

@@ -20,50 +20,10 @@ function App() {
   const eventsRef = React.useRef(null);
   const competitionsRef = React.useRef(null);
 
-  const [isLoaded, setIsLoaded] = useState(false);
-
-  useEffect(() => {
-    const images = document.querySelectorAll("img");
-
-    let imagesLoadedCount = 0;
-
-    if (images.length === 0) {
-      setTimeout(() => {
-        setIsLoaded(true);
-      }, 5000);
-      return;
-    }
-
-    function handleImageLoad() {
-      imagesLoadedCount++;
-      if (imagesLoadedCount === images.length) {
-        setIsLoaded(true);
-      }
-    }
-
-    images.forEach((image) => {
-      if (image.complete) {
-        handleImageLoad();
-      } else {
-        image.addEventListener("load", handleImageLoad);
-      }
-    });
-
-    return () => {
-      images.forEach((image) => {
-        image.removeEventListener("load", handleImageLoad);
-      });
-    };
-  }, []);
-
-  console.log(isLoaded);
 
   return (
     <>
-      {!isLoaded && <Loader />}
-      {isLoaded && (
-        <>
-          (
+          <Loader/>
           <Router>
             <Routes>
               <Route
@@ -148,8 +108,6 @@ function App() {
           </Router>
           <Footer />
         </>
-      )}
-    </>
   );
 }
 
