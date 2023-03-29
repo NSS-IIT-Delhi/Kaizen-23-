@@ -8,12 +8,26 @@ const sponserDetails = {
   ],
   poweredBy: [
     {
-      title: "Good Deeds Day",
-      img: "S2.png",
-      url: "https://www.good-deeds-day.org/",
+      title: "Tokenize",
+      img: "S8.jpeg",
+      url: "https://www.sewainternational.org/",
+    },
+    {
+      title: "Soft Help",
+      img: "S13.jpg",
+      url: "https://softhelptrust.org/",
+    },
+    {
+      title: "Pretty lil Hearts",
+      img: "S14.jpg",
+      url: "https://www.prettylilhearts.org/",
     },
   ],
-  coSponsors: [
+  coSponsors: [    {
+    title: "Good Deeds Day",
+    img: "S2.png",
+    url: "https://www.good-deeds-day.org/",
+  },
     {
       title: "The Coconut People",
       img: "S3.webp",
@@ -39,16 +53,13 @@ const sponserDetails = {
       img: "S9.png",
       url: "https://www.sewainternational.org/",
     },
-    {
-      title: "Tokenize",
-      img: "S8.jpeg",
-      url: "https://www.sewainternational.org/",
-    },
+
     {
       title: "Studo Matrix",
       img: "S7.png",
       url: "https://www.studomatrix.in/",
     },
+   
   ],
   mediaPartners: [
     {
