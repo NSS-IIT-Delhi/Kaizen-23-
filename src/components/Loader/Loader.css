@@ -1,5 +1,9 @@
 .app__loader {
+  position: fixed;
+  top: 0;
   color: white;
+  z-index: 10000;
+  background-color: black;
 }
 
 .pyramid-loader {
@@ -97,4 +101,8 @@
   margin: auto;
   transform: rotateX(90deg) translateZ(-40px);
   filter: blur(12px);
+}
+
+.display_none{
+  display: none;
 }
