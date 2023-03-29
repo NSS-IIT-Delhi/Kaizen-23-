@@ -228,7 +228,7 @@ export const events =
     "venue": "Dogra Hall",
     "content": "",
     "time-order":"100",
-    "category":"competition",
+    "category":"event",
     "rulebook":'',
     "register":"https://docs.google.com/forms/d/e/1FAIpQLSddrmFS3ruqSnXxG9HFUJIb5n02RbGZTKmjBU1iIjQU94Q2SA/viewform",
     "fields":[{title:"Mention any question you have for our guests",required:false}],
