@@ -12,6 +12,16 @@ const sponserDetails = {
       img: "S8.jpeg",
       url: "https://www.sewainternational.org/",
     },
+    {
+      title: "Soft Help",
+      img: "S13.jpg",
+      url: "https://softhelptrust.org/",
+    },
+    {
+      title: "Pretty lil Hearts",
+      img: "S14.jpg",
+      url: "https://www.prettylilhearts.org/",
+    },
   ],
   coSponsors: [    {
     title: "Good Deeds Day",
@@ -49,16 +59,7 @@ const sponserDetails = {
       img: "S7.png",
       url: "https://www.studomatrix.in/",
     },
-    {
-      title: "Soft Help",
-      img: "S13.jpg",
-      url: "https://softhelptrust.org/",
-    },
-    {
-      title: "Pretty lil Hearts",
-      img: "S14.jpg",
-      url: "https://www.prettylilhearts.org/",
-    },
+   
   ],
   mediaPartners: [
     {
