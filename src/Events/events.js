@@ -70,6 +70,7 @@ import ig_text from './banners/ig_text.png'
 import seva_summit from      './banners/seva_summit.jpg'
 import seva_summit_back from './banners/seva_summit_back.jpg'
 import seva_summit_text from './banners/seva_summit_text.png'
+import closing_ceremony from './banners/closing_ceremony.png'
 
 
 export const events = 
@@ -353,9 +354,9 @@ export const events =
 "closing_ceremony":{
     "title": "CLOSING CEREMONY",
     "description": null,
-    "image_back": coming_soon,
+    "image_back": closing_ceremony,
     "image_text": null,
-    "image": coming_soon,
+    "image": closing_ceremony,
     "date": "April 2",
     "time": "6:00 PM - 8:30 PM",
     "venue": "Seminar Hall",
