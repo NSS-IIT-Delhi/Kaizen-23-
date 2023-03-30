@@ -8,9 +8,6 @@ export default [
     img: images.activity3,
   },
   {
-    img: images.activity3,
-  },
-  {
     img: images.activity4,
   },
   {
