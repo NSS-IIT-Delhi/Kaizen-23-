@@ -19,6 +19,8 @@ html {
 .head-text {
   color: white;
   font-family: var(--head-font);
+  font-family: var(--secondary-font);
+  font-weight: 300;
   font-size: 3rem;
   text-align: center;
 }

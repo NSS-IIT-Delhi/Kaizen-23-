@@ -64,8 +64,8 @@ import aaghaaz_text from './banners/aaghaz_text.png'
 import shiksha from      './banners/shiksha.jpg'
 import shiksha_back from './banners/shiksha_back.jpg'
 import shiksha_text from './banners/shiksha_text.png'
-import ig from      './banners/ig.jpg'
-import ig_back from './banners/ig_back.jpg'
+import ig from      './banners/ig.png'
+import ig_back from './banners/ig_back.png'
 import ig_text from './banners/ig_text.png'
 import seva_summit from      './banners/seva_summit.jpg'
 import seva_summit_back from './banners/seva_summit_back.jpg'
@@ -141,7 +141,7 @@ export const events =
     "sections": []
 },     
 "social_convention":{
-    "title": "SOCIAL CONVENTION",
+    "title": "SEVA SUMMIT",
     "description": "SevaSummit: The Social Symposium",
     "image_back": seva_summit_back,
     "image_text": seva_summit_text,
@@ -149,7 +149,7 @@ export const events =
     "date": "April 1",
     "time": "10:30 AM - 1:00 PM",
     "venue": "Seminar Hall",
-    "content": "SevaSummit: The Social Symposium",
+    "content": "The Social Symposium by NSS IIT Delhi is a groundbreaking event providing a platform for NGOs to showcase their remarkable work, gain insights into challenges faced, and be part of creating positive change. Join us for a transformative experience",
     "rank":"5",
     "time-order":"40",
     "category":"event",
@@ -176,7 +176,7 @@ export const events =
     "sections": []
 },
 "soch":{
-    "title": "SOCH",
+    "title": "SOCH WORKSHOP",
     "description": " A workshop on Gender Sensitization",
     "image_back": gender_sensitization_back,
     "image_text": gender_sensitization_text,
@@ -194,7 +194,7 @@ export const events =
     'whatsapp':"http://chat.whatsapp.com/FnRsRtn3Kf10SAmrsMNpVa"
 },
 "sakshi":{
-    "title": "SAKSHI",
+    "title": "SAKSHI WORKSHOP",
     "description": "A workshop on Stop Child Sexual Abuse",
     "image_back": rakshin_back,
     "image_text": rakshin_text,
@@ -214,7 +214,7 @@ export const events =
     'whatsapp':"https://chat.whatsapp.com/C5rwUvYimfxDqNF3GO9qWp"
 },
 "yuva_chetna":{
-    "title": "YUVA CHETNA",
+    "title": "YUVACHETNA PANEL DISCUSSION",
     "description": "Panel discussion on Youth Engagement in Social Work",
     "image_back": yuva_back,
     "image_text": yuva_text,
@@ -270,7 +270,7 @@ export const events =
     "sections": []
 },
 "goonj":{
-    "title": "GOONJ",
+    "title": "GOONJ WORKSHOP",
     "description": "A workshop on Menstrual Health & Hygiene",
     "image_back": goonj_back,
     "image_text": goonj_text,
@@ -361,10 +361,10 @@ export const events =
 },           
 "closing_ceremony":{
     "title": "CLOSING CEREMONY",
-    "description": "SevaSummit: The Social Symposium",
     "image_back": closing_back,
     "image_text": closing_text,
     "image": closing,
+    "description": null,
     "date": "April 2",
     "time": "6:00 PM - 8:30 PM",
     "venue": "Seminar Hall",
