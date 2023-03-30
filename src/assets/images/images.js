@@ -1,14 +1,15 @@
-import slideshow1 from "./slideshow1.jpeg";
-import slideshow5 from "./slideshow5.jpeg";
-import slideshow2 from "./slideshow2.jpg";
-import slideshow3 from "./slideshow3.jpg";
-import slideshow4 from "./slideshow4.jpeg";
-// import slideshow6 from "./slideshow6.jpg";
-import slideshow7 from "./slideshow7.jpeg";
+import slideshow1 from "./kaizen-22-memories/slideshow1.jpg";
+import slideshow5 from "./kaizen-22-memories/slideshow5.jpg";
+import slideshow2 from "./kaizen-22-memories/slideshow2.jpg";
+import slideshow3 from "./kaizen-22-memories/slideshow3.jpg";
+import slideshow4 from "./kaizen-22-memories/slideshow4.jpg";
+import slideshow6 from "./kaizen-22-memories/slideshow6.jpg";
+import slideshow7 from "./kaizen-22-memories/slideshow7.jpg";
+import slideshow8 from "./kaizen-22-memories/slideshow8.jpg";
+import slideshow9 from "./kaizen-22-memories/slideshow9.jpg";
 
 import healthcamp from "./healthcamp.jpg";
 
-import slideshow8 from "./slideshow8.jpg";
 import bazinga from "./bazinga.jpeg"; /* not needed */
 
 import schedule from "./schedule.png";
@@ -25,4 +26,5 @@ export default {
   slideshow3,
   slideshow7,
   slideshow8,
+  slideshow9,
 };
