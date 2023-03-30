@@ -8,7 +8,13 @@ import slideshow7 from "./kaizen-22-memories/slideshow7.jpg";
 import slideshow8 from "./kaizen-22-memories/slideshow8.jpg";
 import slideshow9 from "./kaizen-22-memories/slideshow9.jpg";
 
-import healthcamp from "./healthcamp.jpg";
+import activity2 from "./activity2.png";
+import activity3 from "./activity3.png";
+import activity4 from "./activity4.png";
+import activity5 from "./activity5.png";
+import activity6 from "./activity6.png";
+import activity7 from "./activity7.png";
+import activity8 from "./activity8.png";
 
 import bazinga from "./bazinga.jpeg"; /* not needed */
 
@@ -20,7 +26,13 @@ export default {
   slideshow5,
   bazinga,
   schedule,
-  healthcamp,
+  activity2,
+  activity3,
+  activity4,
+  activity5,
+  activity6,
+  activity7,
+  activity8,
   slideshow4,
   slideshow2,
   slideshow3,
