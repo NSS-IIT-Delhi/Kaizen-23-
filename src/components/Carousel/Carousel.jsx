@@ -43,10 +43,10 @@ export const data = [
   //   cover: images.slideshow5,
   //   title: "Image",
   // },
-  // {
-  //   cover: images.slideshow6,
-  //   title: "Image",
-  // },
+  {
+    cover: images.slideshow6,
+    title: "Image",
+  },
   {
     cover: images.slideshow7,
     title: "Image",
