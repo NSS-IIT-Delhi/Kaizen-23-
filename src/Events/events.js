@@ -70,6 +70,15 @@ import ig_text from './banners/ig_text.png'
 import seva_summit from      './banners/seva_summit.jpg'
 import seva_summit_back from './banners/seva_summit_back.jpg'
 import seva_summit_text from './banners/seva_summit_text.png'
+import yuva from      './banners/yuva.png'
+import yuva_back from './banners/yuva_back.png'
+import yuva_text from './banners/yuva_text.png'
+import closing from      './banners/closing.png'
+import closing_back from './banners/closing_back.png'
+import closing_text from './banners/closing_text.png'
+import rise from      './banners/rise.png'
+import rise_back from './banners/rise_back.png'
+import rise_text from './banners/rise_text.png'
 
 
 export const events = 
@@ -207,16 +216,16 @@ export const events =
 "yuva_chetna":{
     "title": "YUVA CHETNA",
     "description": "Panel discussion on Youth Engagement in Social Work",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": yuva_back,
+    "image_text": yuva_text,
+    "image": yuva,
     "date": "April 1",
     "time": "4 PM - 5 PM",
     "venue": "Seminar Hall",
     "content": "The event Yuva Chetna is a panel discussion featuring IAS and IPS officers, aiming to encourage youth to become active agents of change and participate in addressing critical issues in society. The discussion will inspire young people to use their skills and knowledge to make a difference in their communities. ",
     "rank":"8",
     "time-order":"90",
-    "category":"hide",
+    "category":"event",
     "register":null,
     "fields":[{title:"Mention any question you have for our guests",required:false}],
     "sections": [],
@@ -225,16 +234,16 @@ export const events =
 "rise_of_influencers":{
     "title": "Rise of Influencers' Economy",
     "description": "Panel Discussion",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": rise_back,
+    "image_text": rise_text,
+    "image": rise,
     "rank":"9",
     "date": "April 1",
     "time": "5:30 PM - 7:00 PM",
     "venue": "Dogra Hall",
     "content": "",
     "time-order":"100",
-    "category":"hide",
+    "category":"event",
     "rulebook":'',
     "register":"https://docs.google.com/forms/d/e/1FAIpQLSddrmFS3ruqSnXxG9HFUJIb5n02RbGZTKmjBU1iIjQU94Q2SA/viewform",
     "fields":[{title:"Mention any question you have for our guests",required:false}],
@@ -353,16 +362,16 @@ export const events =
 "closing_ceremony":{
     "title": "CLOSING CEREMONY",
     "description": "SevaSummit: The Social Symposium",
-    "image_back": coming_soon,
-    "image_text": null,
-    "image": coming_soon,
+    "image_back": closing_back,
+    "image_text": closing_text,
+    "image": closing,
     "date": "April 2",
     "time": "6:00 PM - 8:30 PM",
     "venue": "Seminar Hall",
     "content": "The closing ceremony of the social festival Kaizen will be an amazing event, featuring a live painting by FACC, followed by a mesmerising music performance by Music club IITD, and a captivating guest performance.Also, the prize distribution ceremony, to recognize the participation of students. The chief guest will be Mr Shyam Sunder Paliwal, and the guest speakers will be Kirti Bharti and Aneesh Karma. The chief guest speech will culminate in a successful conclusion to the festival. The event will leave everyone motivated to continue their pursuit of growth and improvement.",
     "rank":"14",
     "time-order":"200",
-    "category":"hide",
+    "category":"event",
     "register":null,
     "fields":[],
     "sections": [],
