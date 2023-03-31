@@ -18,7 +18,7 @@ import activity8 from "./activity8.png";
 
 import bazinga from "./bazinga.jpeg"; /* not needed */
 
-import schedule from "./schedule.png";
+import schedule from "./schedule.jpg";
 
 // export default { slideshow1, slideshow2, slideshow3, slideshow4, slideshow5,slideshow6,slideshow7,slideshow8,bazinga };
 export default {
