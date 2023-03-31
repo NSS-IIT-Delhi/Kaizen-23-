@@ -201,7 +201,7 @@ export const events =
     "image": rakshin,
     "date": "April 1",
     "time": "11:00 AM - 12:30 PM",
-    "venue": "SAC CR,
+    "venue": "SAC CR",
     "content": "Sakshi NGO is a non profit organisation based in India that works towards creating an equal society for the marginalised and vulnerable. To build a society where gender and sexual rights are at the forefront, resulting in non judgemental and empowered individuals. As a  part of their Rakshin project, Sakshi will be conducting a workshop on the topic \"Preventing child sexual abuse\"",
     "rank":"8",
     "time-order":"50",
