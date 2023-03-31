@@ -182,7 +182,7 @@ export const events =
     "image_text": gender_sensitization_text,
     "image": gender_sensitization,
     "date": "April 1",
-    "time": "11:00 AM - 1:30 PM",
+    "time": "2:00 PM - 3:00 PM",
     "venue": "LH408",
     "content": "This workshop will be based on Gender Sensitization, where we’ll discuss about all about different types of Gender, Myths & Facts about LGBTQ+ Community and intreact with speakers from the community.",
     "rank":"7",
