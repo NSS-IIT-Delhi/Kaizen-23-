@@ -2,19 +2,24 @@ import { images } from "../../assets/images/imageIndex";
 
 export default [
   {
-    title: "Health Camp",
-    img: images.healthcamp,
+    img: images.activity2,
   },
-  //   {
-  //       title:'Activity-2',
-  //       img:images.healthcamp
-  //   },
-  //   {
-  //       title:'Activity-3',
-  //       img:images.healthcamp
-  //   },
-  //   {
-  //       title:'Activity-4',
-  //       img:images.healthcamp
-  //   },
+  {
+    img: images.activity3,
+  },
+  {
+    img: images.activity4,
+  },
+  {
+    img: images.activity5,
+  },
+  {
+    img: images.activity6,
+  },
+  {
+    img: images.activity7,
+  },
+  {
+    img: images.activity8,
+  },
 ];

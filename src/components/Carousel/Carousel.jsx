@@ -19,7 +19,7 @@ export const data = [
     title: "Image",
   },
   {
-    cover: images.slideshow4,
+    cover: images.slideshow2,
     title: "Image",
   },
   {
@@ -28,25 +28,25 @@ export const data = [
   },
 
   {
-    cover: images.slideshow2,
+    cover: images.slideshow4,
     title: "Image",
   },
   {
     cover: images.slideshow3,
     title: "Image",
   },
-  // {
-  //   cover: images.slideshow4,
-  //   title: "Image",
-  // },
+  {
+    cover: images.slideshow9,
+    title: "Image",
+  },
   // {
   //   cover: images.slideshow5,
   //   title: "Image",
   // },
-  // {
-  //   cover: images.slideshow6,
-  //   title: "Image",
-  // },
+  {
+    cover: images.slideshow6,
+    title: "Image",
+  },
   {
     cover: images.slideshow7,
     title: "Image",
