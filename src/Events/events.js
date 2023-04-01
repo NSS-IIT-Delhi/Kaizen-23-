@@ -79,6 +79,9 @@ import closing_text from './banners/closing_text.png'
 import rise from      './banners/rise.jpg'
 import rise_back from './banners/rise_back.jpg'
 import rise_text from './banners/rise_text.png'
+import samapan from      './banners/samapan.jpg'
+import samapan_back from './banners/samapan_back.jpg'
+import samapan_text from './banners/samapan_text.png'
 
 
 export const events = 
@@ -360,15 +363,15 @@ export const events =
     "sections": []
 },           
 "closing_ceremony":{
-    "title": "CLOSING CEREMONY",
-    "image_back": closing_back,
-    "image_text": closing_text,
-    "image": closing,
+    "title": "Samapan - Closing Ceremony",
+    "image_back": samapan_back,
+    "image_text": samapan_text,
+    "image": samapan,
     "description": null,
     "date": "April 2",
     "time": "6:00 PM - 8:30 PM",
     "venue": "Seminar Hall",
-    "content": "The closing ceremony of the social festival Kaizen will be an amazing event, featuring a live painting by FACC, followed by a mesmerising music performance by Music club IITD, and a captivating guest performance.Also, the prize distribution ceremony, to recognize the participation of students. The chief guest will be Mr Shyam Sunder Paliwal, and the guest speakers will be Kirti Bharti and Aneesh Karma. The chief guest speech will culminate in a successful conclusion to the festival. The event will leave everyone motivated to continue their pursuit of growth and improvement.",
+    "content": "Join us for the grand finale of Kaizen'23, Samapan! Our esteemed Chief Guest is Shyam Sunder Paliwal, Father of Eco-Feminism. Ms Kriti Bharti and Aneesh Karma, our guest speakers, will inspire you with their incredible work. Let's celebrate the event's spirit with unforgettable music by IITD Music club and stage drama by Natshala Theatre Group. Don't miss out on saying goodbye to Kaizen'23 in style!",
     "rank":"14",
     "time-order":"200",
     "category":"event",
